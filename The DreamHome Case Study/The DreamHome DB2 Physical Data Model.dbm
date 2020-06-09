@@ -1,0 +1,2049 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<xmi:XMI xmlns:datamodelversion="http://www.ibm.com/com.ibm.datatools.core/model/data/1.9.0.0" xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DB2Model="http:///com/ibm/db/models/db2/db2.ecore" xmlns:LUW="http:///com/ibm/db/models/db2/luw.ecore" xmlns:SQLConstraints="http:///org/eclipse/datatools/modelbase/sql/constraints.ecore" xmlns:SQLDataTypes="http:///org/eclipse/datatools/modelbase/sql/datatypes.ecore" xmlns:SQLExpressions="http:///org/eclipse/datatools/modelbase/sql/expressions.ecore" xmlns:Volumetrics="http:///com/ibm/db/models/volumetrics/volumetrics.ecore" xmlns:datanotation="http:///datanotation.ecore" xmlns:ilvglnotation="http://www.ilog.com/views/8.5.0/LayoutNotationExtensionDefinition" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+  <LUW:LUWDatabase xmi:id="_KB5zYJpWEemy_LURM26htg" name="Database" vendor="DB2 UDB" version="V8.2" schemas="_KFtVUJpWEemy_LURM26htg"/>
+  <DB2Model:DB2Schema xmi:id="_KFtVUJpWEemy_LURM26htg" name="Schema" indices="_KQtrcJpWEemy_LURM26htg _KQxV3ppWEemy_LURM26htg _KQx84ppWEemy_LURM26htg _KQzyEJpWEemy_LURM26htg _KQzyI5pWEemy_LURM26htg _KQzyJZpWEemy_LURM26htg _KQx84JpWEemy_LURM26htg _KQ0ZIJpWEemy_LURM26htg _KQ0ZIppWEemy_LURM26htg _KQ0ZJJpWEemy_LURM26htg _KQ0ZJppWEemy_LURM26htg _KQ0ZQppWEemy_LURM26htg _KQ1AMJpWEemy_LURM26htg _KQ1AMppWEemy_LURM26htg" tables="_KQtrcppWEemy_LURM26htg _KQwuzJpWEemy_LURM26htg _KQu5kJpWEemy_LURM26htg _KQzLAJpWEemy_LURM26htg _KQxV4JpWEemy_LURM26htg _KQx85JpWEemy_LURM26htg _KQwHxJpWEemy_LURM26htg _KQwuwJpWEemy_LURM26htg _KQzyEppWEemy_LURM26htg _KQzLEZpWEemy_LURM26htg _KQyj9ppWEemy_LURM26htg _KQ0ZKZpWEemy_LURM26htg _KQvgoJpWEemy_LURM26htg _KQwHsJpWEemy_LURM26htg _KQykGppWEemy_LURM26htg" database="_KB5zYJpWEemy_LURM26htg">
+    <eAnnotations xmi:id="_KGCsgJpWEemy_LURM26htg" source="diagram">
+      <contents xsi:type="datanotation:DataDiagram" xmi:id="_KGCsgZpWEemy_LURM26htg" type="IE_CrowFoot" name="The Managers View_The Managers View" viewKind="ProjectExplorer" notation="IE_CrowFoot" kind="Physical">
+        <children xmi:id="_KOLU0JpWEemy_LURM26htg" element="_KQzLAJpWEemy_LURM26htg">
+          <children xsi:type="notation:Shape" xmi:id="_KOMi8JpWEemy_LURM26htg" type="TableName" fontHeight="8">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOMi8ZpWEemy_LURM26htg"/>
+          </children>
+          <children xmi:id="_KOMi8ppWEemy_LURM26htg" type="Key.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KOYwNJpWEemy_LURM26htg" type="Key" element="_KQzLAZpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOYwNZpWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOMi85pWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_KOXiEJpWEemy_LURM26htg" type="Column.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KOYwMJpWEemy_LURM26htg" type="Column" element="_KQzLBppWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOYwMZpWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOYwMppWEemy_LURM26htg" type="Column" element="_KQzLC5pWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOYwM5pWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOXiEZpWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_KOXiEppWEemy_LURM26htg" visible="false" type="Index.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KQSNoJpWEemy_LURM26htg" type="Index" element="_KQzyEJpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KQSNoZpWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOXiE5pWEemy_LURM26htg"/>
+          </children>
+          <children xmi:id="_KOYJIJpWEemy_LURM26htg" visible="false" type="Trigger.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOYJIZpWEemy_LURM26htg"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOLU0ZpWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_KOL74JpWEemy_LURM26htg" fontHeight="8" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOLU0ppWEemy_LURM26htg" x="-126737" y="-75963"/>
+        </children>
+        <children xmi:id="_KOZXQJpWEemy_LURM26htg" element="_KQx85JpWEemy_LURM26htg">
+          <children xsi:type="notation:Shape" xmi:id="_KOZXRJpWEemy_LURM26htg" type="TableName" fontHeight="8">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOZXRZpWEemy_LURM26htg"/>
+          </children>
+          <children xmi:id="_KOZ-UJpWEemy_LURM26htg" type="Key.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KObMdJpWEemy_LURM26htg" type="Key" element="_KQx85ZpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KObMdZpWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KObzgJpWEemy_LURM26htg" type="Key" element="_KQx86ppWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KObzgZpWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOZ-UZpWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_KOZ-UppWEemy_LURM26htg" type="Column.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KObMcJpWEemy_LURM26htg" type="Column" element="_KQx875pWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KObMcZpWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KObMcppWEemy_LURM26htg" type="Column" element="_KQx89JpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KObMc5pWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOZ-U5pWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_KOZ-VJpWEemy_LURM26htg" visible="false" type="Index.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KQS0sJpWEemy_LURM26htg" type="Index" element="_KQzyJZpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KQS0sZpWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOZ-VZpWEemy_LURM26htg"/>
+          </children>
+          <children xmi:id="_KOalYJpWEemy_LURM26htg" visible="false" type="Trigger.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOalYZpWEemy_LURM26htg"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOZXQZpWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_KOZXQ5pWEemy_LURM26htg" fontHeight="8" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOZXQppWEemy_LURM26htg" x="-112555" y="-78292"/>
+        </children>
+        <children xmi:id="_KObzgppWEemy_LURM26htg" element="_KQwHxJpWEemy_LURM26htg">
+          <children xsi:type="notation:Shape" xmi:id="_KOcakJpWEemy_LURM26htg" type="TableName" fontHeight="8">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOcakZpWEemy_LURM26htg"/>
+          </children>
+          <children xmi:id="_KOcakppWEemy_LURM26htg" type="Key.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KOdosppWEemy_LURM26htg" type="Key" element="_KQwHxZpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOdos5pWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOcak5pWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_KOcalJpWEemy_LURM26htg" type="Column.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KOdBoJpWEemy_LURM26htg" type="Column" element="_KQwHyppWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOdBoZpWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOdBoppWEemy_LURM26htg" type="Column" element="_KQwHz5pWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOdBo5pWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOdosJpWEemy_LURM26htg" type="Column" element="_KQwH1JpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOdosZpWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOcalZpWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_KOcalppWEemy_LURM26htg" visible="false" type="Index.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KQTbwJpWEemy_LURM26htg" type="Index" element="_KQx84JpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KQTbwZpWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOcal5pWEemy_LURM26htg"/>
+          </children>
+          <children xmi:id="_KOcamJpWEemy_LURM26htg" visible="false" type="Trigger.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOcamZpWEemy_LURM26htg"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KObzg5pWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_KObzhZpWEemy_LURM26htg" fontHeight="8" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KObzhJpWEemy_LURM26htg" x="-112185" y="-90013"/>
+        </children>
+        <children xmi:id="_KOdotJpWEemy_LURM26htg" element="_KQyj9ppWEemy_LURM26htg">
+          <children xsi:type="notation:Shape" xmi:id="_KOePwJpWEemy_LURM26htg" type="TableName" fontHeight="8">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOePwZpWEemy_LURM26htg"/>
+          </children>
+          <children xmi:id="_KOePwppWEemy_LURM26htg" type="Key.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KOfd5JpWEemy_LURM26htg" type="Key" element="_KQyj95pWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOfd5ZpWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOgE8JpWEemy_LURM26htg" type="Key" element="_KQyj_JpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOgE8ZpWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOePw5pWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_KOe20JpWEemy_LURM26htg" type="Column.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KOfd4JpWEemy_LURM26htg" type="Column" element="_KQykAZpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOfd4ZpWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOfd4ppWEemy_LURM26htg" type="Column" element="_KQykBppWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOfd45pWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOe20ZpWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_KOe20ppWEemy_LURM26htg" visible="false" type="Index.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KQUC0JpWEemy_LURM26htg" type="Index" element="_KQ0ZJppWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KQUC0ZpWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOe205pWEemy_LURM26htg"/>
+          </children>
+          <children xmi:id="_KOe21JpWEemy_LURM26htg" visible="false" type="Trigger.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOe21ZpWEemy_LURM26htg"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOdotZpWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_KOdot5pWEemy_LURM26htg" fontHeight="8" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOdotppWEemy_LURM26htg" x="-127451" y="-80541"/>
+        </children>
+        <children xmi:id="_KOgE8ppWEemy_LURM26htg" element="_KQzLEZpWEemy_LURM26htg">
+          <children xsi:type="notation:Shape" xmi:id="_KOgsAZpWEemy_LURM26htg" type="TableName" fontHeight="8">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOgsAppWEemy_LURM26htg"/>
+          </children>
+          <children xmi:id="_KOgsA5pWEemy_LURM26htg" type="Key.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KOh6IppWEemy_LURM26htg" type="Key" element="_KQzLEppWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOh6I5pWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOgsBJpWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_KOgsBZpWEemy_LURM26htg" type="Column.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KOhTEppWEemy_LURM26htg" type="Column" element="_KQzLF5pWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOhTE5pWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOhTFJpWEemy_LURM26htg" type="Column" element="_KQzLHJpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOhTFZpWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOh6IJpWEemy_LURM26htg" type="Column" element="_KQzLIZpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOh6IZpWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOgsBppWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_KOgsB5pWEemy_LURM26htg" visible="false" type="Index.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KQUp4JpWEemy_LURM26htg" type="Index" element="_KQ0ZJJpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KQUp4ZpWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOgsCJpWEemy_LURM26htg"/>
+          </children>
+          <children xmi:id="_KOhTEJpWEemy_LURM26htg" visible="false" type="Trigger.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOhTEZpWEemy_LURM26htg"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOgE85pWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_KOgsAJpWEemy_LURM26htg" fontHeight="8" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOgE9JpWEemy_LURM26htg" x="-134356" y="-74322"/>
+        </children>
+        <children xmi:id="_KOh6JJpWEemy_LURM26htg" element="_KQu5kJpWEemy_LURM26htg">
+          <children xsi:type="notation:Shape" xmi:id="_KOihMZpWEemy_LURM26htg" type="TableName" fontHeight="8">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOihMppWEemy_LURM26htg"/>
+          </children>
+          <children xmi:id="_KOihM5pWEemy_LURM26htg" type="Key.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KOk9cppWEemy_LURM26htg" type="Key" element="_KQu5kZpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOk9c5pWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOihNJpWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_KOihNZpWEemy_LURM26htg" type="Column.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KOjIQppWEemy_LURM26htg" type="Column" element="_KQu5lppWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOjIQ5pWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOjIRJpWEemy_LURM26htg" type="Column" element="_KQu5m5pWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOjIRZpWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOjvUJpWEemy_LURM26htg" type="Column" element="_KQu5oJpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOjvUZpWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOjvUppWEemy_LURM26htg" type="Column" element="_KQu5pZpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOjvU5pWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOjvVJpWEemy_LURM26htg" type="Column" element="_KQu5qppWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOjvVZpWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOjvVppWEemy_LURM26htg" type="Column" element="_KQu5r5pWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOjvV5pWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOkWYJpWEemy_LURM26htg" type="Column" element="_KQu5tJpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOkWYZpWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOkWYppWEemy_LURM26htg" type="Column" element="_KQu5uZpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOkWY5pWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOkWZJpWEemy_LURM26htg" type="Column" element="_KQu5vppWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOkWZZpWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOk9cJpWEemy_LURM26htg" type="Column" element="_KQu5w5pWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOk9cZpWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOihNppWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_KOihN5pWEemy_LURM26htg" visible="false" type="Index.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KQVQ8JpWEemy_LURM26htg" type="Index" element="_KQx84ppWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KQVQ8ZpWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOihOJpWEemy_LURM26htg"/>
+          </children>
+          <children xmi:id="_KOjIQJpWEemy_LURM26htg" visible="false" type="Trigger.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOjIQZpWEemy_LURM26htg"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOh6JZpWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_KOihMJpWEemy_LURM26htg" fontHeight="8" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOh6JppWEemy_LURM26htg" x="-120308" y="-80541"/>
+        </children>
+        <children xmi:id="_KOk9dJpWEemy_LURM26htg" element="_KQxV4JpWEemy_LURM26htg">
+          <children xsi:type="notation:Shape" xmi:id="_KOlkgJpWEemy_LURM26htg" type="TableName" fontHeight="8">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOlkgZpWEemy_LURM26htg"/>
+          </children>
+          <children xmi:id="_KOlkgppWEemy_LURM26htg" type="Key.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KOnZsJpWEemy_LURM26htg" type="Key" element="_KQxV4ZpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOnZsZpWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOlkg5pWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_KOlkhJpWEemy_LURM26htg" type="Column.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KOmLkJpWEemy_LURM26htg" type="Column" element="_KQxV5ppWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOmLkZpWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOmLkppWEemy_LURM26htg" type="Column" element="_KQxV6ZpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOmLk5pWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOmLlJpWEemy_LURM26htg" type="Column" element="_KQxV7JpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOmLlZpWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOmLlppWEemy_LURM26htg" type="Column" element="_KQxV75pWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOmLl5pWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOmyoJpWEemy_LURM26htg" type="Column" element="_KQxV9JpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOmyoZpWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOmyoppWEemy_LURM26htg" type="Column" element="_KQxV-ZpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOmyo5pWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOmypJpWEemy_LURM26htg" type="Column" element="_KQxV_ppWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOmypZpWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOlkhZpWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_KOlkhppWEemy_LURM26htg" visible="false" type="Index.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KQV4AJpWEemy_LURM26htg" type="Index" element="_KQzyI5pWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KQV4AZpWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOlkh5pWEemy_LURM26htg"/>
+          </children>
+          <children xmi:id="_KOlkiJpWEemy_LURM26htg" visible="false" type="Trigger.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOlkiZpWEemy_LURM26htg"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOk9dZpWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_KOk9d5pWEemy_LURM26htg" fontHeight="8" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOk9dppWEemy_LURM26htg" x="-112264" y="-73714"/>
+        </children>
+        <children xmi:id="_KOnZsppWEemy_LURM26htg" element="_KQtrcppWEemy_LURM26htg">
+          <children xsi:type="notation:Shape" xmi:id="_KOnZtppWEemy_LURM26htg" type="TableName" fontHeight="8">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOnZt5pWEemy_LURM26htg"/>
+          </children>
+          <children xmi:id="_KOoAwJpWEemy_LURM26htg" type="Key.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KOp18ppWEemy_LURM26htg" type="Key" element="_KQtrc5pWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOp185pWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOoAwZpWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_KOoAwppWEemy_LURM26htg" type="Column.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KOoAyJpWEemy_LURM26htg" type="Column" element="_KQuSgppWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOoAyZpWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOon0JpWEemy_LURM26htg" type="Column" element="_KQuSh5pWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOon0ZpWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOon0ppWEemy_LURM26htg" type="Column" element="_KQuSjJpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOon05pWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOon1JpWEemy_LURM26htg" type="Column" element="_KQuSkZpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOon1ZpWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOon1ppWEemy_LURM26htg" type="Column" element="_KQuSlppWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOon15pWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOpO4JpWEemy_LURM26htg" type="Column" element="_KQuSm5pWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOpO4ZpWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOpO4ppWEemy_LURM26htg" type="Column" element="_KQuSoJpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOpO45pWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOpO5JpWEemy_LURM26htg" type="Column" element="_KQuSpZpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOpO5ZpWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOpO5ppWEemy_LURM26htg" type="Column" element="_KQuSqppWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOpO55pWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOp18JpWEemy_LURM26htg" type="Column" element="_KQuSr5pWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOp18ZpWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOoAw5pWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_KOoAxJpWEemy_LURM26htg" visible="false" type="Index.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KQWfEJpWEemy_LURM26htg" type="Index" element="_KQtrcJpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KQWfEZpWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOoAxZpWEemy_LURM26htg"/>
+          </children>
+          <children xmi:id="_KOoAxppWEemy_LURM26htg" visible="false" type="Trigger.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOoAx5pWEemy_LURM26htg"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOnZs5pWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_KOnZtZpWEemy_LURM26htg" fontHeight="8" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOnZtJpWEemy_LURM26htg" x="-120599" y="-90013" height="6031"/>
+        </children>
+        <children xmi:id="_KOp19JpWEemy_LURM26htg" element="_KQwuzJpWEemy_LURM26htg">
+          <children xsi:type="notation:Shape" xmi:id="_KOqdAJpWEemy_LURM26htg" type="TableName" fontHeight="8">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOqdAZpWEemy_LURM26htg"/>
+          </children>
+          <children xmi:id="_KOqdAppWEemy_LURM26htg" type="Key.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KOrrJppWEemy_LURM26htg" type="Key" element="_KQwuzZpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOrrJ5pWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOqdA5pWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_KOqdBJpWEemy_LURM26htg" type="Column.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KOrEEJpWEemy_LURM26htg" type="Column" element="_KQwu0ppWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOrEEZpWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOrEEppWEemy_LURM26htg" type="Column" element="_KQwu15pWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOrEE5pWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOrEFJpWEemy_LURM26htg" type="Column" element="_KQwu3JpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOrEFZpWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOrEFppWEemy_LURM26htg" type="Column" element="_KQwu4ZpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOrEF5pWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOrrIJpWEemy_LURM26htg" type="Column" element="_KQwu5ppWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOrrIZpWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOrrIppWEemy_LURM26htg" type="Column" element="_KQwu65pWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOrrI5pWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOrrJJpWEemy_LURM26htg" type="Column" element="_KQxV0ZpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOrrJZpWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOqdBZpWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_KOqdBppWEemy_LURM26htg" visible="false" type="Index.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KQXtMJpWEemy_LURM26htg" type="Index" element="_KQxV3ppWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KQXtMZpWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOqdB5pWEemy_LURM26htg"/>
+          </children>
+          <children xmi:id="_KOqdCJpWEemy_LURM26htg" visible="false" type="Trigger.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOqdCZpWEemy_LURM26htg"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOp19ZpWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_KOp195pWEemy_LURM26htg" fontHeight="8" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOp19ppWEemy_LURM26htg" x="-112079" y="-84853" height="5186"/>
+        </children>
+        <children xmi:id="_KOsSMJpWEemy_LURM26htg" element="_KQ0ZKZpWEemy_LURM26htg">
+          <children xsi:type="notation:Shape" xmi:id="_KOsSNJpWEemy_LURM26htg" type="TableName" fontHeight="8">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOsSNZpWEemy_LURM26htg"/>
+          </children>
+          <children xmi:id="_KOsSNppWEemy_LURM26htg" type="Key.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KOtgUJpWEemy_LURM26htg" type="Key" element="_KQ0ZKppWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOtgUZpWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOsSN5pWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_KOsSOJpWEemy_LURM26htg" type="Column.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KOs5QJpWEemy_LURM26htg" type="Column" element="_KQ0ZL5pWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOs5QZpWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOs5QppWEemy_LURM26htg" type="Column" element="_KQ0ZNJpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOs5Q5pWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOs5RJpWEemy_LURM26htg" type="Column" element="_KQ0ZOZpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOs5RZpWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOs5RppWEemy_LURM26htg" type="Column" element="_KQ0ZPppWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOs5R5pWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOsSOZpWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_KOsSOppWEemy_LURM26htg" visible="false" type="Index.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KQYUQJpWEemy_LURM26htg" type="Index" element="_KQ0ZQppWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KQYUQZpWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOsSO5pWEemy_LURM26htg"/>
+          </children>
+          <children xmi:id="_KOsSPJpWEemy_LURM26htg" visible="false" type="Trigger.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOsSPZpWEemy_LURM26htg"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOsSMZpWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_KOsSM5pWEemy_LURM26htg" fontHeight="8" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOsSMppWEemy_LURM26htg" x="-132849" y="-80699"/>
+        </children>
+        <children xmi:id="_KOtgUppWEemy_LURM26htg" element="_KQwuwJpWEemy_LURM26htg">
+          <children xsi:type="notation:Shape" xmi:id="_KOtgVppWEemy_LURM26htg" type="TableName" fontHeight="8">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOtgV5pWEemy_LURM26htg"/>
+          </children>
+          <children xmi:id="_KOtgWJpWEemy_LURM26htg" type="Key.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KOuHZJpWEemy_LURM26htg" type="Key" element="_KQwuwZpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOuHZZpWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOtgWZpWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_KOtgWppWEemy_LURM26htg" type="Column.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOtgW5pWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_KOuHYJpWEemy_LURM26htg" visible="false" type="Index.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KQY7UJpWEemy_LURM26htg" type="Index" element="_KQ0ZIJpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KQY7UZpWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOuHYZpWEemy_LURM26htg"/>
+          </children>
+          <children xmi:id="_KOuHYppWEemy_LURM26htg" visible="false" type="Trigger.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOuHY5pWEemy_LURM26htg"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOtgU5pWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_KOtgVZpWEemy_LURM26htg" fontHeight="8" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOtgVJpWEemy_LURM26htg" x="-121154" y="-92764"/>
+        </children>
+        <children xmi:id="_KOuHZppWEemy_LURM26htg" element="_KQzyEppWEemy_LURM26htg">
+          <children xsi:type="notation:Shape" xmi:id="_KOuucZpWEemy_LURM26htg" type="TableName" fontHeight="8">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOuucppWEemy_LURM26htg"/>
+          </children>
+          <children xmi:id="_KOuuc5pWEemy_LURM26htg" type="Key.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KOvVgppWEemy_LURM26htg" type="Key" element="_KQzyE5pWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOvVg5pWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOuudJpWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_KOuudZpWEemy_LURM26htg" type="Column.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KOvVgJpWEemy_LURM26htg" type="Column" element="_KQzyGJpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOvVgZpWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOuudppWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_KOuud5pWEemy_LURM26htg" visible="false" type="Index.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KQZiYJpWEemy_LURM26htg" type="Index" element="_KQ0ZIppWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KQZiYZpWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOuueJpWEemy_LURM26htg"/>
+          </children>
+          <children xmi:id="_KOuueZpWEemy_LURM26htg" visible="false" type="Trigger.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOuueppWEemy_LURM26htg"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOuHZ5pWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_KOuucJpWEemy_LURM26htg" fontHeight="8" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOuHaJpWEemy_LURM26htg" x="-134356" y="-76068"/>
+        </children>
+        <children xmi:id="_KOvVhJpWEemy_LURM26htg" element="_KQvgoJpWEemy_LURM26htg">
+          <children xsi:type="notation:Shape" xmi:id="_KOvViJpWEemy_LURM26htg" type="TableName" fontHeight="8">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOvViZpWEemy_LURM26htg"/>
+          </children>
+          <children xmi:id="_KOvVippWEemy_LURM26htg" type="Key.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KOwjpJpWEemy_LURM26htg" type="Key" element="_KQvgoZpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOwjpZpWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOvVi5pWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_KOv8kJpWEemy_LURM26htg" type="Column.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KOv8lppWEemy_LURM26htg" type="Column" element="_KQvgpppWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOv8l5pWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOv8mJpWEemy_LURM26htg" type="Column" element="_KQvgq5pWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOv8mZpWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOwjoJpWEemy_LURM26htg" type="Column" element="_KQvgsJpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOwjoZpWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOwjoppWEemy_LURM26htg" type="Column" element="_KQvgtZpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOwjo5pWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOv8kZpWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_KOv8kppWEemy_LURM26htg" visible="false" type="Index.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KQaJcJpWEemy_LURM26htg" type="Index" element="_KQ1AMJpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KQaJcZpWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOv8k5pWEemy_LURM26htg"/>
+          </children>
+          <children xmi:id="_KOv8lJpWEemy_LURM26htg" visible="false" type="Trigger.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOv8lZpWEemy_LURM26htg"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOvVhZpWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_KOvVh5pWEemy_LURM26htg" fontHeight="8" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOvVhppWEemy_LURM26htg" x="-128430" y="-86256"/>
+        </children>
+        <children xmi:id="_KOwjpppWEemy_LURM26htg" element="_KQwHsJpWEemy_LURM26htg">
+          <children xsi:type="notation:Shape" xmi:id="_KOwjqppWEemy_LURM26htg" type="TableName" fontHeight="8">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOwjq5pWEemy_LURM26htg"/>
+          </children>
+          <children xmi:id="_KOxKsJpWEemy_LURM26htg" type="Key.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOxKsZpWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_KOxKsppWEemy_LURM26htg" type="Column.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KOxKuJpWEemy_LURM26htg" type="Column" element="_KQwHsZpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOxKuZpWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOxKs5pWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_KOxKtJpWEemy_LURM26htg" visible="false" type="Index.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOxKtZpWEemy_LURM26htg"/>
+          </children>
+          <children xmi:id="_KOxKtppWEemy_LURM26htg" visible="false" type="Trigger.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOxKt5pWEemy_LURM26htg"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOwjp5pWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_KOwjqZpWEemy_LURM26htg" fontHeight="8" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOwjqJpWEemy_LURM26htg" x="-127901" y="-91838" height="1983"/>
+        </children>
+        <children xmi:id="_KOxxwJpWEemy_LURM26htg" element="_KQykGppWEemy_LURM26htg">
+          <children xsi:type="notation:Shape" xmi:id="_KOyY0JpWEemy_LURM26htg" type="TableName" fontHeight="8">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOyY0ZpWEemy_LURM26htg"/>
+          </children>
+          <children xmi:id="_KOyY0ppWEemy_LURM26htg" type="Key.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KOzm8ppWEemy_LURM26htg" type="Key" element="_KQykG5pWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOzm85pWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOyY05pWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_KOyY1JpWEemy_LURM26htg" type="Column.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KOy_5JpWEemy_LURM26htg" type="Column" element="_KQykIJpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOy_5ZpWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOy_5ppWEemy_LURM26htg" type="Column" element="_KQykJZpWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOy_55pWEemy_LURM26htg"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_KOzm8JpWEemy_LURM26htg" type="Column" element="_KQykKppWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOzm8ZpWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOyY1ZpWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_KOy_4JpWEemy_LURM26htg" visible="false" type="Index.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KQawgJpWEemy_LURM26htg" type="Index" element="_KQ1AMppWEemy_LURM26htg" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KQawgZpWEemy_LURM26htg"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOy_4ZpWEemy_LURM26htg"/>
+          </children>
+          <children xmi:id="_KOy_4ppWEemy_LURM26htg" visible="false" type="Trigger.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOy_45pWEemy_LURM26htg"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KOxxwZpWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_KOxxw5pWEemy_LURM26htg" fontHeight="8" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KOxxwppWEemy_LURM26htg" x="-119699" y="-72259"/>
+        </children>
+        <children xsi:type="notation:Shape" xmi:id="_KO_NIJpWEemy_LURM26htg" type="Text" fontHeight="24" description="The Managers View of The DreamHome Case Study">
+          <children xsi:type="notation:BasicDecorationNode" xmi:id="_KO_0MJpWEemy_LURM26htg" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xsi:type="notation:BasicDecorationNode" xmi:id="_KO_0MZpWEemy_LURM26htg" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <element xsi:nil="true"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KO_NIZpWEemy_LURM26htg" x="-128563" y="-94855"/>
+        </children>
+        <styles xsi:type="datanotation:DataAttributeStyle" xmi:id="_KGCsgppWEemy_LURM26htg"/>
+        <styles xsi:type="datanotation:DataCompartmentStyle" xmi:id="_KGCsg5pWEemy_LURM26htg"/>
+        <styles xsi:type="datanotation:DataDisplayStyle" xmi:id="_KGCshJpWEemy_LURM26htg"/>
+        <styles xsi:type="datanotation:DataDiagramRelationshipStyle" xmi:id="_KGCshZpWEemy_LURM26htg" showRoleName="false"/>
+        <styles xsi:type="datanotation:DataShapeNameStyle" xmi:id="_KGCshppWEemy_LURM26htg"/>
+        <styles xsi:type="datanotation:DataDiagramFormattingStyle" xmi:id="_KGCsh5pWEemy_LURM26htg"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_KGCsiJpWEemy_LURM26htg" sortingKeys="Natural:Ascending"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_KGCsiZpWEemy_LURM26htg"/>
+        <styles xsi:type="datanotation:ConnectionLayerStyle" xmi:id="_KGCsippWEemy_LURM26htg"/>
+        <styles xsi:type="ilvglnotation:LayoutStyle" xmi:id="_KGCsi5pWEemy_LURM26htg" graphLayoutConfiguration="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?> &#xD;&#xA;&lt;java version=&quot;1.6.0&quot; class=&quot;java.beans.XMLDecoder&quot;> &#xD;&#xA; &lt;object class=&quot;java.util.HashMap&quot;> &#xD;&#xA;  &lt;void method=&quot;put&quot;> &#xD;&#xA;   &lt;string>horizontalLinkOffset&lt;/string> &#xD;&#xA;   &lt;float>150.0&lt;/float> &#xD;&#xA;  &lt;/void> &#xD;&#xA;  &lt;void method=&quot;put&quot;> &#xD;&#xA;   &lt;string>levelingStrategy&lt;/string> &#xD;&#xA;   &lt;int>1&lt;/int> &#xD;&#xA;  &lt;/void> &#xD;&#xA;  &lt;void method=&quot;put&quot;> &#xD;&#xA;   &lt;string>flowDirection&lt;/string> &#xD;&#xA;   &lt;int>4&lt;/int> &#xD;&#xA;  &lt;/void> &#xD;&#xA;  &lt;void method=&quot;put&quot;> &#xD;&#xA;   &lt;string>verticalLinkOffset&lt;/string> &#xD;&#xA;   &lt;float>150.0&lt;/float> &#xD;&#xA;  &lt;/void> &#xD;&#xA;  &lt;void method=&quot;put&quot;> &#xD;&#xA;   &lt;string>horizontalNodeLinkOffset&lt;/string> &#xD;&#xA;   &lt;float>500.0&lt;/float> &#xD;&#xA;  &lt;/void> &#xD;&#xA;  &lt;void method=&quot;put&quot;> &#xD;&#xA;   &lt;string>globalLinkStyle&lt;/string> &#xD;&#xA;   &lt;int>2&lt;/int> &#xD;&#xA;  &lt;/void> &#xD;&#xA;  &lt;void method=&quot;put&quot;> &#xD;&#xA;   &lt;string>verticalNodeLinkOffset&lt;/string> &#xD;&#xA;   &lt;float>500.0&lt;/float> &#xD;&#xA;  &lt;/void> &#xD;&#xA;  &lt;void method=&quot;put&quot;> &#xD;&#xA;   &lt;string>horizontalNodeOffset&lt;/string> &#xD;&#xA;   &lt;float>1000.0&lt;/float> &#xD;&#xA;  &lt;/void> &#xD;&#xA;  &lt;void method=&quot;put&quot;> &#xD;&#xA;   &lt;string>layout&lt;/string> &#xD;&#xA;   &lt;string>ilog.views.eclipse.graphlayout.runtime.hierarchical.IlvHierarchicalLayout&lt;/string> &#xD;&#xA;  &lt;/void> &#xD;&#xA;  &lt;void method=&quot;put&quot;> &#xD;&#xA;   &lt;string>verticalNodeOffset&lt;/string> &#xD;&#xA;   &lt;float>1000.0&lt;/float> &#xD;&#xA;  &lt;/void> &#xD;&#xA;  &lt;void method=&quot;put&quot;> &#xD;&#xA;   &lt;string>levelJustification&lt;/string> &#xD;&#xA;   &lt;int>16&lt;/int> &#xD;&#xA;  &lt;/void> &#xD;&#xA; &lt;/object> &#xD;&#xA;&lt;/java> &#xD;&#xA;" linkLayoutConfiguration="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?> &#xD;&#xA;&lt;java version=&quot;1.6.0&quot; class=&quot;java.beans.XMLDecoder&quot;> &#xD;&#xA; &lt;object class=&quot;java.util.HashMap&quot;/> &#xD;&#xA;&lt;/java> &#xD;&#xA;" labelLayoutConfiguration="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?> &#xD;&#xA;&lt;java version=&quot;1.6.0&quot; class=&quot;java.beans.XMLDecoder&quot;> &#xD;&#xA; &lt;object class=&quot;java.util.HashMap&quot;/> &#xD;&#xA;&lt;/java> &#xD;&#xA;"/>
+        <element xsi:nil="true"/>
+        <edges xmi:id="_KPBCUJpWEemy_LURM26htg" element="_KQuSt5pWEemy_LURM26htg" source="_KOp19JpWEemy_LURM26htg" target="_KOnZsppWEemy_LURM26htg">
+          <children xmi:id="_KPBCU5pWEemy_LURM26htg" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_KPBpYJpWEemy_LURM26htg" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPBpYZpWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPBCVJpWEemy_LURM26htg" y="-186"/>
+          </children>
+          <children xmi:id="_KPBpYppWEemy_LURM26htg" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPBpZJpWEemy_LURM26htg" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPBpZZpWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPBpY5pWEemy_LURM26htg" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_KPBpZppWEemy_LURM26htg" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPBpaJpWEemy_LURM26htg" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPBpaZpWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPBpZ5pWEemy_LURM26htg" y="-397"/>
+          </children>
+          <children xmi:id="_KPBpappWEemy_LURM26htg" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_KPCQcJpWEemy_LURM26htg" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPCQcZpWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPBpa5pWEemy_LURM26htg" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_KPBCUZpWEemy_LURM26htg" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_KPCQcppWEemy_LURM26htg" points="[-1127, -525, 6379, 2673]$[-5360, -525, 2146, 2673]"/>
+        </edges>
+        <edges xmi:id="_KPCQc5pWEemy_LURM26htg" element="_KQu5yZpWEemy_LURM26htg" source="_KOp19JpWEemy_LURM26htg" target="_KOh6JJpWEemy_LURM26htg">
+          <children xmi:id="_KPCQdppWEemy_LURM26htg" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_KPCQeJpWEemy_LURM26htg" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPCQeZpWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPCQd5pWEemy_LURM26htg" y="-186"/>
+          </children>
+          <children xmi:id="_KPC3gJpWEemy_LURM26htg" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPC3gppWEemy_LURM26htg" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPC3g5pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPC3gZpWEemy_LURM26htg" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_KPC3hJpWEemy_LURM26htg" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPC3hppWEemy_LURM26htg" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPC3h5pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPC3hZpWEemy_LURM26htg" y="-397"/>
+          </children>
+          <children xmi:id="_KPC3iJpWEemy_LURM26htg" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_KPC3ippWEemy_LURM26htg" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPC3i5pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPC3iZpWEemy_LURM26htg" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_KPCQdJpWEemy_LURM26htg" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_KPC3jJpWEemy_LURM26htg" points="[-717, 2222, 5618, -623]$[-5532, 2222, 803, -623]"/>
+        </edges>
+        <edges xmi:id="_KPC3jZpWEemy_LURM26htg" element="_KQu50JpWEemy_LURM26htg" source="_KOnZsppWEemy_LURM26htg" target="_KOh6JJpWEemy_LURM26htg">
+          <children xmi:id="_KPC3kJpWEemy_LURM26htg" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_KPDekJpWEemy_LURM26htg" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPDekZpWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPC3kZpWEemy_LURM26htg" y="-186"/>
+          </children>
+          <children xmi:id="_KPDekppWEemy_LURM26htg" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPDelJpWEemy_LURM26htg" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPDelZpWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPDek5pWEemy_LURM26htg" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_KPDelppWEemy_LURM26htg" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPDemJpWEemy_LURM26htg" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPDemZpWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPDel5pWEemy_LURM26htg" y="-397"/>
+          </children>
+          <children xmi:id="_KPDemppWEemy_LURM26htg" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_KPDenJpWEemy_LURM26htg" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPDenZpWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPDem5pWEemy_LURM26htg" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_KPC3jppWEemy_LURM26htg" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_KPDenppWEemy_LURM26htg" points="[819, 820, 867, -4802]$[819, 4312, 867, -1310]"/>
+        </edges>
+        <edges xmi:id="_KPDen5pWEemy_LURM26htg" element="_KQxV15pWEemy_LURM26htg" source="_KObzgppWEemy_LURM26htg" target="_KOp19JpWEemy_LURM26htg">
+          <children xmi:id="_KPEFoJpWEemy_LURM26htg" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_KPEFoppWEemy_LURM26htg" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPEFo5pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPEFoZpWEemy_LURM26htg" y="-186"/>
+          </children>
+          <children xmi:id="_KPEFpJpWEemy_LURM26htg" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPEFpppWEemy_LURM26htg" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPEFp5pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPEFpZpWEemy_LURM26htg" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_KPEFqJpWEemy_LURM26htg" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPEFqppWEemy_LURM26htg" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPEFq5pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPEFqZpWEemy_LURM26htg" y="-397"/>
+          </children>
+          <children xmi:id="_KPEFrJpWEemy_LURM26htg" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_KPEFrppWEemy_LURM26htg" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPEFr5pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPEFrZpWEemy_LURM26htg" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_KPDeoJpWEemy_LURM26htg" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_KPEssJpWEemy_LURM26htg" points="[-1030, 1645, -543, -3338]$[-1030, 4397, -543, -586]"/>
+        </edges>
+        <edges xmi:id="_KPEssZpWEemy_LURM26htg" element="_KQx8-5pWEemy_LURM26htg" source="_KOk9dJpWEemy_LURM26htg" target="_KOZXQJpWEemy_LURM26htg">
+          <children xmi:id="_KPEstJpWEemy_LURM26htg" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_KPEstppWEemy_LURM26htg" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPEst5pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPEstZpWEemy_LURM26htg" y="-186"/>
+          </children>
+          <children xmi:id="_KPEsuJpWEemy_LURM26htg" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPEsuppWEemy_LURM26htg" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPEsu5pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPEsuZpWEemy_LURM26htg" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_KPEsvJpWEemy_LURM26htg" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPEsvppWEemy_LURM26htg" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPEsv5pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPEsvZpWEemy_LURM26htg" y="-397"/>
+          </children>
+          <children xmi:id="_KPEswJpWEemy_LURM26htg" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_KPEswppWEemy_LURM26htg" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPEsw5pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPEswZpWEemy_LURM26htg" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_KPEssppWEemy_LURM26htg" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_KPFTwJpWEemy_LURM26htg" points="[810, -931, -290, 3387]$[810, -3101, -290, 1217]"/>
+        </edges>
+        <edges xmi:id="_KPFTwZpWEemy_LURM26htg" element="_KQu515pWEemy_LURM26htg" source="_KOLU0JpWEemy_LURM26htg" target="_KOh6JJpWEemy_LURM26htg">
+          <children xmi:id="_KPFTxJpWEemy_LURM26htg" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_KPFTxppWEemy_LURM26htg" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPFTx5pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPFTxZpWEemy_LURM26htg" y="-186"/>
+          </children>
+          <children xmi:id="_KPFTyJpWEemy_LURM26htg" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPFTyppWEemy_LURM26htg" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPFTy5pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPFTyZpWEemy_LURM26htg" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_KPFTzJpWEemy_LURM26htg" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPFTzppWEemy_LURM26htg" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPFTz5pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPFTzZpWEemy_LURM26htg" y="-397"/>
+          </children>
+          <children xmi:id="_KPFT0JpWEemy_LURM26htg" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_KPFT0ppWEemy_LURM26htg" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPFT05pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPFT0ZpWEemy_LURM26htg" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_KPFTwppWEemy_LURM26htg" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_KPF60JpWEemy_LURM26htg" points="[742, -189, -3714, 260]$[3943, -189, -513, 260]"/>
+        </edges>
+        <edges xmi:id="_KPF60ZpWEemy_LURM26htg" element="_KQykDJpWEemy_LURM26htg" source="_KOsSMJpWEemy_LURM26htg" target="_KOdotJpWEemy_LURM26htg">
+          <children xmi:id="_KPF61JpWEemy_LURM26htg" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_KPF61ppWEemy_LURM26htg" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPF615pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPF61ZpWEemy_LURM26htg" y="-186"/>
+          </children>
+          <children xmi:id="_KPF62JpWEemy_LURM26htg" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPF62ppWEemy_LURM26htg" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPF625pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPF62ZpWEemy_LURM26htg" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_KPF63JpWEemy_LURM26htg" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPF63ppWEemy_LURM26htg" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPF635pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPF63ZpWEemy_LURM26htg" y="-397"/>
+          </children>
+          <children xmi:id="_KPF64JpWEemy_LURM26htg" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_KPF64ppWEemy_LURM26htg" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPF645pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPF64ZpWEemy_LURM26htg" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_KPF60ppWEemy_LURM26htg" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_KPF65JpWEemy_LURM26htg" points="[1845, -568, -4020, 265]$[4015, -568, -1850, 265]"/>
+        </edges>
+        <edges xmi:id="_KPGh4JpWEemy_LURM26htg" element="_KQykE5pWEemy_LURM26htg" source="_KOh6JJpWEemy_LURM26htg" target="_KOdotJpWEemy_LURM26htg">
+          <children xmi:id="_KPGh45pWEemy_LURM26htg" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_KPGh5ZpWEemy_LURM26htg" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPGh5ppWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPGh5JpWEemy_LURM26htg" y="-186"/>
+          </children>
+          <children xmi:id="_KPGh55pWEemy_LURM26htg" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPGh6ZpWEemy_LURM26htg" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPGh6ppWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPGh6JpWEemy_LURM26htg" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_KPGh65pWEemy_LURM26htg" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPGh7ZpWEemy_LURM26htg" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPGh7ppWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPGh7JpWEemy_LURM26htg" y="-397"/>
+          </children>
+          <children xmi:id="_KPGh75pWEemy_LURM26htg" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_KPGh8ZpWEemy_LURM26htg" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPGh8ppWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPGh8JpWEemy_LURM26htg" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_KPGh4ZpWEemy_LURM26htg" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_KPGh85pWEemy_LURM26htg" points="[-282, 405, 4314, -773]$[-3721, 405, 875, -773]"/>
+        </edges>
+        <edges xmi:id="_KPGh9JpWEemy_LURM26htg" element="_KQvgu5pWEemy_LURM26htg" source="_KOnZsppWEemy_LURM26htg" target="_KOvVhJpWEemy_LURM26htg">
+          <children xmi:id="_KPHI8JpWEemy_LURM26htg" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_KPHI8ppWEemy_LURM26htg" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPHI85pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPHI8ZpWEemy_LURM26htg" y="-186"/>
+          </children>
+          <children xmi:id="_KPHI9JpWEemy_LURM26htg" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPHI9ppWEemy_LURM26htg" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPHI95pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPHI9ZpWEemy_LURM26htg" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_KPHI-JpWEemy_LURM26htg" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPHI-ppWEemy_LURM26htg" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPHI-5pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPHI-ZpWEemy_LURM26htg" y="-397"/>
+          </children>
+          <children xmi:id="_KPHI_JpWEemy_LURM26htg" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_KPHI_ppWEemy_LURM26htg" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPHI_5pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPHI_ZpWEemy_LURM26htg" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_KPGh9ZpWEemy_LURM26htg" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_KPHJAJpWEemy_LURM26htg" points="[-77, 3743, 5146, -451]$[-4707, 3743, 516, -451]"/>
+        </edges>
+        <edges xmi:id="_KPHwAJpWEemy_LURM26htg" element="_KQwHtppWEemy_LURM26htg" source="_KOnZsppWEemy_LURM26htg" target="_KOwjpppWEemy_LURM26htg">
+          <children xmi:id="_KPHwA5pWEemy_LURM26htg" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_KPHwBZpWEemy_LURM26htg" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPHwBppWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPHwBJpWEemy_LURM26htg" y="-186"/>
+          </children>
+          <children xmi:id="_KPHwB5pWEemy_LURM26htg" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPHwCZpWEemy_LURM26htg" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPHwCppWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPHwCJpWEemy_LURM26htg" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_KPHwC5pWEemy_LURM26htg" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPHwDZpWEemy_LURM26htg" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPHwDppWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPHwDJpWEemy_LURM26htg" y="-397"/>
+          </children>
+          <children xmi:id="_KPHwD5pWEemy_LURM26htg" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_KPHwEZpWEemy_LURM26htg" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPHwEppWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPHwEJpWEemy_LURM26htg" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_KPHwAZpWEemy_LURM26htg" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_KPHwE5pWEemy_LURM26htg" points="[-748, -448, 5716, 940]$[-4878, -448, 1586, 940]"/>
+        </edges>
+        <edges xmi:id="_KPHwFJpWEemy_LURM26htg" element="_KQwHvZpWEemy_LURM26htg" source="_KOtgUppWEemy_LURM26htg" target="_KOwjpppWEemy_LURM26htg">
+          <children xmi:id="_KPIXEJpWEemy_LURM26htg" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_KPIXEppWEemy_LURM26htg" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPIXE5pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPIXEZpWEemy_LURM26htg" y="-186"/>
+          </children>
+          <children xmi:id="_KPIXFJpWEemy_LURM26htg" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPIXFppWEemy_LURM26htg" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPIXF5pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPIXFZpWEemy_LURM26htg" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_KPIXGJpWEemy_LURM26htg" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPIXGppWEemy_LURM26htg" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPIXG5pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPIXGZpWEemy_LURM26htg" y="-397"/>
+          </children>
+          <children xmi:id="_KPIXHJpWEemy_LURM26htg" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_KPIXHppWEemy_LURM26htg" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPIXH5pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPIXHZpWEemy_LURM26htg" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_KPHwFZpWEemy_LURM26htg" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_KPIXIJpWEemy_LURM26htg" points="[-306, 656, 3956, -304]$[-3881, 656, 381, -304]"/>
+        </edges>
+        <edges xmi:id="_KPIXIZpWEemy_LURM26htg" element="_KQx9AppWEemy_LURM26htg" source="_KOh6JJpWEemy_LURM26htg" target="_KOZXQJpWEemy_LURM26htg">
+          <children xmi:id="_KPI-IJpWEemy_LURM26htg" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_KPI-IppWEemy_LURM26htg" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPI-I5pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPI-IZpWEemy_LURM26htg" y="-186"/>
+          </children>
+          <children xmi:id="_KPI-JJpWEemy_LURM26htg" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPI-JppWEemy_LURM26htg" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPI-J5pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPI-JZpWEemy_LURM26htg" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_KPI-KJpWEemy_LURM26htg" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPI-KppWEemy_LURM26htg" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPI-K5pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPI-KZpWEemy_LURM26htg" y="-397"/>
+          </children>
+          <children xmi:id="_KPI-LJpWEemy_LURM26htg" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_KPI-LppWEemy_LURM26htg" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPI-L5pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPI-LZpWEemy_LURM26htg" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_KPIXIppWEemy_LURM26htg" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_KPI-MJpWEemy_LURM26htg" points="[590, -1304, -5108, 152]$[4929, -1304, -769, 152]"/>
+        </edges>
+        <edges xmi:id="_KPJlMJpWEemy_LURM26htg" element="_KQykMJpWEemy_LURM26htg" source="_KOh6JJpWEemy_LURM26htg" target="_KOxxwJpWEemy_LURM26htg">
+          <children xmi:id="_KPJlM5pWEemy_LURM26htg" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_KPJlNZpWEemy_LURM26htg" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPJlNppWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPJlNJpWEemy_LURM26htg" y="-186"/>
+          </children>
+          <children xmi:id="_KPJlN5pWEemy_LURM26htg" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPJlOZpWEemy_LURM26htg" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPJlOppWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPJlOJpWEemy_LURM26htg" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_KPJlO5pWEemy_LURM26htg" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPJlPZpWEemy_LURM26htg" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPJlPppWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPJlPJpWEemy_LURM26htg" y="-397"/>
+          </children>
+          <children xmi:id="_KPJlP5pWEemy_LURM26htg" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_KPJlQZpWEemy_LURM26htg" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPJlQppWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPJlQJpWEemy_LURM26htg" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_KPJlMZpWEemy_LURM26htg" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_KPKMQJpWEemy_LURM26htg" points="[55, 367, 859, -3890]$[55, 3304, 859, -953]"/>
+        </edges>
+        <edges xmi:id="_KPKMQZpWEemy_LURM26htg" element="_KQykN5pWEemy_LURM26htg" source="_KOk9dJpWEemy_LURM26htg" target="_KOxxwJpWEemy_LURM26htg">
+          <children xmi:id="_KPKMRJpWEemy_LURM26htg" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_KPKMRppWEemy_LURM26htg" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPKMR5pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPKMRZpWEemy_LURM26htg" y="-186"/>
+          </children>
+          <children xmi:id="_KPKMSJpWEemy_LURM26htg" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPKMSppWEemy_LURM26htg" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPKMS5pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPKMSZpWEemy_LURM26htg" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_KPKMTJpWEemy_LURM26htg" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPKMTppWEemy_LURM26htg" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPKMT5pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPKMTZpWEemy_LURM26htg" y="-397"/>
+          </children>
+          <children xmi:id="_KPKMUJpWEemy_LURM26htg" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_KPKMUppWEemy_LURM26htg" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPKMU5pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPKMUZpWEemy_LURM26htg" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_KPKMQppWEemy_LURM26htg" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_KPKzUJpWEemy_LURM26htg" points="[-541, 753, 4426, -516]$[-4325, 753, 642, -516]"/>
+        </edges>
+        <edges xmi:id="_KPKzUZpWEemy_LURM26htg" element="_KQzLJ5pWEemy_LURM26htg" source="_KOLU0JpWEemy_LURM26htg" target="_KOgE8ppWEemy_LURM26htg">
+          <children xmi:id="_KPKzVJpWEemy_LURM26htg" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_KPKzVppWEemy_LURM26htg" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPKzV5pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPKzVZpWEemy_LURM26htg" y="-186"/>
+          </children>
+          <children xmi:id="_KPLaYJpWEemy_LURM26htg" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPLaYppWEemy_LURM26htg" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPLaY5pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPLaYZpWEemy_LURM26htg" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_KPLaZJpWEemy_LURM26htg" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPLaZppWEemy_LURM26htg" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPLaZ5pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPLaZZpWEemy_LURM26htg" y="-397"/>
+          </children>
+          <children xmi:id="_KPMBcJpWEemy_LURM26htg" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_KPMBcppWEemy_LURM26htg" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPMBc5pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPMBcZpWEemy_LURM26htg" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_KPKzUppWEemy_LURM26htg" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_KPMBdJpWEemy_LURM26htg" points="[-2639, 1645, 6808, -1389]$[-6874, 1645, 2573, -1389]"/>
+        </edges>
+        <edges xmi:id="_KPMogJpWEemy_LURM26htg" element="_KQzyHppWEemy_LURM26htg" source="_KOLU0JpWEemy_LURM26htg" target="_KOuHZppWEemy_LURM26htg">
+          <children xmi:id="_KPMog5pWEemy_LURM26htg" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_KPMohZpWEemy_LURM26htg" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPMohppWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPMohJpWEemy_LURM26htg" y="-186"/>
+          </children>
+          <children xmi:id="_KPMoh5pWEemy_LURM26htg" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPMoiZpWEemy_LURM26htg" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPMoippWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPMoiJpWEemy_LURM26htg" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_KPMoi5pWEemy_LURM26htg" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPMojZpWEemy_LURM26htg" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPMojppWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPMojJpWEemy_LURM26htg" y="-397"/>
+          </children>
+          <children xmi:id="_KPMoj5pWEemy_LURM26htg" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_KPNPkJpWEemy_LURM26htg" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPNPkZpWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPMokJpWEemy_LURM26htg" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_KPMogZpWEemy_LURM26htg" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_KPNPkppWEemy_LURM26htg" points="[-306, -30, 4862, -266]$[-4513, -30, 655, -266]"/>
+        </edges>
+        <edges xmi:id="_KPNPk5pWEemy_LURM26htg" element="_KQwH2ppWEemy_LURM26htg" source="_KOnZsppWEemy_LURM26htg" target="_KObzgppWEemy_LURM26htg">
+          <children xmi:id="_KPNPlppWEemy_LURM26htg" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_KPNPmJpWEemy_LURM26htg" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPNPmZpWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPNPl5pWEemy_LURM26htg" y="-186"/>
+          </children>
+          <children xmi:id="_KPNPmppWEemy_LURM26htg" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPNPnJpWEemy_LURM26htg" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPNPnZpWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPNPm5pWEemy_LURM26htg" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_KPNPnppWEemy_LURM26htg" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPNPoJpWEemy_LURM26htg" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPNPoZpWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPNPn5pWEemy_LURM26htg" y="-397"/>
+          </children>
+          <children xmi:id="_KPNPoppWEemy_LURM26htg" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_KPN2oJpWEemy_LURM26htg" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPN2oZpWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPNPo5pWEemy_LURM26htg" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_KPNPlJpWEemy_LURM26htg" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_KPN2oppWEemy_LURM26htg" points="[1292, 229, -4893, -1084]$[5419, 229, -766, -1084]"/>
+        </edges>
+        <edges xmi:id="_KPN2o5pWEemy_LURM26htg" element="_KQwux5pWEemy_LURM26htg" source="_KOnZsppWEemy_LURM26htg" target="_KOtgUppWEemy_LURM26htg">
+          <children xmi:id="_KPN2pppWEemy_LURM26htg" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_KPN2qJpWEemy_LURM26htg" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPN2qZpWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPN2p5pWEemy_LURM26htg" y="-186"/>
+          </children>
+          <children xmi:id="_KPN2qppWEemy_LURM26htg" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPN2rJpWEemy_LURM26htg" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPN2rZpWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPN2q5pWEemy_LURM26htg" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_KPN2rppWEemy_LURM26htg" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPN2sJpWEemy_LURM26htg" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPN2sZpWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPN2r5pWEemy_LURM26htg" y="-397"/>
+          </children>
+          <children xmi:id="_KPN2sppWEemy_LURM26htg" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_KPN2tJpWEemy_LURM26htg" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPN2tZpWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPN2s5pWEemy_LURM26htg" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_KPN2pJpWEemy_LURM26htg" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_KPOdsJpWEemy_LURM26htg" points="[1493, -263, 7, 1572]$[1493, -1586, 7, 249]"/>
+        </edges>
+        <edges xmi:id="_KPOdsZpWEemy_LURM26htg" element="_KQxWBJpWEemy_LURM26htg" source="_KOp19JpWEemy_LURM26htg" target="_KOk9dJpWEemy_LURM26htg">
+          <children xmi:id="_KPOdtJpWEemy_LURM26htg" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_KPOdtppWEemy_LURM26htg" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPOdt5pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPOdtZpWEemy_LURM26htg" y="-186"/>
+          </children>
+          <children xmi:id="_KPOduJpWEemy_LURM26htg" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPOduppWEemy_LURM26htg" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPOdu5pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPOduZpWEemy_LURM26htg" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_KPOdvJpWEemy_LURM26htg" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_KPOdvppWEemy_LURM26htg" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPOdv5pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPOdvZpWEemy_LURM26htg" y="-397"/>
+          </children>
+          <children xmi:id="_KPOdwJpWEemy_LURM26htg" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_KPOdwppWEemy_LURM26htg" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KPOdw5pWEemy_LURM26htg"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_KPOdwZpWEemy_LURM26htg" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_KPOdsppWEemy_LURM26htg" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_KPOdxJpWEemy_LURM26htg" points="[1798, 26, 1877, -10583]$[3734, 26, 3813, -10583]$[3734, 10635, 3813, 26]$[1825, 10635, 1904, 26]"/>
+        </edges>
+      </contents>
+    </eAnnotations>
+  </DB2Model:DB2Schema>
+  <LUW:LUWIndex xmi:id="_KQtrcJpWEemy_LURM26htg" name="STAFF_STAFF_NUMBER_IDX" Schema="_KFtVUJpWEemy_LURM26htg" unique="true" table="_KQtrcppWEemy_LURM26htg">
+    <members xmi:id="_KQtrcZpWEemy_LURM26htg" column="_KQtrc5pWEemy_LURM26htg"/>
+  </LUW:LUWIndex>
+  <LUW:LUWTable xmi:id="_KQtrcppWEemy_LURM26htg" name="STAFF" description="Member of Staff are employees that work for the company DreamHome." label="Staff" schema="_KFtVUJpWEemy_LURM26htg" index="_KQtrcJpWEemy_LURM26htg" referencingForeignKeys="_KQu50JpWEemy_LURM26htg _KQvgu5pWEemy_LURM26htg _KQwHtppWEemy_LURM26htg _KQwH2ppWEemy_LURM26htg _KQwux5pWEemy_LURM26htg">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQtrc5pWEemy_LURM26htg" name="STAFF_NUMBER" description="An internal number that uniquely identifies a member of staff." label="Staff Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_KQtrdJpWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQtrdZpWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Staff Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQuSgJpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_jRcbIN2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_KQuSgZpWEemy_LURM26htg" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQuSgppWEemy_LURM26htg" name="FIRST_NAME" description="The first name of a member of Staff." label="First Name" defaultValue="">
+      <eAnnotations xmi:id="_KQuSg5pWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQuShJpWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/First Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQuShZpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_fcLZwN2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQuShppWEemy_LURM26htg" name="CHAR" length="30"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQuSh5pWEemy_LURM26htg" name="LAST_NAME" description="The last name of a member of Staff." label="Last Name" defaultValue="">
+      <eAnnotations xmi:id="_KQuSiJpWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQuSiZpWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Last Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQuSippWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_hZWREN2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQuSi5pWEemy_LURM26htg" name="CHAR" length="30"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQuSjJpWEemy_LURM26htg" name="ADDRESS" description="A composite attribute the forms the address, composing of:&#xD;&#xA;Street&#xD;&#xA;Area&#xD;&#xA;City&#xD;&#xA;Post Code" label="Address" defaultValue="">
+      <eAnnotations xmi:id="_KQuSjZpWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQuSjppWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Address"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQuSj5pWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_iZkX8N2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQuSkJpWEemy_LURM26htg" name="CHAR" length="30"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQuSkZpWEemy_LURM26htg" name="TELEPHONE_NUMBER" description="The preferable contact number." label="Telephone Number" defaultValue="">
+      <eAnnotations xmi:id="_KQuSkppWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQuSk5pWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Telephone Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQuSlJpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_mFl9wN2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQuSlZpWEemy_LURM26htg" name="CHAR" length="15"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQuSlppWEemy_LURM26htg" name="POSITION" description="The current staff members position within the company." label="Position" defaultValue="">
+      <eAnnotations xmi:id="_KQuSl5pWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQuSmJpWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Staff/Position"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQuSmZpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_nUHmYN2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQuSmppWEemy_LURM26htg" name="CHAR" length="30"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQuSm5pWEemy_LURM26htg" name="SEX" description="The sexual orientation of a member of staff." label="Sex" defaultValue="">
+      <eAnnotations xmi:id="_KQuSnJpWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQuSnZpWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Staff/Sex"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQuSnppWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_oWIdAN2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQuSn5pWEemy_LURM26htg" name="CHAR" length="6"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQuSoJpWEemy_LURM26htg" name="DATE_OF_BIRTH" description="The date a member of staff was born." label="Date Of Birth" defaultValue="">
+      <eAnnotations xmi:id="_KQuSoZpWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQuSoppWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Staff/Date Of Birth"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQuSo5pWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_otraUN2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_KQuSpJpWEemy_LURM26htg" name="DATE" primitiveType="DATE"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQuSpZpWEemy_LURM26htg" name="SALARY" description="The members of staffs salary." label="Salary" defaultValue="">
+      <eAnnotations xmi:id="_KQuSpppWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQuSp5pWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Staff/Salary"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQuSqJpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_ppSG8N2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:FixedPrecisionDataType" xmi:id="_KQuSqZpWEemy_LURM26htg" name="DECIMAL" primitiveType="DECIMAL" precision="9" scale="2"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQuSqppWEemy_LURM26htg" name="NATIONAL_INSURANCE_NUMBER" description="The unique National Insurance number of a member of staff, sometimes known as (NIN)." label="National Insurance Number" defaultValue="">
+      <eAnnotations xmi:id="_KQuSq5pWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQuSrJpWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Staff/National Insurance Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQuSrZpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_qqivoN2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQuSrppWEemy_LURM26htg" name="CHAR" length="9"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQuSr5pWEemy_LURM26htg" name="BRANCH_NUMBER" description="A unique number used to identify a branch that a staff member is allocated to." label="Branch Number" defaultValue="">
+      <eAnnotations xmi:id="_KQuSsJpWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQuSsZpWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Branch/Branch Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQuSsppWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_sO1M4N2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_KQuSs5pWEemy_LURM26htg" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:CheckConstraint" xmi:id="_KQuStJpWEemy_LURM26htg" name="STAFF_SEX_CK">
+      <searchCondition xsi:type="SQLExpressions:SearchConditionDefault" xmi:id="_KQuStZpWEemy_LURM26htg" SQL="SEX IN ('Male','Female')"/>
+    </constraints>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_KQuStppWEemy_LURM26htg" name="STAFF_PK" label="Staff PK" members="_KQtrc5pWEemy_LURM26htg" ForeignKey="_KQu50JpWEemy_LURM26htg _KQvgu5pWEemy_LURM26htg _KQwHtppWEemy_LURM26htg _KQwH2ppWEemy_LURM26htg _KQwux5pWEemy_LURM26htg"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_KQuSt5pWEemy_LURM26htg" name="STAFF_BRANCH_FK" members="_KQuSr5pWEemy_LURM26htg" uniqueConstraint="_KQxV1ppWEemy_LURM26htg" referencedTable="_KQwuzJpWEemy_LURM26htg">
+      <eAnnotations xmi:id="_KQuSuJpWEemy_LURM26htg" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_KQuSuZpWEemy_LURM26htg" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="false"/>
+        <details xmi:id="_KQuSuppWEemy_LURM26htg" key="FK_PARENT_MULTIPLICITY" value="0..1"/>
+        <details xmi:id="_KQuSu5pWEemy_LURM26htg" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_KQuSvJpWEemy_LURM26htg" key="FK_PARENT_ROLE_NAME" value=""/>
+        <details xmi:id="_KQuSvZpWEemy_LURM26htg" key="FK_CHILD_ROLE_NAME" value="Verb1"/>
+      </eAnnotations>
+    </constraints>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_KQu5kJpWEemy_LURM26htg" name="PROPERTY_FOR_RENT" description="Property that is available for rental to potential ''Renters''." label="Property For Rent" schema="_KFtVUJpWEemy_LURM26htg" index="_KQx84ppWEemy_LURM26htg" referencingForeignKeys="_KQx9AppWEemy_LURM26htg _KQykE5pWEemy_LURM26htg _KQykMJpWEemy_LURM26htg">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQu5kZpWEemy_LURM26htg" name="PROPERTY_NUMBER" description="A unique number used to identify a property for rent." label="Property Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_KQu5kppWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQu5k5pWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Property For Rent/Property Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQu5lJpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_6p7kgN2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_KQu5lZpWEemy_LURM26htg" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQu5lppWEemy_LURM26htg" name="STREET" description="The street portion of an address." label="Street" defaultValue="">
+      <eAnnotations xmi:id="_KQu5l5pWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQu5mJpWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Street"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQu5mZpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_8f8q8N2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQu5mppWEemy_LURM26htg" name="CHAR" length="30"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQu5m5pWEemy_LURM26htg" name="AREA" description="the Area portion of an address." defaultValue="">
+      <eAnnotations xmi:id="_KQu5nJpWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQu5nZpWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Area"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQu5nppWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_9hXEoN2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQu5n5pWEemy_LURM26htg" name="CHAR" length="30"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQu5oJpWEemy_LURM26htg" name="CITY" description="The City portion of an address." label="City" defaultValue="">
+      <eAnnotations xmi:id="_KQu5oZpWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQu5oppWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/City"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQu5o5pWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_-BjAkN2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQu5pJpWEemy_LURM26htg" name="CHAR" length="30"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQu5pZpWEemy_LURM26htg" name="POST_CODE" description="A postal code as determined by the Royal Mail." label="Post Code" defaultValue="">
+      <eAnnotations xmi:id="_KQu5pppWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQu5p5pWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Post Code"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQu5qJpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_-ev58N2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQu5qZpWEemy_LURM26htg" name="CHAR" length="9"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQu5qppWEemy_LURM26htg" name="TYPE" description="The type of property." label="Type" defaultValue="">
+      <eAnnotations xmi:id="_KQu5q5pWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQu5rJpWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Property For Rent/Property Type"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQu5rZpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_--MPAN2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQu5rppWEemy_LURM26htg" name="CHAR" length="30"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQu5r5pWEemy_LURM26htg" name="ROOMS" description="The number of room in a property for rent." label="Rooms" defaultValue="">
+      <eAnnotations xmi:id="_KQu5sJpWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQu5sZpWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Property For Rent/Rooms"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQu5sppWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#__7u1UN2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_KQu5s5pWEemy_LURM26htg" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQu5tJpWEemy_LURM26htg" name="RENT" description="The rental cost of the property." label="Rent" defaultValue="">
+      <eAnnotations xmi:id="_KQu5tZpWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQu5tppWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Property For Rent/Rent"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQu5t5pWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_AZPQsN2bEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:FixedPrecisionDataType" xmi:id="_KQu5uJpWEemy_LURM26htg" name="DECIMAL" primitiveType="DECIMAL" precision="9" scale="2"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQu5uZpWEemy_LURM26htg" name="OWNER_NUMBER" description="A unique number generated by the system to identify Owners of a particcular property." label="Owner Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_KQu5uppWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQu5u5pWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Owner/Owner Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQu5vJpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_BbGWUN2bEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_KQu5vZpWEemy_LURM26htg" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQu5vppWEemy_LURM26htg" name="STAFF_NUMBER" description="An internal number that uniquely identifies a member of staff that is renting particular properties." label="Staff Number" defaultValue="">
+      <eAnnotations xmi:id="_KQu5v5pWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQu5wJpWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Staff Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQu5wZpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_CBPwUN2bEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_KQu5wppWEemy_LURM26htg" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQu5w5pWEemy_LURM26htg" name="BRANCH_NUMBER" description="A unique number used to identify a branch that is renting particular properties." label="Branch Number" defaultValue="">
+      <eAnnotations xmi:id="_KQu5xJpWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQu5xZpWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Branch/Branch Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQu5xppWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_DfkIcN2bEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_KQu5x5pWEemy_LURM26htg" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_KQu5yJpWEemy_LURM26htg" name="PROPERTY_FOR_RE_PK" label="Property For Rent PK" members="_KQu5kZpWEemy_LURM26htg" ForeignKey="_KQx9AppWEemy_LURM26htg _KQykE5pWEemy_LURM26htg _KQykMJpWEemy_LURM26htg"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_KQu5yZpWEemy_LURM26htg" name="PROPERTY_F_BRAN_FK" members="_KQu5w5pWEemy_LURM26htg" uniqueConstraint="_KQxV1ppWEemy_LURM26htg" referencedTable="_KQwuzJpWEemy_LURM26htg">
+      <eAnnotations xmi:id="_KQu5yppWEemy_LURM26htg" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_KQu5y5pWEemy_LURM26htg" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="false"/>
+        <details xmi:id="_KQu5zJpWEemy_LURM26htg" key="FK_PARENT_MULTIPLICITY" value="0..1"/>
+        <details xmi:id="_KQu5zZpWEemy_LURM26htg" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_KQu5zppWEemy_LURM26htg" key="FK_PARENT_ROLE_NAME" value=""/>
+        <details xmi:id="_KQu5z5pWEemy_LURM26htg" key="FK_CHILD_ROLE_NAME" value="Verb1"/>
+      </eAnnotations>
+    </constraints>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_KQu50JpWEemy_LURM26htg" name="PROPERTY_F_STAF_FK" members="_KQu5vppWEemy_LURM26htg" uniqueConstraint="_KQuStppWEemy_LURM26htg" referencedTable="_KQtrcppWEemy_LURM26htg">
+      <eAnnotations xmi:id="_KQu50ZpWEemy_LURM26htg" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_KQu50ppWEemy_LURM26htg" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="false"/>
+        <details xmi:id="_KQu505pWEemy_LURM26htg" key="FK_PARENT_MULTIPLICITY" value="0..1"/>
+        <details xmi:id="_KQu51JpWEemy_LURM26htg" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_KQu51ZpWEemy_LURM26htg" key="FK_PARENT_ROLE_NAME" value=""/>
+        <details xmi:id="_KQu51ppWEemy_LURM26htg" key="FK_CHILD_ROLE_NAME" value="Verb2"/>
+      </eAnnotations>
+    </constraints>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_KQu515pWEemy_LURM26htg" name="PROPERTY_F_OWNE_FK" members="_KQu5uZpWEemy_LURM26htg" uniqueConstraint="_KQzLEJpWEemy_LURM26htg" referencedTable="_KQzLAJpWEemy_LURM26htg">
+      <eAnnotations xmi:id="_KQu52JpWEemy_LURM26htg" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_KQu52ZpWEemy_LURM26htg" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="false"/>
+        <details xmi:id="_KQu52ppWEemy_LURM26htg" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_KQu525pWEemy_LURM26htg" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_KQu53JpWEemy_LURM26htg" key="FK_PARENT_ROLE_NAME" value=""/>
+        <details xmi:id="_KQu53ZpWEemy_LURM26htg" key="FK_CHILD_ROLE_NAME" value="Verb3"/>
+      </eAnnotations>
+    </constraints>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_KQvgoJpWEemy_LURM26htg" name="NEXT_OF_KIN" description="The Next of Kin for a member of staff." label="Next Of Kin" schema="_KFtVUJpWEemy_LURM26htg" index="_KQ1AMJpWEemy_LURM26htg">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQvgoZpWEemy_LURM26htg" name="STAFF_NUMBER" description="An internal number that uniquely identifies a member of staff." label="Staff Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_KQvgoppWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQvgo5pWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Staff Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQvgpJpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_fm9esN2gEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_KQvgpZpWEemy_LURM26htg" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQvgpppWEemy_LURM26htg" name="NAME" description="A compound attribute of first and last name of the next of kin for a member of staff." label="Name" defaultValue="">
+      <eAnnotations xmi:id="_KQvgp5pWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQvgqJpWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Next Of Kin/Next Of Kin Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQvgqZpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_iXiI4N2gEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQvgqppWEemy_LURM26htg" name="CHAR" length="50"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQvgq5pWEemy_LURM26htg" name="RELATIONSHIP" description="The next of kins relationship to a member of staff." label="Relationship" defaultValue="">
+      <eAnnotations xmi:id="_KQvgrJpWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQvgrZpWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Next Of Kin/Relationship"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQvgrppWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_jNUhYN2gEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQvgr5pWEemy_LURM26htg" name="CHAR" length="10"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQvgsJpWEemy_LURM26htg" name="ADDRESS" description="A composite attribute the forms the address of the Next of Kin, composing of:&#xD;&#xA;Street&#xD;&#xA;Area&#xD;&#xA;City&#xD;&#xA;Post Code" label="Address" defaultValue="">
+      <eAnnotations xmi:id="_KQvgsZpWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQvgsppWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Address"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQvgs5pWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_kUtAMN2gEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQvgtJpWEemy_LURM26htg" name="CHAR" length="30"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQvgtZpWEemy_LURM26htg" name="TELEPHONE_NUMBER" description="The preferable contact number." label="Telephone Number" defaultValue="">
+      <eAnnotations xmi:id="_KQvgtppWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQvgt5pWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Telephone Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQvguJpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_m8CO0N2gEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQvguZpWEemy_LURM26htg" name="CHAR" length="15"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_KQvguppWEemy_LURM26htg" name="NEXT_OF_KIN_PK" label="Next Of Kin PK" members="_KQvgoZpWEemy_LURM26htg"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_KQvgu5pWEemy_LURM26htg" name="NEXT_OF_KI_STAF_FK" members="_KQvgoZpWEemy_LURM26htg" uniqueConstraint="_KQuStppWEemy_LURM26htg" referencedTable="_KQtrcppWEemy_LURM26htg">
+      <eAnnotations xmi:id="_KQvgvJpWEemy_LURM26htg" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_KQvgvZpWEemy_LURM26htg" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="true"/>
+        <details xmi:id="_KQvgvppWEemy_LURM26htg" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_KQvgv5pWEemy_LURM26htg" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_KQvgwJpWEemy_LURM26htg" key="FK_PARENT_ROLE_NAME" value=""/>
+        <details xmi:id="_KQvgwZpWEemy_LURM26htg" key="FK_CHILD_ROLE_NAME" value="Verb1"/>
+      </eAnnotations>
+    </constraints>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_KQwHsJpWEemy_LURM26htg" name="ALLOCATED_STAFF" description="Members of Staff of the DreamHome company." label="Allocated Staff" schema="_KFtVUJpWEemy_LURM26htg">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQwHsZpWEemy_LURM26htg" name="STAFF_NUMBER" description="An internal number that uniquely identifies a member of staff." label="Staff Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_KQwHsppWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQwHs5pWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Staff Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQwHtJpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_1_hcId2gEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_KQwHtZpWEemy_LURM26htg" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_KQwHtppWEemy_LURM26htg" name="ALLOCATED__STAF_FK" members="_KQwHsZpWEemy_LURM26htg" uniqueConstraint="_KQuStppWEemy_LURM26htg" referencedTable="_KQtrcppWEemy_LURM26htg">
+      <eAnnotations xmi:id="_KQwHt5pWEemy_LURM26htg" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_KQwHuJpWEemy_LURM26htg" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="false"/>
+        <details xmi:id="_KQwHuZpWEemy_LURM26htg" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_KQwHuppWEemy_LURM26htg" key="FK_CHILD_MULTIPLICITY" value="0..1"/>
+        <details xmi:id="_KQwHu5pWEemy_LURM26htg" key="FK_PARENT_ROLE_NAME" value=""/>
+        <details xmi:id="_KQwHvJpWEemy_LURM26htg" key="FK_CHILD_ROLE_NAME" value="Verb1"/>
+      </eAnnotations>
+    </constraints>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_KQwHvZpWEemy_LURM26htg" name="ALLOCATED_SUPE_FK" members="_KQwHsZpWEemy_LURM26htg" uniqueConstraint="_KQwuxppWEemy_LURM26htg" referencedTable="_KQwuwJpWEemy_LURM26htg">
+      <eAnnotations xmi:id="_KQwHvppWEemy_LURM26htg" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_KQwHv5pWEemy_LURM26htg" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="false"/>
+        <details xmi:id="_KQwHwJpWEemy_LURM26htg" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_KQwHwZpWEemy_LURM26htg" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_KQwHwppWEemy_LURM26htg" key="FK_PARENT_ROLE_NAME" value=""/>
+        <details xmi:id="_KQwHw5pWEemy_LURM26htg" key="FK_CHILD_ROLE_NAME" value="Verb2"/>
+      </eAnnotations>
+    </constraints>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_KQwHxJpWEemy_LURM26htg" name="MANAGER" description="Members of staff that manage the operations office." label="Manager" schema="_KFtVUJpWEemy_LURM26htg" index="_KQx84JpWEemy_LURM26htg" referencingForeignKeys="_KQxV15pWEemy_LURM26htg">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQwHxZpWEemy_LURM26htg" name="STAFF_NUMBER" description="An internal number that uniquely identifies a member of staff deemed a manager." label="Staff Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_KQwHxppWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQwHx5pWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Staff Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQwHyJpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_dgtr4eIqEeKMH64srejqBg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_KQwHyZpWEemy_LURM26htg" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQwHyppWEemy_LURM26htg" name="DATE_MGR_STARTED" description="The date a manager started." label="Date Mgr Started" defaultValue="">
+      <eAnnotations xmi:id="_KQwHy5pWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQwHzJpWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Manager/Date Manager Start"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQwHzZpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_N8RtwfkMEeKL6qBDpSVgpA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_KQwHzppWEemy_LURM26htg" name="DATE" primitiveType="DATE"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQwHz5pWEemy_LURM26htg" name="CAR_ALLOWANCE" description="The car allowance that is available to a manager." label="Car Allowance" defaultValue="">
+      <eAnnotations xmi:id="_KQwH0JpWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQwH0ZpWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Manager/Car Allowance"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQwH0ppWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_RlB9IPkMEeKL6qBDpSVgpA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:FixedPrecisionDataType" xmi:id="_KQwH05pWEemy_LURM26htg" name="DECIMAL" primitiveType="DECIMAL" precision="9" scale="2"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQwH1JpWEemy_LURM26htg" name="BONUS_PAYMENT" description="The Bonus that is to be paid to a manager." label="Bonus Payment" defaultValue="">
+      <eAnnotations xmi:id="_KQwH1ZpWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQwH1ppWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Manager/Bonus Payment"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQwH15pWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_UkD6EPkMEeKL6qBDpSVgpA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:FixedPrecisionDataType" xmi:id="_KQwH2JpWEemy_LURM26htg" name="DECIMAL" primitiveType="DECIMAL" precision="9" scale="2"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_KQwH2ZpWEemy_LURM26htg" name="MANAGER_PK" members="_KQwHxZpWEemy_LURM26htg" ForeignKey="_KQxV15pWEemy_LURM26htg"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_KQwH2ppWEemy_LURM26htg" name="MANAGER_STAFF_FK" members="_KQwHxZpWEemy_LURM26htg" uniqueConstraint="_KQuStppWEemy_LURM26htg" referencedTable="_KQtrcppWEemy_LURM26htg">
+      <eAnnotations xmi:id="_KQwH25pWEemy_LURM26htg" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_KQwH3JpWEemy_LURM26htg" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="true"/>
+        <details xmi:id="_KQwH3ZpWEemy_LURM26htg" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_KQwH3ppWEemy_LURM26htg" key="FK_CHILD_MULTIPLICITY" value="0..1"/>
+      </eAnnotations>
+    </constraints>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_KQwuwJpWEemy_LURM26htg" name="SUPERVISOR" description="Members of staff with the role of supervisor are responsible for day to day activities of an allocated group of staff.  Not all members of staff are assigned to a supervisor." label="Supervisor" schema="_KFtVUJpWEemy_LURM26htg" index="_KQ0ZIJpWEemy_LURM26htg" referencingForeignKeys="_KQwHvZpWEemy_LURM26htg">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQwuwZpWEemy_LURM26htg" name="STAFF_NUMBER" description="An internal number that uniquely identifies a member of Staff known as a Supervisor." label="Staff Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_KQwuwppWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQwuw5pWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Staff Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQwuxJpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_geQbEuIqEeKMH64srejqBg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_KQwuxZpWEemy_LURM26htg" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_KQwuxppWEemy_LURM26htg" name="SUPERVISOR_PK" label="Supervisor PK" members="_KQwuwZpWEemy_LURM26htg" ForeignKey="_KQwHvZpWEemy_LURM26htg"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_KQwux5pWEemy_LURM26htg" name="SUPERVISO_STAF_FK" members="_KQwuwZpWEemy_LURM26htg" uniqueConstraint="_KQuStppWEemy_LURM26htg" referencedTable="_KQtrcppWEemy_LURM26htg">
+      <eAnnotations xmi:id="_KQwuyJpWEemy_LURM26htg" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_KQwuyZpWEemy_LURM26htg" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="true"/>
+        <details xmi:id="_KQwuyppWEemy_LURM26htg" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_KQwuy5pWEemy_LURM26htg" key="FK_CHILD_MULTIPLICITY" value="0..1"/>
+      </eAnnotations>
+    </constraints>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_KQwuzJpWEemy_LURM26htg" name="BRANCH" description="A branch office where property is offered to renters in a particular area." label="Branch" schema="_KFtVUJpWEemy_LURM26htg" index="_KQxV3ppWEemy_LURM26htg" referencingForeignKeys="_KQuSt5pWEemy_LURM26htg _KQu5yZpWEemy_LURM26htg _KQxWBJpWEemy_LURM26htg">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQwuzZpWEemy_LURM26htg" name="BRANCH_NUMBER" description="A unique number used to identify a branch." label="Branch Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_KQwuzppWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQwuz5pWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Branch/Branch Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQwu0JpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_z3kf4N2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_KQwu0ZpWEemy_LURM26htg" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQwu0ppWEemy_LURM26htg" name="STREET" description="The street portion of an address." label="Street" defaultValue="">
+      <eAnnotations xmi:id="_KQwu05pWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQwu1JpWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Street"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQwu1ZpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_ulxPEN2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQwu1ppWEemy_LURM26htg" name="CHAR" length="30"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQwu15pWEemy_LURM26htg" name="AREA" description="the Area portion of an address." label="Area" defaultValue="">
+      <eAnnotations xmi:id="_KQwu2JpWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQwu2ZpWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Area"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQwu2ppWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_v3R6QN2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQwu25pWEemy_LURM26htg" name="CHAR" length="30"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQwu3JpWEemy_LURM26htg" name="CITY" description="The City portion of an address." label="City" defaultValue="">
+      <eAnnotations xmi:id="_KQwu3ZpWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQwu3ppWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/City"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQwu35pWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_wc03UN2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQwu4JpWEemy_LURM26htg" name="CHAR" length="30"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQwu4ZpWEemy_LURM26htg" name="POST_CODE" description="A postal code as determined by the Royal Mail." label="Post Code" defaultValue="">
+      <eAnnotations xmi:id="_KQwu4ppWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQwu45pWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Post Code"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQwu5JpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_w1HbgN2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQwu5ZpWEemy_LURM26htg" name="CHAR" length="9"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQwu5ppWEemy_LURM26htg" name="TELEPHONE_NUMBER" label="Telephone Number" defaultValue="">
+      <eAnnotations xmi:id="_KQwu55pWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQwu6JpWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Telephone Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQwu6ZpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_xjm5MN2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQwu6ppWEemy_LURM26htg" name="CHAR" length="15"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQwu65pWEemy_LURM26htg" name="FAX_NUMBER" label="Fax Number" defaultValue="">
+      <eAnnotations xmi:id="_KQwu7JpWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQwu7ZpWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Fax Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQwu7ppWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_ye6q4N2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQxV0JpWEemy_LURM26htg" name="CHAR" length="15"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQxV0ZpWEemy_LURM26htg" name="STAFF_NUMBER" label="Staff Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_KQxV0ppWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQxV05pWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Staff Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQxV1JpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_K_7JQN2gEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_KQxV1ZpWEemy_LURM26htg" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_KQxV1ppWEemy_LURM26htg" name="BRANCH_PK" label="Branch PK" members="_KQwuzZpWEemy_LURM26htg" ForeignKey="_KQuSt5pWEemy_LURM26htg _KQu5yZpWEemy_LURM26htg _KQxWBJpWEemy_LURM26htg"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_KQxV15pWEemy_LURM26htg" name="BRANCH_MANAGER_FK" members="_KQxV0ZpWEemy_LURM26htg" uniqueConstraint="_KQwH2ZpWEemy_LURM26htg" referencedTable="_KQwHxJpWEemy_LURM26htg">
+      <eAnnotations xmi:id="_KQxV2JpWEemy_LURM26htg" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_KQxV2ZpWEemy_LURM26htg" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="false"/>
+        <details xmi:id="_KQxV2ppWEemy_LURM26htg" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_KQxV25pWEemy_LURM26htg" key="FK_CHILD_MULTIPLICITY" value="0..1"/>
+        <details xmi:id="_KQxV3JpWEemy_LURM26htg" key="FK_PARENT_ROLE_NAME" value=""/>
+        <details xmi:id="_KQxV3ZpWEemy_LURM26htg" key="FK_CHILD_ROLE_NAME" value="Verb1"/>
+      </eAnnotations>
+    </constraints>
+  </LUW:LUWTable>
+  <LUW:LUWIndex xmi:id="_KQxV3ppWEemy_LURM26htg" name="BRANCH_BRANCH_NUMBER_IDX" Schema="_KFtVUJpWEemy_LURM26htg" unique="true" table="_KQwuzJpWEemy_LURM26htg">
+    <members xmi:id="_KQxV35pWEemy_LURM26htg" column="_KQwuzZpWEemy_LURM26htg"/>
+  </LUW:LUWIndex>
+  <LUW:LUWTable xmi:id="_KQxV4JpWEemy_LURM26htg" name="RENTER" description="Clients who rent property from DreamHome" label="Renter" schema="_KFtVUJpWEemy_LURM26htg" index="_KQzyI5pWEemy_LURM26htg" referencingForeignKeys="_KQx8-5pWEemy_LURM26htg _KQykN5pWEemy_LURM26htg">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQxV4ZpWEemy_LURM26htg" name="RENTER_NUMBER" description="A unique number to identify a renter." nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_KQxV4ppWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQxV45pWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Renter/Renter Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQxV5JpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_F0RWAN2bEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_KQxV5ZpWEemy_LURM26htg" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQxV5ppWEemy_LURM26htg" name="FIRST_NAME" label="First Name" defaultValue="">
+      <dependencies xmi:id="_KQxV55pWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_JIwlkN2bEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQxV6JpWEemy_LURM26htg" name="CHAR" length="5"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQxV6ZpWEemy_LURM26htg" name="LAST_NAME" label="Last Name" defaultValue="">
+      <dependencies xmi:id="_KQxV6ppWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_LH3WkN2bEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQxV65pWEemy_LURM26htg" name="CHAR" length="5"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQxV7JpWEemy_LURM26htg" name="ADDRESS" label="Address" defaultValue="">
+      <dependencies xmi:id="_KQxV7ZpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_MdiwEN2bEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQxV7ppWEemy_LURM26htg" name="CHAR" length="5"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQxV75pWEemy_LURM26htg" name="TELEPHONE_NUMBER" description="The preferable contact number." label="Telephone Number" defaultValue="">
+      <eAnnotations xmi:id="_KQxV8JpWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQxV8ZpWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Telephone Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQxV8ppWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_cMsJgN2bEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQxV85pWEemy_LURM26htg" name="CHAR" length="15"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQxV9JpWEemy_LURM26htg" name="PREFERENCE_TYPE" description="The type of property that a renter prefers to rent." label="Preference Type" defaultValue="">
+      <eAnnotations xmi:id="_KQxV9ZpWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQxV9ppWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Renter/Preference Type"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQxV95pWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_OyZuoN2bEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQxV-JpWEemy_LURM26htg" name="CHAR" length="5"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQxV-ZpWEemy_LURM26htg" name="MAX_RENT" description="The maximum amount that a renter is prepared to pay for a particular property." label="Max Rent" defaultValue="">
+      <eAnnotations xmi:id="_KQxV-ppWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQxV-5pWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Renter/Max Rent"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQxV_JpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_QTjYUN2bEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:FixedPrecisionDataType" xmi:id="_KQxV_ZpWEemy_LURM26htg" name="DECIMAL" primitiveType="DECIMAL" precision="9" scale="2"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQxV_ppWEemy_LURM26htg" name="BRANCH_NUMBER" description="A unique number used to identify a branch." label="Branch Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_KQxV_5pWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQxWAJpWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Branch/Branch Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQxWAZpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_Ha3hNOJNEeKMH64srejqBg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_KQxWAppWEemy_LURM26htg" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_KQxWA5pWEemy_LURM26htg" name="RENTER_PK" label="Renter PK" members="_KQxV4ZpWEemy_LURM26htg" ForeignKey="_KQx8-5pWEemy_LURM26htg _KQykN5pWEemy_LURM26htg"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_KQxWBJpWEemy_LURM26htg" name="RENTER_BRANCH_FK" members="_KQxV_ppWEemy_LURM26htg" uniqueConstraint="_KQxV1ppWEemy_LURM26htg" referencedTable="_KQwuzJpWEemy_LURM26htg">
+      <eAnnotations xmi:id="_KQxWBZpWEemy_LURM26htg" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_KQxWBppWEemy_LURM26htg" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="false"/>
+        <details xmi:id="_KQxWB5pWEemy_LURM26htg" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_KQxWCJpWEemy_LURM26htg" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_KQxWCZpWEemy_LURM26htg" key="FK_PARENT_ROLE_NAME" value=""/>
+        <details xmi:id="_KQxWCppWEemy_LURM26htg" key="FK_CHILD_ROLE_NAME" value="Verb1"/>
+      </eAnnotations>
+    </constraints>
+  </LUW:LUWTable>
+  <LUW:LUWIndex xmi:id="_KQx84JpWEemy_LURM26htg" name="MANAGER_STAFF_NUMBER_IDX" Schema="_KFtVUJpWEemy_LURM26htg" unique="true" table="_KQwHxJpWEemy_LURM26htg">
+    <members xmi:id="_KQx84ZpWEemy_LURM26htg" column="_KQwHxZpWEemy_LURM26htg"/>
+  </LUW:LUWIndex>
+  <LUW:LUWIndex xmi:id="_KQx84ppWEemy_LURM26htg" name="PROPERTY_FOR_RENT_PROPERTY_NUMBER_IDX" Schema="_KFtVUJpWEemy_LURM26htg" unique="true" table="_KQu5kJpWEemy_LURM26htg">
+    <members xmi:id="_KQx845pWEemy_LURM26htg" column="_KQu5kZpWEemy_LURM26htg"/>
+  </LUW:LUWIndex>
+  <LUW:LUWTable xmi:id="_KQx85JpWEemy_LURM26htg" name="VIEWING" description="Clients interested in viewing and renting property are called renters by the company.  A prospective renter calls at a particular branch office where they may request to view various properties.  " label="Viewing" schema="_KFtVUJpWEemy_LURM26htg" index="_KQzyJZpWEemy_LURM26htg">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQx85ZpWEemy_LURM26htg" name="RENTER_NUMBER" description="A unique number to identify a renter." label="Renter Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_KQx85ppWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQx855pWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Renter/Renter Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQx86JpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_g5-_EN2bEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_KQx86ZpWEemy_LURM26htg" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQx86ppWEemy_LURM26htg" name="PROPERTY_NUMBER" description="A unique number used to identify a property for rent." label="Property Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_KQx865pWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQx87JpWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Property For Rent/Property Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQx87ZpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_iFYbMN2bEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_KQx87ppWEemy_LURM26htg" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQx875pWEemy_LURM26htg" name="VIEWING_DATE" description="The Date a renter viewed a property for rent." label="Viewing Date" defaultValue="">
+      <eAnnotations xmi:id="_KQx88JpWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQx88ZpWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Viewing/Date Viewed"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQx88ppWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_NiY4QN2bEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_KQx885pWEemy_LURM26htg" name="DATE" primitiveType="DATE"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQx89JpWEemy_LURM26htg" name="VIEWING_COMMENT" description="A renter's comments on a particular property." label="Viewing Comment" defaultValue="">
+      <eAnnotations xmi:id="_KQx89ZpWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQx89ppWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Viewing/Comment"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQx895pWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_l39U8N2bEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <extensions xsi:type="Volumetrics:FieldVolumetrics" xmi:id="_KQx8-JpWEemy_LURM26htg" AverageFieldLength="75"/>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQx8-ZpWEemy_LURM26htg" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="100"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_KQx8-ppWEemy_LURM26htg" name="VIEWING_PK" label="Viewing PK" members="_KQx85ZpWEemy_LURM26htg _KQx86ppWEemy_LURM26htg"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_KQx8-5pWEemy_LURM26htg" name="VIEWING_RENTER_FK" members="_KQx85ZpWEemy_LURM26htg" uniqueConstraint="_KQxWA5pWEemy_LURM26htg" referencedTable="_KQxV4JpWEemy_LURM26htg">
+      <eAnnotations xmi:id="_KQx8_JpWEemy_LURM26htg" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_KQx8_ZpWEemy_LURM26htg" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="true"/>
+        <details xmi:id="_KQx8_ppWEemy_LURM26htg" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_KQx8_5pWEemy_LURM26htg" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_KQx9AJpWEemy_LURM26htg" key="FK_PARENT_ROLE_NAME" value=""/>
+        <details xmi:id="_KQx9AZpWEemy_LURM26htg" key="FK_CHILD_ROLE_NAME" value="Verb1"/>
+      </eAnnotations>
+    </constraints>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_KQx9AppWEemy_LURM26htg" name="VIEW_PROPERTY_F_FK" members="_KQx86ppWEemy_LURM26htg" uniqueConstraint="_KQu5yJpWEemy_LURM26htg" referencedTable="_KQu5kJpWEemy_LURM26htg">
+      <eAnnotations xmi:id="_KQyj8JpWEemy_LURM26htg" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_KQyj8ZpWEemy_LURM26htg" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="true"/>
+        <details xmi:id="_KQyj8ppWEemy_LURM26htg" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_KQyj85pWEemy_LURM26htg" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_KQyj9JpWEemy_LURM26htg" key="FK_PARENT_ROLE_NAME" value=""/>
+        <details xmi:id="_KQyj9ZpWEemy_LURM26htg" key="FK_CHILD_ROLE_NAME" value="Verb2"/>
+      </eAnnotations>
+    </constraints>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_KQyj9ppWEemy_LURM26htg" name="ADVERTS" description="Adverts that are displayed in local and national newspapers." label="Adverts" schema="_KFtVUJpWEemy_LURM26htg" index="_KQ0ZJppWEemy_LURM26htg">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQyj95pWEemy_LURM26htg" name="NEWSPAPER_NAME" description="The name of a Newspaper." label="Newspaper Name" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_KQyj-JpWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQyj-ZpWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Newspaper/Newspaper Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQyj-ppWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_kcUgkd2fEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQyj-5pWEemy_LURM26htg" name="CHAR" length="50"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQyj_JpWEemy_LURM26htg" name="PROPERTY_NUMBER" description="A unique number used to identify a property for rent." label="Property Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_KQyj_ZpWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQyj_ppWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Property For Rent/Property Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQyj_5pWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_mnWNsN2fEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_KQykAJpWEemy_LURM26htg" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQykAZpWEemy_LURM26htg" name="DATE_OF_ADVERT" description="The date an advert was placed." label="Date of Advert" defaultValue="">
+      <eAnnotations xmi:id="_KQykAppWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQykA5pWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Advert/Advert Date"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQykBJpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_Uc52gN2fEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_KQykBZpWEemy_LURM26htg" name="DATE" primitiveType="DATE"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQykBppWEemy_LURM26htg" name="COST_OF_ADVERT" description="The cost of placing an advert." label="Cost of Advert" defaultValue="">
+      <eAnnotations xmi:id="_KQykB5pWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQykCJpWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Advert/Advert Cost"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQykCZpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_Ya-OkN2fEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:FixedPrecisionDataType" xmi:id="_KQykCppWEemy_LURM26htg" name="DECIMAL" primitiveType="DECIMAL" precision="9" scale="2"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_KQykC5pWEemy_LURM26htg" name="ADVERTS_PK" label="Advert PK" members="_KQyj95pWEemy_LURM26htg _KQyj_JpWEemy_LURM26htg"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_KQykDJpWEemy_LURM26htg" name="ADVERT_NEWSPAPE_FK" members="_KQyj95pWEemy_LURM26htg" uniqueConstraint="_KQ0ZQZpWEemy_LURM26htg" referencedTable="_KQ0ZKZpWEemy_LURM26htg">
+      <eAnnotations xmi:id="_KQykDZpWEemy_LURM26htg" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_KQykDppWEemy_LURM26htg" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="true"/>
+        <details xmi:id="_KQykD5pWEemy_LURM26htg" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_KQykEJpWEemy_LURM26htg" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_KQykEZpWEemy_LURM26htg" key="FK_PARENT_ROLE_NAME" value=""/>
+        <details xmi:id="_KQykEppWEemy_LURM26htg" key="FK_CHILD_ROLE_NAME" value="Verb1"/>
+      </eAnnotations>
+    </constraints>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_KQykE5pWEemy_LURM26htg" name="ADVE_PROPERTY_F_FK" members="_KQyj_JpWEemy_LURM26htg" uniqueConstraint="_KQu5yJpWEemy_LURM26htg" referencedTable="_KQu5kJpWEemy_LURM26htg">
+      <eAnnotations xmi:id="_KQykFJpWEemy_LURM26htg" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_KQykFZpWEemy_LURM26htg" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="true"/>
+        <details xmi:id="_KQykFppWEemy_LURM26htg" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_KQykF5pWEemy_LURM26htg" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_KQykGJpWEemy_LURM26htg" key="FK_PARENT_ROLE_NAME" value=""/>
+        <details xmi:id="_KQykGZpWEemy_LURM26htg" key="FK_CHILD_ROLE_NAME" value="Verb2"/>
+      </eAnnotations>
+    </constraints>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_KQykGppWEemy_LURM26htg" name="RENTAL_AGREEMENT" description="An agreement between the Owner of a proprty and the renter." label="Rental Agreement" schema="_KFtVUJpWEemy_LURM26htg" index="_KQ1AMppWEemy_LURM26htg">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQykG5pWEemy_LURM26htg" name="RENTAL_NUMBER" description="A unique number to identify a renter." label="Rental Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_KQykHJpWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQykHZpWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Renter/Renter Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQykHppWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_Wk5y4N2hEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_KQykH5pWEemy_LURM26htg" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQykIJpWEemy_LURM26htg" name="PROPERTY_NUMBER" description="A unique number used to identify a property for rent  involved in a Rental Agreement." label="Property Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_KQykIZpWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQykIppWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Property For Rent/Property Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQykI5pWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_bNbdMd2hEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_KQykJJpWEemy_LURM26htg" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQykJZpWEemy_LURM26htg" name="RENTER_NUMBER" description="A unique number to identify a renter involved in a Rental Agreement." label="Renter Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_KQykJppWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQykJ5pWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Renter/Renter Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQykKJpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_e7jUxN2hEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_KQykKZpWEemy_LURM26htg" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQykKppWEemy_LURM26htg" name="MONTHLY_RENT" description="The monthly rent agreed for a particular property." label="Monthly Rent" defaultValue="">
+      <eAnnotations xmi:id="_KQykK5pWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQykLJpWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Rental Agreement/Monthly Rent"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQykLZpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_mJoFAN2hEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:FixedPrecisionDataType" xmi:id="_KQykLppWEemy_LURM26htg" name="DECIMAL" primitiveType="DECIMAL" precision="9" scale="2"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_KQykL5pWEemy_LURM26htg" name="RENTAL_AGREEMEN_PK" label="Rental Agreement PK" members="_KQykG5pWEemy_LURM26htg"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_KQykMJpWEemy_LURM26htg" name="RENTAL_PROPERT_FK" members="_KQykIJpWEemy_LURM26htg" uniqueConstraint="_KQu5yJpWEemy_LURM26htg" referencedTable="_KQu5kJpWEemy_LURM26htg">
+      <eAnnotations xmi:id="_KQykMZpWEemy_LURM26htg" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_KQykMppWEemy_LURM26htg" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="false"/>
+        <details xmi:id="_KQykM5pWEemy_LURM26htg" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_KQykNJpWEemy_LURM26htg" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_KQykNZpWEemy_LURM26htg" key="FK_PARENT_ROLE_NAME" value=""/>
+        <details xmi:id="_KQykNppWEemy_LURM26htg" key="FK_CHILD_ROLE_NAME" value="Verb1"/>
+      </eAnnotations>
+    </constraints>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_KQykN5pWEemy_LURM26htg" name="RENTAL_AGR_RENT_FK" members="_KQykJZpWEemy_LURM26htg" uniqueConstraint="_KQxWA5pWEemy_LURM26htg" referencedTable="_KQxV4JpWEemy_LURM26htg">
+      <eAnnotations xmi:id="_KQykOJpWEemy_LURM26htg" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_KQykOZpWEemy_LURM26htg" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="false"/>
+        <details xmi:id="_KQykOppWEemy_LURM26htg" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_KQykO5pWEemy_LURM26htg" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_KQykPJpWEemy_LURM26htg" key="FK_PARENT_ROLE_NAME" value=""/>
+        <details xmi:id="_KQykPZpWEemy_LURM26htg" key="FK_CHILD_ROLE_NAME" value="Verb2"/>
+      </eAnnotations>
+    </constraints>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_KQzLAJpWEemy_LURM26htg" name="OWNER" description="The details of owners of property are also stored." label="Owner" schema="_KFtVUJpWEemy_LURM26htg" index="_KQzyEJpWEemy_LURM26htg" referencingForeignKeys="_KQu515pWEemy_LURM26htg _KQzLJ5pWEemy_LURM26htg _KQzyHppWEemy_LURM26htg">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQzLAZpWEemy_LURM26htg" name="OWNER_NUMBER" description="A unique number generated by the system to identify Owners of property." label="Owner Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_KQzLAppWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQzLA5pWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Owner/Owner Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQzLBJpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_nV_ZMN2bEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_KQzLBZpWEemy_LURM26htg" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQzLBppWEemy_LURM26htg" name="ADDRESS" description="A composite attribute the forms the address of the owner, composing of:&#xD;&#xA;Street&#xD;&#xA;Area&#xD;&#xA;City&#xD;&#xA;Post Code" label="Address" defaultValue="">
+      <eAnnotations xmi:id="_KQzLB5pWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQzLCJpWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Address"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQzLCZpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_rFvocN2bEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQzLCppWEemy_LURM26htg" name="CHAR" length="30"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQzLC5pWEemy_LURM26htg" name="TELEPHONE_NUMBER" description="The preferable contact number." label="Telephone Number" defaultValue="">
+      <eAnnotations xmi:id="_KQzLDJpWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQzLDZpWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Telephone Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQzLDppWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_sCY24N2bEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQzLD5pWEemy_LURM26htg" name="CHAR" length="15"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_KQzLEJpWEemy_LURM26htg" name="OWNER_PK" label="Owner PK" members="_KQzLAZpWEemy_LURM26htg" ForeignKey="_KQu515pWEemy_LURM26htg _KQzLJ5pWEemy_LURM26htg _KQzyHppWEemy_LURM26htg"/>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_KQzLEZpWEemy_LURM26htg" name="BUSINESS_OWNER" description="A business owner of a property for rent." label="Business Owner" schema="_KFtVUJpWEemy_LURM26htg" index="_KQ0ZJJpWEemy_LURM26htg">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQzLEppWEemy_LURM26htg" name="OWNER_NUMBER" description="A unique number generated by the system to identify Owners of property." label="Owner Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_KQzLE5pWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQzLFJpWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Owner/Owner Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQzLFZpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_FSud4OIqEeKMH64srejqBg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_KQzLFppWEemy_LURM26htg" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQzLF5pWEemy_LURM26htg" name="BUSINESS_NAME" description="The name of the Business that owns a property for rent." label="Business Name" defaultValue="">
+      <eAnnotations xmi:id="_KQzLGJpWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQzLGZpWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Business Owner/Business Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQzLGppWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_6iJEwPkVEeKL6qBDpSVgpA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQzLG5pWEemy_LURM26htg" name="CHAR" length="50"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQzLHJpWEemy_LURM26htg" name="BUSINESS_TYPE" description="The Type of Business." label="Business Type" defaultValue="">
+      <eAnnotations xmi:id="_KQzLHZpWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQzLHppWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Business Owner/Business Type"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQzLH5pWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_72LfgPkVEeKL6qBDpSVgpA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQzLIJpWEemy_LURM26htg" name="CHAR" length="30"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQzLIZpWEemy_LURM26htg" name="CONTACT_NAME" description="The contact name of a Business Owner." label="Contact Name" defaultValue="">
+      <eAnnotations xmi:id="_KQzLIppWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQzLI5pWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Business Owner/Contact Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQzLJJpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_9vBnwPkmEeKL6qBDpSVgpA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQzLJZpWEemy_LURM26htg" name="CHAR" length="50"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_KQzLJppWEemy_LURM26htg" name="BUSINESS_OWNER_PK" members="_KQzLEppWEemy_LURM26htg"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_KQzLJ5pWEemy_LURM26htg" name="BUSINESS_O_OWNE_FK" members="_KQzLEppWEemy_LURM26htg" uniqueConstraint="_KQzLEJpWEemy_LURM26htg" referencedTable="_KQzLAJpWEemy_LURM26htg">
+      <eAnnotations xmi:id="_KQzLKJpWEemy_LURM26htg" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_KQzLKZpWEemy_LURM26htg" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="true"/>
+        <details xmi:id="_KQzLKppWEemy_LURM26htg" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_KQzLK5pWEemy_LURM26htg" key="FK_CHILD_MULTIPLICITY" value="0..1"/>
+      </eAnnotations>
+    </constraints>
+  </LUW:LUWTable>
+  <LUW:LUWIndex xmi:id="_KQzyEJpWEemy_LURM26htg" name="OWNER_OWNER_NUMBER_IDX" Schema="_KFtVUJpWEemy_LURM26htg" unique="true" table="_KQzLAJpWEemy_LURM26htg">
+    <members xmi:id="_KQzyEZpWEemy_LURM26htg" column="_KQzLAZpWEemy_LURM26htg"/>
+  </LUW:LUWIndex>
+  <LUW:LUWTable xmi:id="_KQzyEppWEemy_LURM26htg" name="PRIVATE_OWNER" description="A private owner of a property for rent." label="Private Owner" schema="_KFtVUJpWEemy_LURM26htg" index="_KQ0ZIppWEemy_LURM26htg">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQzyE5pWEemy_LURM26htg" name="OWNER_NUMBER" description="A unique number generated by the system to identify Owners of property." label="Owner Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_KQzyFJpWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQzyFZpWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Owner/Owner Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQzyFppWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_LBySceIqEeKMH64srejqBg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_KQzyF5pWEemy_LURM26htg" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQzyGJpWEemy_LURM26htg" name="OWNER_NAME" description="A composite attribute that represents the first and last name of an owner of property for rent." label="Owner Name" defaultValue="">
+      <eAnnotations xmi:id="_KQzyGZpWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQzyGppWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Private Owner/Owner Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQzyG5pWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_Kf7k4PkbEeKL6qBDpSVgpA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQzyHJpWEemy_LURM26htg" name="CHAR" length="30"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_KQzyHZpWEemy_LURM26htg" name="PRIVATE_OWNER_PK" label="Private Owner PK" members="_KQzyE5pWEemy_LURM26htg"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_KQzyHppWEemy_LURM26htg" name="PRIVATE_OW_OWNE_FK" members="_KQzyE5pWEemy_LURM26htg" uniqueConstraint="_KQzLEJpWEemy_LURM26htg" referencedTable="_KQzLAJpWEemy_LURM26htg">
+      <eAnnotations xmi:id="_KQzyH5pWEemy_LURM26htg" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_KQzyIJpWEemy_LURM26htg" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="true"/>
+        <details xmi:id="_KQzyIZpWEemy_LURM26htg" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_KQzyIppWEemy_LURM26htg" key="FK_CHILD_MULTIPLICITY" value="0..1"/>
+      </eAnnotations>
+    </constraints>
+  </LUW:LUWTable>
+  <LUW:LUWIndex xmi:id="_KQzyI5pWEemy_LURM26htg" name="RENTER_RENTER_NUMBER_IDX" Schema="_KFtVUJpWEemy_LURM26htg" unique="true" table="_KQxV4JpWEemy_LURM26htg">
+    <members xmi:id="_KQzyJJpWEemy_LURM26htg" column="_KQxV4ZpWEemy_LURM26htg"/>
+  </LUW:LUWIndex>
+  <LUW:LUWIndex xmi:id="_KQzyJZpWEemy_LURM26htg" name="VIEWING_RENTER_NUMBER_IDX" Schema="_KFtVUJpWEemy_LURM26htg" unique="true" table="_KQx85JpWEemy_LURM26htg">
+    <members xmi:id="_KQzyJppWEemy_LURM26htg" column="_KQx85ZpWEemy_LURM26htg"/>
+    <members xmi:id="_KQzyJ5pWEemy_LURM26htg" column="_KQx86ppWEemy_LURM26htg"/>
+  </LUW:LUWIndex>
+  <LUW:LUWIndex xmi:id="_KQ0ZIJpWEemy_LURM26htg" name="SUPERVISOR_STAFF_NUMBER_IDX" Schema="_KFtVUJpWEemy_LURM26htg" unique="true" table="_KQwuwJpWEemy_LURM26htg">
+    <members xmi:id="_KQ0ZIZpWEemy_LURM26htg" column="_KQwuwZpWEemy_LURM26htg"/>
+  </LUW:LUWIndex>
+  <LUW:LUWIndex xmi:id="_KQ0ZIppWEemy_LURM26htg" name="PRIVATE_OWNER_OWNER_NUMBER_IDX" Schema="_KFtVUJpWEemy_LURM26htg" unique="true" table="_KQzyEppWEemy_LURM26htg">
+    <members xmi:id="_KQ0ZI5pWEemy_LURM26htg" column="_KQzyE5pWEemy_LURM26htg"/>
+  </LUW:LUWIndex>
+  <LUW:LUWIndex xmi:id="_KQ0ZJJpWEemy_LURM26htg" name="BUSINESS_OWNER_OWNER_NUMBER_IDX" Schema="_KFtVUJpWEemy_LURM26htg" unique="true" table="_KQzLEZpWEemy_LURM26htg">
+    <members xmi:id="_KQ0ZJZpWEemy_LURM26htg" column="_KQzLEppWEemy_LURM26htg"/>
+  </LUW:LUWIndex>
+  <LUW:LUWIndex xmi:id="_KQ0ZJppWEemy_LURM26htg" name="ADVERTS_NEWSPAPER_NAME_IDX" Schema="_KFtVUJpWEemy_LURM26htg" unique="true" table="_KQyj9ppWEemy_LURM26htg">
+    <members xmi:id="_KQ0ZJ5pWEemy_LURM26htg" column="_KQyj95pWEemy_LURM26htg"/>
+    <members xmi:id="_KQ0ZKJpWEemy_LURM26htg" column="_KQyj_JpWEemy_LURM26htg"/>
+  </LUW:LUWIndex>
+  <LUW:LUWTable xmi:id="_KQ0ZKZpWEemy_LURM26htg" name="NEWSPAPER" description="Holds the details of both local and national newspapers that are used for advertising." label="Newspaper" schema="_KFtVUJpWEemy_LURM26htg" index="_KQ0ZQppWEemy_LURM26htg" referencingForeignKeys="_KQykDJpWEemy_LURM26htg">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQ0ZKppWEemy_LURM26htg" name="NEWSPAPER_NAME" description="The name of a Newspaper." label="Newspaper Name" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_KQ0ZK5pWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQ0ZLJpWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Newspaper/Newspaper Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQ0ZLZpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_e4x_gN2fEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQ0ZLppWEemy_LURM26htg" name="CHAR" length="50"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQ0ZL5pWEemy_LURM26htg" name="ADDRESS" description="A composite attribute the forms the address of a Newspaper, composing of:&#xD;&#xA;Street&#xD;&#xA;Area&#xD;&#xA;City&#xD;&#xA;Post Code" label="Address" defaultValue="">
+      <eAnnotations xmi:id="_KQ0ZMJpWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQ0ZMZpWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Address"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQ0ZMppWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_gNa3MN2fEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQ0ZM5pWEemy_LURM26htg" name="CHAR" length="30"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQ0ZNJpWEemy_LURM26htg" name="TELEPHONE_NUMBER" description="The preferable contact number." label="Telephone Number" defaultValue="">
+      <eAnnotations xmi:id="_KQ0ZNZpWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQ0ZNppWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Telephone Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQ0ZN5pWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_g92OkN2fEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQ0ZOJpWEemy_LURM26htg" name="CHAR" length="15"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQ0ZOZpWEemy_LURM26htg" name="FAX_NUMBER" description="The fax number." label="Fax Number" defaultValue="">
+      <eAnnotations xmi:id="_KQ0ZOppWEemy_LURM26htg" source="ColumnDomain">
+        <details xmi:id="_KQ0ZO5pWEemy_LURM26htg" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Fax Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_KQ0ZPJpWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_hnRmEN2fEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQ0ZPZpWEemy_LURM26htg" name="CHAR" length="15"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_KQ0ZPppWEemy_LURM26htg" name="CONTACT_NAME" label="Contact Name" defaultValue="">
+      <dependencies xmi:id="_KQ0ZP5pWEemy_LURM26htg" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_ixxqUN2fEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_KQ0ZQJpWEemy_LURM26htg" name="CHAR" length="5"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_KQ0ZQZpWEemy_LURM26htg" name="NEWSPAPER_PK" label="Newspaper PK" members="_KQ0ZKppWEemy_LURM26htg" ForeignKey="_KQykDJpWEemy_LURM26htg"/>
+  </LUW:LUWTable>
+  <LUW:LUWIndex xmi:id="_KQ0ZQppWEemy_LURM26htg" name="NEWSPAPER_NEWSPAPER_NAME_IDX" Schema="_KFtVUJpWEemy_LURM26htg" unique="true" table="_KQ0ZKZpWEemy_LURM26htg">
+    <members xmi:id="_KQ0ZQ5pWEemy_LURM26htg" column="_KQ0ZKppWEemy_LURM26htg"/>
+  </LUW:LUWIndex>
+  <LUW:LUWIndex xmi:id="_KQ1AMJpWEemy_LURM26htg" name="NEXT_OF_KIN_STAFF_NUMBER_IDX" Schema="_KFtVUJpWEemy_LURM26htg" unique="true" table="_KQvgoJpWEemy_LURM26htg">
+    <members xmi:id="_KQ1AMZpWEemy_LURM26htg" column="_KQvgoZpWEemy_LURM26htg"/>
+  </LUW:LUWIndex>
+  <LUW:LUWIndex xmi:id="_KQ1AMppWEemy_LURM26htg" name="RENTAL_AGREEMENT_RENTAL_NUMBER_IDX" Schema="_KFtVUJpWEemy_LURM26htg" unique="true" table="_KQykGppWEemy_LURM26htg">
+    <members xmi:id="_KQ1AM5pWEemy_LURM26htg" column="_KQykG5pWEemy_LURM26htg"/>
+  </LUW:LUWIndex>
+</xmi:XMI>

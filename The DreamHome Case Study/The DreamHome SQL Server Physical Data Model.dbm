@@ -1,0 +1,1963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<xmi:XMI xmlns:datamodelversion="http://www.ibm.com/com.ibm.datatools.core/model/data/1.9.0.0" xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SQLConstraints="http:///org/eclipse/datatools/modelbase/sql/constraints.ecore" xmlns:SQLDataTypes="http:///org/eclipse/datatools/modelbase/sql/datatypes.ecore" xmlns:SQLExpressions="http:///org/eclipse/datatools/modelbase/sql/expressions.ecore" xmlns:SQLSchema="http:///org/eclipse/datatools/modelbase/sql/schema.ecore" xmlns:SQLTables="http:///org/eclipse/datatools/modelbase/sql/tables.ecore" xmlns:Volumetrics="http:///com/ibm/db/models/volumetrics/volumetrics.ecore" xmlns:datanotation="http:///datanotation.ecore" xmlns:ilvglnotation="http://www.ilog.com/views/8.5.0/LayoutNotationExtensionDefinition" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+  <SQLSchema:Database xmi:id="_QQ2McJpXEemE67U_IwCyvQ" name="Database" vendor="SQL Server" version="2014" schemas="_QTsFEJpXEemE67U_IwCyvQ"/>
+  <SQLSchema:Schema xmi:id="_QTsFEJpXEemE67U_IwCyvQ" name="Schema" tables="_QXltoJpXEemE67U_IwCyvQ _QXni95pXEemE67U_IwCyvQ _QXmU7ZpXEemE67U_IwCyvQ _QXoxOJpXEemE67U_IwCyvQ _QXoJ4JpXEemE67U_IwCyvQ _QXoKC5pXEemE67U_IwCyvQ _QXni0JpXEemE67U_IwCyvQ _QXni65pXEemE67U_IwCyvQ _QXpYAJpXEemE67U_IwCyvQ _QXoxSZpXEemE67U_IwCyvQ _QXow8JpXEemE67U_IwCyvQ _QXpYEZpXEemE67U_IwCyvQ _QXm7wJpXEemE67U_IwCyvQ _QXm74ppXEemE67U_IwCyvQ _QXoxFJpXEemE67U_IwCyvQ" database="_QQ2McJpXEemE67U_IwCyvQ">
+    <eAnnotations xmi:id="_QTvvcJpXEemE67U_IwCyvQ" source="diagram">
+      <contents xsi:type="datanotation:DataDiagram" xmi:id="_QTvvcZpXEemE67U_IwCyvQ" type="IE_CrowFoot" name="The Managers View_The Managers View" viewKind="ProjectExplorer" notation="IE_CrowFoot" kind="Physical">
+        <children xmi:id="_QWFRwJpXEemE67U_IwCyvQ" element="_QXoJ4JpXEemE67U_IwCyvQ">
+          <children xsi:type="notation:Shape" xmi:id="_QWFRxJpXEemE67U_IwCyvQ" type="TableName" fontHeight="8">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWFRxZpXEemE67U_IwCyvQ"/>
+          </children>
+          <children xmi:id="_QWF40JpXEemE67U_IwCyvQ" type="Key.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_QWGf7JpXEemE67U_IwCyvQ" type="Key" element="_QXoJ4ZpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWGf7ZpXEemE67U_IwCyvQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWF40ZpXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_QWF40ppXEemE67U_IwCyvQ" type="Column.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_QWF42JpXEemE67U_IwCyvQ" type="Column" element="_QXoJ5ppXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWF42ZpXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWGf4JpXEemE67U_IwCyvQ" type="Column" element="_QXoJ6ZpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWGf4ZpXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWGf4ppXEemE67U_IwCyvQ" type="Column" element="_QXoJ7JpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWGf45pXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWGf5JpXEemE67U_IwCyvQ" type="Column" element="_QXoJ75pXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWGf5ZpXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWGf5ppXEemE67U_IwCyvQ" type="Column" element="_QXoJ9JpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWGf55pXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWGf6JpXEemE67U_IwCyvQ" type="Column" element="_QXoJ-ZpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWGf6ZpXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWGf6ppXEemE67U_IwCyvQ" type="Column" element="_QXoJ_ppXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWGf65pXEemE67U_IwCyvQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWF405pXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_QWF41JpXEemE67U_IwCyvQ" visible="false" type="Index.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWF41ZpXEemE67U_IwCyvQ"/>
+          </children>
+          <children xmi:id="_QWF41ppXEemE67U_IwCyvQ" visible="false" type="Trigger.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWF415pXEemE67U_IwCyvQ"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWFRwZpXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_QWFRw5pXEemE67U_IwCyvQ" fontHeight="8" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWFRwppXEemE67U_IwCyvQ" x="-112264" y="-73714"/>
+        </children>
+        <children xmi:id="_QWHG8JpXEemE67U_IwCyvQ" element="_QXni95pXEemE67U_IwCyvQ">
+          <children xsi:type="notation:Shape" xmi:id="_QWHG9JpXEemE67U_IwCyvQ" type="TableName" fontHeight="8">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWHG9ZpXEemE67U_IwCyvQ"/>
+          </children>
+          <children xmi:id="_QWHG9ppXEemE67U_IwCyvQ" type="Key.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_QWIVEppXEemE67U_IwCyvQ" type="Key" element="_QXni-JpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWIVE5pXEemE67U_IwCyvQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWHG95pXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_QWHG-JpXEemE67U_IwCyvQ" type="Column.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_QWHuAJpXEemE67U_IwCyvQ" type="Column" element="_QXni_ZpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWHuAZpXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWHuAppXEemE67U_IwCyvQ" type="Column" element="_QXnjAppXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWHuA5pXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWHuBJpXEemE67U_IwCyvQ" type="Column" element="_QXnjB5pXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWHuBZpXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWHuBppXEemE67U_IwCyvQ" type="Column" element="_QXnjDJpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWHuB5pXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWHuCJpXEemE67U_IwCyvQ" type="Column" element="_QXnjEZpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWHuCZpXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWHuCppXEemE67U_IwCyvQ" type="Column" element="_QXnjFppXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWHuC5pXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWIVEJpXEemE67U_IwCyvQ" type="Column" element="_QXnjG5pXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWIVEZpXEemE67U_IwCyvQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWHG-ZpXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_QWHG-ppXEemE67U_IwCyvQ" visible="false" type="Index.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWHG-5pXEemE67U_IwCyvQ"/>
+          </children>
+          <children xmi:id="_QWHG_JpXEemE67U_IwCyvQ" visible="false" type="Trigger.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWHG_ZpXEemE67U_IwCyvQ"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWHG8ZpXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_QWHG85pXEemE67U_IwCyvQ" fontHeight="8" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWHG8ppXEemE67U_IwCyvQ" x="-112079" y="-84853" height="5186"/>
+        </children>
+        <children xmi:id="_QWIVFJpXEemE67U_IwCyvQ" element="_QXoxSZpXEemE67U_IwCyvQ">
+          <children xsi:type="notation:Shape" xmi:id="_QWIVGJpXEemE67U_IwCyvQ" type="TableName" fontHeight="8">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWIVGZpXEemE67U_IwCyvQ"/>
+          </children>
+          <children xmi:id="_QWIVGppXEemE67U_IwCyvQ" type="Key.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_QWJjMJpXEemE67U_IwCyvQ" type="Key" element="_QXoxSppXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWJjMZpXEemE67U_IwCyvQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWIVG5pXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_QWIVHJpXEemE67U_IwCyvQ" type="Column.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_QWI8JJpXEemE67U_IwCyvQ" type="Column" element="_QXoxT5pXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWI8JZpXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWI8JppXEemE67U_IwCyvQ" type="Column" element="_QXoxVJpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWI8J5pXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWI8KJpXEemE67U_IwCyvQ" type="Column" element="_QXoxWZpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWI8KZpXEemE67U_IwCyvQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWIVHZpXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_QWI8IJpXEemE67U_IwCyvQ" visible="false" type="Index.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWI8IZpXEemE67U_IwCyvQ"/>
+          </children>
+          <children xmi:id="_QWI8IppXEemE67U_IwCyvQ" visible="false" type="Trigger.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWI8I5pXEemE67U_IwCyvQ"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWIVFZpXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_QWIVF5pXEemE67U_IwCyvQ" fontHeight="8" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWIVFppXEemE67U_IwCyvQ" x="-134356" y="-74322"/>
+        </children>
+        <children xmi:id="_QWJjMppXEemE67U_IwCyvQ" element="_QXoxFJpXEemE67U_IwCyvQ">
+          <children xsi:type="notation:Shape" xmi:id="_QWJjNppXEemE67U_IwCyvQ" type="TableName" fontHeight="8">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWJjN5pXEemE67U_IwCyvQ"/>
+          </children>
+          <children xmi:id="_QWJjOJpXEemE67U_IwCyvQ" type="Key.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_QWKKRppXEemE67U_IwCyvQ" type="Key" element="_QXoxFZpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWKKR5pXEemE67U_IwCyvQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWJjOZpXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_QWJjOppXEemE67U_IwCyvQ" type="Column.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_QWKKQJpXEemE67U_IwCyvQ" type="Column" element="_QXoxGppXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWKKQZpXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWKKQppXEemE67U_IwCyvQ" type="Column" element="_QXoxH5pXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWKKQ5pXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWKKRJpXEemE67U_IwCyvQ" type="Column" element="_QXoxJJpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWKKRZpXEemE67U_IwCyvQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWJjO5pXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_QWJjPJpXEemE67U_IwCyvQ" visible="false" type="Index.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWJjPZpXEemE67U_IwCyvQ"/>
+          </children>
+          <children xmi:id="_QWJjPppXEemE67U_IwCyvQ" visible="false" type="Trigger.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWJjP5pXEemE67U_IwCyvQ"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWJjM5pXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_QWJjNZpXEemE67U_IwCyvQ" fontHeight="8" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWJjNJpXEemE67U_IwCyvQ" x="-119699" y="-72259"/>
+        </children>
+        <children xmi:id="_QWKKSJpXEemE67U_IwCyvQ" element="_QXm7wJpXEemE67U_IwCyvQ">
+          <children xsi:type="notation:Shape" xmi:id="_QWKxUZpXEemE67U_IwCyvQ" type="TableName" fontHeight="8">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWKxUppXEemE67U_IwCyvQ"/>
+          </children>
+          <children xmi:id="_QWKxU5pXEemE67U_IwCyvQ" type="Key.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_QWLYZJpXEemE67U_IwCyvQ" type="Key" element="_QXm7wZpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWLYZZpXEemE67U_IwCyvQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWKxVJpXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_QWKxVZpXEemE67U_IwCyvQ" type="Column.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_QWKxW5pXEemE67U_IwCyvQ" type="Column" element="_QXm7xppXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWKxXJpXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWKxXZpXEemE67U_IwCyvQ" type="Column" element="_QXm7y5pXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWKxXppXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWLYYJpXEemE67U_IwCyvQ" type="Column" element="_QXm70JpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWLYYZpXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWLYYppXEemE67U_IwCyvQ" type="Column" element="_QXm71ZpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWLYY5pXEemE67U_IwCyvQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWKxVppXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_QWKxV5pXEemE67U_IwCyvQ" visible="false" type="Index.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWKxWJpXEemE67U_IwCyvQ"/>
+          </children>
+          <children xmi:id="_QWKxWZpXEemE67U_IwCyvQ" visible="false" type="Trigger.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWKxWppXEemE67U_IwCyvQ"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWKKSZpXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_QWKxUJpXEemE67U_IwCyvQ" fontHeight="8" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWKKSppXEemE67U_IwCyvQ" x="-128430" y="-86256"/>
+        </children>
+        <children xmi:id="_QWLYZppXEemE67U_IwCyvQ" element="_QXm74ppXEemE67U_IwCyvQ">
+          <children xsi:type="notation:Shape" xmi:id="_QWLYappXEemE67U_IwCyvQ" type="TableName" fontHeight="8">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWLYa5pXEemE67U_IwCyvQ"/>
+          </children>
+          <children xmi:id="_QWLYbJpXEemE67U_IwCyvQ" type="Key.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWLYbZpXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_QWL_cJpXEemE67U_IwCyvQ" type="Column.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_QWL_dppXEemE67U_IwCyvQ" type="Column" element="_QXm745pXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWL_d5pXEemE67U_IwCyvQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWL_cZpXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_QWL_cppXEemE67U_IwCyvQ" visible="false" type="Index.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWL_c5pXEemE67U_IwCyvQ"/>
+          </children>
+          <children xmi:id="_QWL_dJpXEemE67U_IwCyvQ" visible="false" type="Trigger.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWL_dZpXEemE67U_IwCyvQ"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWLYZ5pXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_QWLYaZpXEemE67U_IwCyvQ" fontHeight="8" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWLYaJpXEemE67U_IwCyvQ" x="-127901" y="-91838" height="1983"/>
+        </children>
+        <children xmi:id="_QWL_eJpXEemE67U_IwCyvQ" element="_QXni65pXEemE67U_IwCyvQ">
+          <children xsi:type="notation:Shape" xmi:id="_QWL_fJpXEemE67U_IwCyvQ" type="TableName" fontHeight="8">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWL_fZpXEemE67U_IwCyvQ"/>
+          </children>
+          <children xmi:id="_QWL_fppXEemE67U_IwCyvQ" type="Key.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_QWMmhppXEemE67U_IwCyvQ" type="Key" element="_QXni7JpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWMmh5pXEemE67U_IwCyvQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWL_f5pXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_QWMmgJpXEemE67U_IwCyvQ" type="Column.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWMmgZpXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_QWMmgppXEemE67U_IwCyvQ" visible="false" type="Index.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWMmg5pXEemE67U_IwCyvQ"/>
+          </children>
+          <children xmi:id="_QWMmhJpXEemE67U_IwCyvQ" visible="false" type="Trigger.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWMmhZpXEemE67U_IwCyvQ"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWL_eZpXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_QWL_e5pXEemE67U_IwCyvQ" fontHeight="8" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWL_eppXEemE67U_IwCyvQ" x="-121154" y="-92764"/>
+        </children>
+        <children xmi:id="_QWMmiJpXEemE67U_IwCyvQ" element="_QXoxOJpXEemE67U_IwCyvQ">
+          <children xsi:type="notation:Shape" xmi:id="_QWMmjJpXEemE67U_IwCyvQ" type="TableName" fontHeight="8">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWMmjZpXEemE67U_IwCyvQ"/>
+          </children>
+          <children xmi:id="_QWNNkJpXEemE67U_IwCyvQ" type="Key.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_QWNNnJpXEemE67U_IwCyvQ" type="Key" element="_QXoxOZpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWNNnZpXEemE67U_IwCyvQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWNNkZpXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_QWNNkppXEemE67U_IwCyvQ" type="Column.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_QWNNmJpXEemE67U_IwCyvQ" type="Column" element="_QXoxPppXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWNNmZpXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWNNmppXEemE67U_IwCyvQ" type="Column" element="_QXoxQ5pXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWNNm5pXEemE67U_IwCyvQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWNNk5pXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_QWNNlJpXEemE67U_IwCyvQ" visible="false" type="Index.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWNNlZpXEemE67U_IwCyvQ"/>
+          </children>
+          <children xmi:id="_QWNNlppXEemE67U_IwCyvQ" visible="false" type="Trigger.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWNNl5pXEemE67U_IwCyvQ"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWMmiZpXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_QWMmi5pXEemE67U_IwCyvQ" fontHeight="8" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWMmippXEemE67U_IwCyvQ" x="-126737" y="-75963"/>
+        </children>
+        <children xmi:id="_QWN0oJpXEemE67U_IwCyvQ" element="_QXltoJpXEemE67U_IwCyvQ">
+          <children xsi:type="notation:Shape" xmi:id="_QWN0pJpXEemE67U_IwCyvQ" type="TableName" fontHeight="8">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWN0pZpXEemE67U_IwCyvQ"/>
+          </children>
+          <children xmi:id="_QWN0pppXEemE67U_IwCyvQ" type="Key.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_QWPCyJpXEemE67U_IwCyvQ" type="Key" element="_QXltoZpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWPCyZpXEemE67U_IwCyvQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWN0p5pXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_QWN0qJpXEemE67U_IwCyvQ" type="Column.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_QWObsJpXEemE67U_IwCyvQ" type="Column" element="_QXmUsZpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWObsZpXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWObsppXEemE67U_IwCyvQ" type="Column" element="_QXmUtppXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWObs5pXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWObtJpXEemE67U_IwCyvQ" type="Column" element="_QXmUu5pXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWObtZpXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWObtppXEemE67U_IwCyvQ" type="Column" element="_QXmUwJpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWObt5pXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWObuJpXEemE67U_IwCyvQ" type="Column" element="_QXmUxZpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWObuZpXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWObuppXEemE67U_IwCyvQ" type="Column" element="_QXmUyppXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWObu5pXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWPCwJpXEemE67U_IwCyvQ" type="Column" element="_QXmUz5pXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWPCwZpXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWPCwppXEemE67U_IwCyvQ" type="Column" element="_QXmU1JpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWPCw5pXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWPCxJpXEemE67U_IwCyvQ" type="Column" element="_QXmU2ZpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWPCxZpXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWPCxppXEemE67U_IwCyvQ" type="Column" element="_QXmU3ppXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWPCx5pXEemE67U_IwCyvQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWN0qZpXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_QWN0qppXEemE67U_IwCyvQ" visible="false" type="Index.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWN0q5pXEemE67U_IwCyvQ"/>
+          </children>
+          <children xmi:id="_QWN0rJpXEemE67U_IwCyvQ" visible="false" type="Trigger.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWN0rZpXEemE67U_IwCyvQ"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWN0oZpXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_QWN0o5pXEemE67U_IwCyvQ" fontHeight="8" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWN0oppXEemE67U_IwCyvQ" x="-120599" y="-90013" height="6031"/>
+        </children>
+        <children xmi:id="_QWPCyppXEemE67U_IwCyvQ" element="_QXpYAJpXEemE67U_IwCyvQ">
+          <children xsi:type="notation:Shape" xmi:id="_QWPp0JpXEemE67U_IwCyvQ" type="TableName" fontHeight="8">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWPp0ZpXEemE67U_IwCyvQ"/>
+          </children>
+          <children xmi:id="_QWPp0ppXEemE67U_IwCyvQ" type="Key.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_QWPp3JpXEemE67U_IwCyvQ" type="Key" element="_QXpYAZpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWPp3ZpXEemE67U_IwCyvQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWPp05pXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_QWPp1JpXEemE67U_IwCyvQ" type="Column.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_QWPp2ppXEemE67U_IwCyvQ" type="Column" element="_QXpYBppXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWPp25pXEemE67U_IwCyvQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWPp1ZpXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_QWPp1ppXEemE67U_IwCyvQ" visible="false" type="Index.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWPp15pXEemE67U_IwCyvQ"/>
+          </children>
+          <children xmi:id="_QWPp2JpXEemE67U_IwCyvQ" visible="false" type="Trigger.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWPp2ZpXEemE67U_IwCyvQ"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWPCy5pXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_QWPCzZpXEemE67U_IwCyvQ" fontHeight="8" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWPCzJpXEemE67U_IwCyvQ" x="-134356" y="-76068"/>
+        </children>
+        <children xmi:id="_QWQQ4JpXEemE67U_IwCyvQ" element="_QXow8JpXEemE67U_IwCyvQ">
+          <children xsi:type="notation:Shape" xmi:id="_QWQQ5JpXEemE67U_IwCyvQ" type="TableName" fontHeight="8">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWQQ5ZpXEemE67U_IwCyvQ"/>
+          </children>
+          <children xmi:id="_QWQQ5ppXEemE67U_IwCyvQ" type="Key.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_QWQ38ppXEemE67U_IwCyvQ" type="Key" element="_QXow8ZpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWQ385pXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWQ39JpXEemE67U_IwCyvQ" type="Key" element="_QXow9ppXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWQ39ZpXEemE67U_IwCyvQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWQQ55pXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_QWQQ6JpXEemE67U_IwCyvQ" type="Column.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_QWQQ7ppXEemE67U_IwCyvQ" type="Column" element="_QXow-5pXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWQQ75pXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWQ38JpXEemE67U_IwCyvQ" type="Column" element="_QXoxAJpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWQ38ZpXEemE67U_IwCyvQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWQQ6ZpXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_QWQQ6ppXEemE67U_IwCyvQ" visible="false" type="Index.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWQQ65pXEemE67U_IwCyvQ"/>
+          </children>
+          <children xmi:id="_QWQQ7JpXEemE67U_IwCyvQ" visible="false" type="Trigger.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWQQ7ZpXEemE67U_IwCyvQ"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWQQ4ZpXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_QWQQ45pXEemE67U_IwCyvQ" fontHeight="8" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWQQ4ppXEemE67U_IwCyvQ" x="-127451" y="-80541"/>
+        </children>
+        <children xmi:id="_QWQ39ppXEemE67U_IwCyvQ" element="_QXni0JpXEemE67U_IwCyvQ">
+          <children xsi:type="notation:Shape" xmi:id="_QWQ3-ppXEemE67U_IwCyvQ" type="TableName" fontHeight="8">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWQ3-5pXEemE67U_IwCyvQ"/>
+          </children>
+          <children xmi:id="_QWQ3_JpXEemE67U_IwCyvQ" type="Key.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_QWRfDJpXEemE67U_IwCyvQ" type="Key" element="_QXni0ZpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWRfDZpXEemE67U_IwCyvQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWQ3_ZpXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_QWRfAJpXEemE67U_IwCyvQ" type="Column.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_QWRfBppXEemE67U_IwCyvQ" type="Column" element="_QXni1ppXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWRfB5pXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWRfCJpXEemE67U_IwCyvQ" type="Column" element="_QXni25pXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWRfCZpXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWRfCppXEemE67U_IwCyvQ" type="Column" element="_QXni4JpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWRfC5pXEemE67U_IwCyvQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWRfAZpXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_QWRfAppXEemE67U_IwCyvQ" visible="false" type="Index.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWRfA5pXEemE67U_IwCyvQ"/>
+          </children>
+          <children xmi:id="_QWRfBJpXEemE67U_IwCyvQ" visible="false" type="Trigger.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWRfBZpXEemE67U_IwCyvQ"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWQ395pXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_QWQ3-ZpXEemE67U_IwCyvQ" fontHeight="8" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWQ3-JpXEemE67U_IwCyvQ" x="-112185" y="-90013"/>
+        </children>
+        <children xmi:id="_QWSGEJpXEemE67U_IwCyvQ" element="_QXmU7ZpXEemE67U_IwCyvQ">
+          <children xsi:type="notation:Shape" xmi:id="_QWSGFJpXEemE67U_IwCyvQ" type="TableName" fontHeight="8">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWSGFZpXEemE67U_IwCyvQ"/>
+          </children>
+          <children xmi:id="_QWSGFppXEemE67U_IwCyvQ" type="Key.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_QWTUNppXEemE67U_IwCyvQ" type="Key" element="_QXmU7ppXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWTUN5pXEemE67U_IwCyvQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWSGF5pXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_QWSGGJpXEemE67U_IwCyvQ" type="Column.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_QWSGHppXEemE67U_IwCyvQ" type="Column" element="_QXmU85pXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWSGH5pXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWStIJpXEemE67U_IwCyvQ" type="Column" element="_QXmU-JpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWStIZpXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWStIppXEemE67U_IwCyvQ" type="Column" element="_QXmU_ZpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWStI5pXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWStJJpXEemE67U_IwCyvQ" type="Column" element="_QXmVAppXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWStJZpXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWStJppXEemE67U_IwCyvQ" type="Column" element="_QXmVB5pXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWStJ5pXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWStKJpXEemE67U_IwCyvQ" type="Column" element="_QXmVDJpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWStKZpXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWStKppXEemE67U_IwCyvQ" type="Column" element="_QXmVEZpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWStK5pXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWTUMJpXEemE67U_IwCyvQ" type="Column" element="_QXmVFppXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWTUMZpXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWTUMppXEemE67U_IwCyvQ" type="Column" element="_QXmVG5pXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWTUM5pXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWTUNJpXEemE67U_IwCyvQ" type="Column" element="_QXmVIJpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWTUNZpXEemE67U_IwCyvQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWSGGZpXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_QWSGGppXEemE67U_IwCyvQ" visible="false" type="Index.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWSGG5pXEemE67U_IwCyvQ"/>
+          </children>
+          <children xmi:id="_QWSGHJpXEemE67U_IwCyvQ" visible="false" type="Trigger.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWSGHZpXEemE67U_IwCyvQ"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWSGEZpXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_QWSGE5pXEemE67U_IwCyvQ" fontHeight="8" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWSGEppXEemE67U_IwCyvQ" x="-120308" y="-80541"/>
+        </children>
+        <children xmi:id="_QWTUOJpXEemE67U_IwCyvQ" element="_QXoKC5pXEemE67U_IwCyvQ">
+          <children xsi:type="notation:Shape" xmi:id="_QWT7QZpXEemE67U_IwCyvQ" type="TableName" fontHeight="8">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWT7QppXEemE67U_IwCyvQ"/>
+          </children>
+          <children xmi:id="_QWT7Q5pXEemE67U_IwCyvQ" type="Key.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_QWUiUppXEemE67U_IwCyvQ" type="Key" element="_QXoKDJpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWUiU5pXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWUiVJpXEemE67U_IwCyvQ" type="Key" element="_QXoKEZpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWUiVZpXEemE67U_IwCyvQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWT7RJpXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_QWT7RZpXEemE67U_IwCyvQ" type="Column.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_QWT7S5pXEemE67U_IwCyvQ" type="Column" element="_QXoKFppXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWT7TJpXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWUiUJpXEemE67U_IwCyvQ" type="Column" element="_QXoKG5pXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWUiUZpXEemE67U_IwCyvQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWT7RppXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_QWT7R5pXEemE67U_IwCyvQ" visible="false" type="Index.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWT7SJpXEemE67U_IwCyvQ"/>
+          </children>
+          <children xmi:id="_QWT7SZpXEemE67U_IwCyvQ" visible="false" type="Trigger.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWT7SppXEemE67U_IwCyvQ"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWTUOZpXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_QWT7QJpXEemE67U_IwCyvQ" fontHeight="8" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWTUOppXEemE67U_IwCyvQ" x="-112555" y="-78292"/>
+        </children>
+        <children xmi:id="_QWUiVppXEemE67U_IwCyvQ" element="_QXpYEZpXEemE67U_IwCyvQ">
+          <children xsi:type="notation:Shape" xmi:id="_QWUiWppXEemE67U_IwCyvQ" type="TableName" fontHeight="8">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWUiW5pXEemE67U_IwCyvQ"/>
+          </children>
+          <children xmi:id="_QWUiXJpXEemE67U_IwCyvQ" type="Key.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_QWVwcJpXEemE67U_IwCyvQ" type="Key" element="_QXpYEppXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWVwcZpXEemE67U_IwCyvQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWUiXZpXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_QWVJYJpXEemE67U_IwCyvQ" type="Column.Compartment">
+            <children xsi:type="notation:Shape" xmi:id="_QWVJZppXEemE67U_IwCyvQ" type="Column" element="_QXpYF5pXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWVJZ5pXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWVJaJpXEemE67U_IwCyvQ" type="Column" element="_QXpYHJpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWVJaZpXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWVJappXEemE67U_IwCyvQ" type="Column" element="_QXpYIZpXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWVJa5pXEemE67U_IwCyvQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QWVJbJpXEemE67U_IwCyvQ" type="Column" element="_QXpYJppXEemE67U_IwCyvQ" fontHeight="8">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWVJbZpXEemE67U_IwCyvQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWVJYZpXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_QWVJYppXEemE67U_IwCyvQ" visible="false" type="Index.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWVJY5pXEemE67U_IwCyvQ"/>
+          </children>
+          <children xmi:id="_QWVJZJpXEemE67U_IwCyvQ" visible="false" type="Trigger.Compartment">
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWVJZZpXEemE67U_IwCyvQ"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QWUiV5pXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_QWUiWZpXEemE67U_IwCyvQ" fontHeight="8" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWUiWJpXEemE67U_IwCyvQ" x="-132849" y="-80699"/>
+        </children>
+        <children xsi:type="notation:Shape" xmi:id="_QWVwcppXEemE67U_IwCyvQ" type="Text" fontHeight="24" description="The Managers View of The DreamHome Case Study">
+          <children xsi:type="notation:BasicDecorationNode" xmi:id="_QWVwdJpXEemE67U_IwCyvQ" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xsi:type="notation:BasicDecorationNode" xmi:id="_QWVwdZpXEemE67U_IwCyvQ" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <element xsi:nil="true"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWVwc5pXEemE67U_IwCyvQ" x="-128563" y="-94855"/>
+        </children>
+        <styles xsi:type="datanotation:DataAttributeStyle" xmi:id="_QTvvcppXEemE67U_IwCyvQ"/>
+        <styles xsi:type="datanotation:DataCompartmentStyle" xmi:id="_QTvvc5pXEemE67U_IwCyvQ"/>
+        <styles xsi:type="datanotation:DataDisplayStyle" xmi:id="_QTvvdJpXEemE67U_IwCyvQ"/>
+        <styles xsi:type="datanotation:DataDiagramRelationshipStyle" xmi:id="_QTvvdZpXEemE67U_IwCyvQ" showRoleName="false"/>
+        <styles xsi:type="datanotation:DataShapeNameStyle" xmi:id="_QTvvdppXEemE67U_IwCyvQ"/>
+        <styles xsi:type="datanotation:DataDiagramFormattingStyle" xmi:id="_QTvvd5pXEemE67U_IwCyvQ"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_QTvveJpXEemE67U_IwCyvQ" sortingKeys="Natural:Ascending"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_QTvveZpXEemE67U_IwCyvQ"/>
+        <styles xsi:type="datanotation:ConnectionLayerStyle" xmi:id="_QTvveppXEemE67U_IwCyvQ"/>
+        <styles xsi:type="ilvglnotation:LayoutStyle" xmi:id="_QTvve5pXEemE67U_IwCyvQ" graphLayoutConfiguration="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?> &#xD;&#xA;&lt;java version=&quot;1.6.0&quot; class=&quot;java.beans.XMLDecoder&quot;> &#xD;&#xA; &lt;object class=&quot;java.util.HashMap&quot;> &#xD;&#xA;  &lt;void method=&quot;put&quot;> &#xD;&#xA;   &lt;string>horizontalLinkOffset&lt;/string> &#xD;&#xA;   &lt;float>150.0&lt;/float> &#xD;&#xA;  &lt;/void> &#xD;&#xA;  &lt;void method=&quot;put&quot;> &#xD;&#xA;   &lt;string>levelingStrategy&lt;/string> &#xD;&#xA;   &lt;int>1&lt;/int> &#xD;&#xA;  &lt;/void> &#xD;&#xA;  &lt;void method=&quot;put&quot;> &#xD;&#xA;   &lt;string>flowDirection&lt;/string> &#xD;&#xA;   &lt;int>4&lt;/int> &#xD;&#xA;  &lt;/void> &#xD;&#xA;  &lt;void method=&quot;put&quot;> &#xD;&#xA;   &lt;string>verticalLinkOffset&lt;/string> &#xD;&#xA;   &lt;float>150.0&lt;/float> &#xD;&#xA;  &lt;/void> &#xD;&#xA;  &lt;void method=&quot;put&quot;> &#xD;&#xA;   &lt;string>horizontalNodeLinkOffset&lt;/string> &#xD;&#xA;   &lt;float>500.0&lt;/float> &#xD;&#xA;  &lt;/void> &#xD;&#xA;  &lt;void method=&quot;put&quot;> &#xD;&#xA;   &lt;string>globalLinkStyle&lt;/string> &#xD;&#xA;   &lt;int>2&lt;/int> &#xD;&#xA;  &lt;/void> &#xD;&#xA;  &lt;void method=&quot;put&quot;> &#xD;&#xA;   &lt;string>verticalNodeLinkOffset&lt;/string> &#xD;&#xA;   &lt;float>500.0&lt;/float> &#xD;&#xA;  &lt;/void> &#xD;&#xA;  &lt;void method=&quot;put&quot;> &#xD;&#xA;   &lt;string>horizontalNodeOffset&lt;/string> &#xD;&#xA;   &lt;float>1000.0&lt;/float> &#xD;&#xA;  &lt;/void> &#xD;&#xA;  &lt;void method=&quot;put&quot;> &#xD;&#xA;   &lt;string>layout&lt;/string> &#xD;&#xA;   &lt;string>ilog.views.eclipse.graphlayout.runtime.hierarchical.IlvHierarchicalLayout&lt;/string> &#xD;&#xA;  &lt;/void> &#xD;&#xA;  &lt;void method=&quot;put&quot;> &#xD;&#xA;   &lt;string>verticalNodeOffset&lt;/string> &#xD;&#xA;   &lt;float>1000.0&lt;/float> &#xD;&#xA;  &lt;/void> &#xD;&#xA;  &lt;void method=&quot;put&quot;> &#xD;&#xA;   &lt;string>levelJustification&lt;/string> &#xD;&#xA;   &lt;int>16&lt;/int> &#xD;&#xA;  &lt;/void> &#xD;&#xA; &lt;/object> &#xD;&#xA;&lt;/java> &#xD;&#xA;" linkLayoutConfiguration="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?> &#xD;&#xA;&lt;java version=&quot;1.6.0&quot; class=&quot;java.beans.XMLDecoder&quot;> &#xD;&#xA; &lt;object class=&quot;java.util.HashMap&quot;/> &#xD;&#xA;&lt;/java> &#xD;&#xA;" labelLayoutConfiguration="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?> &#xD;&#xA;&lt;java version=&quot;1.6.0&quot; class=&quot;java.beans.XMLDecoder&quot;> &#xD;&#xA; &lt;object class=&quot;java.util.HashMap&quot;/> &#xD;&#xA;&lt;/java> &#xD;&#xA;"/>
+        <element xsi:nil="true"/>
+        <edges xmi:id="_QWVwdppXEemE67U_IwCyvQ" element="_QXmU5ppXEemE67U_IwCyvQ" source="_QWHG8JpXEemE67U_IwCyvQ" target="_QWN0oJpXEemE67U_IwCyvQ">
+          <children xmi:id="_QWVweZpXEemE67U_IwCyvQ" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_QWVwe5pXEemE67U_IwCyvQ" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWVwfJpXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWVweppXEemE67U_IwCyvQ" y="-186"/>
+          </children>
+          <children xmi:id="_QWWXgJpXEemE67U_IwCyvQ" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWWXgppXEemE67U_IwCyvQ" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWWXg5pXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWWXgZpXEemE67U_IwCyvQ" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_QWWXhJpXEemE67U_IwCyvQ" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWWXhppXEemE67U_IwCyvQ" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWWXh5pXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWWXhZpXEemE67U_IwCyvQ" y="-397"/>
+          </children>
+          <children xmi:id="_QWWXiJpXEemE67U_IwCyvQ" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_QWWXippXEemE67U_IwCyvQ" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWWXi5pXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWWXiZpXEemE67U_IwCyvQ" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_QWVwd5pXEemE67U_IwCyvQ" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_QWWXjJpXEemE67U_IwCyvQ" points="[-1127, -525, 6379, 2673]$[-5360, -525, 2146, 2673]"/>
+        </edges>
+        <edges xmi:id="_QWWXjZpXEemE67U_IwCyvQ" element="_QXmVJppXEemE67U_IwCyvQ" source="_QWHG8JpXEemE67U_IwCyvQ" target="_QWSGEJpXEemE67U_IwCyvQ">
+          <children xmi:id="_QWWXkJpXEemE67U_IwCyvQ" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_QWWXkppXEemE67U_IwCyvQ" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWWXk5pXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWWXkZpXEemE67U_IwCyvQ" y="-186"/>
+          </children>
+          <children xmi:id="_QWWXlJpXEemE67U_IwCyvQ" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWW-kJpXEemE67U_IwCyvQ" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWW-kZpXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWWXlZpXEemE67U_IwCyvQ" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_QWW-kppXEemE67U_IwCyvQ" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWW-lJpXEemE67U_IwCyvQ" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWW-lZpXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWW-k5pXEemE67U_IwCyvQ" y="-397"/>
+          </children>
+          <children xmi:id="_QWW-lppXEemE67U_IwCyvQ" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_QWW-mJpXEemE67U_IwCyvQ" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWW-mZpXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWW-l5pXEemE67U_IwCyvQ" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_QWWXjppXEemE67U_IwCyvQ" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_QWW-mppXEemE67U_IwCyvQ" points="[-717, 2222, 5618, -623]$[-5532, 2222, 803, -623]"/>
+        </edges>
+        <edges xmi:id="_QWW-m5pXEemE67U_IwCyvQ" element="_QXmVLZpXEemE67U_IwCyvQ" source="_QWN0oJpXEemE67U_IwCyvQ" target="_QWSGEJpXEemE67U_IwCyvQ">
+          <children xmi:id="_QWW-nppXEemE67U_IwCyvQ" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_QWW-oJpXEemE67U_IwCyvQ" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWW-oZpXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWW-n5pXEemE67U_IwCyvQ" y="-186"/>
+          </children>
+          <children xmi:id="_QWW-oppXEemE67U_IwCyvQ" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWW-pJpXEemE67U_IwCyvQ" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWW-pZpXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWW-o5pXEemE67U_IwCyvQ" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_QWXloJpXEemE67U_IwCyvQ" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWXloppXEemE67U_IwCyvQ" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWXlo5pXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWXloZpXEemE67U_IwCyvQ" y="-397"/>
+          </children>
+          <children xmi:id="_QWXlpJpXEemE67U_IwCyvQ" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_QWXlpppXEemE67U_IwCyvQ" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWXlp5pXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWXlpZpXEemE67U_IwCyvQ" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_QWW-nJpXEemE67U_IwCyvQ" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_QWXlqJpXEemE67U_IwCyvQ" points="[819, 820, 867, -4802]$[819, 4312, 867, -1310]"/>
+        </edges>
+        <edges xmi:id="_QWXlqZpXEemE67U_IwCyvQ" element="_QXnjIZpXEemE67U_IwCyvQ" source="_QWQ39ppXEemE67U_IwCyvQ" target="_QWHG8JpXEemE67U_IwCyvQ">
+          <children xmi:id="_QWXlrJpXEemE67U_IwCyvQ" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_QWXlrppXEemE67U_IwCyvQ" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWXlr5pXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWXlrZpXEemE67U_IwCyvQ" y="-186"/>
+          </children>
+          <children xmi:id="_QWXlsJpXEemE67U_IwCyvQ" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWXlsppXEemE67U_IwCyvQ" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWXls5pXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWXlsZpXEemE67U_IwCyvQ" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_QWXltJpXEemE67U_IwCyvQ" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWXltppXEemE67U_IwCyvQ" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWXlt5pXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWXltZpXEemE67U_IwCyvQ" y="-397"/>
+          </children>
+          <children xmi:id="_QWXluJpXEemE67U_IwCyvQ" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_QWYMsZpXEemE67U_IwCyvQ" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWYMsppXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWYMsJpXEemE67U_IwCyvQ" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_QWXlqppXEemE67U_IwCyvQ" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_QWYMs5pXEemE67U_IwCyvQ" points="[-1030, 1645, -543, -3338]$[-1030, 4397, -543, -586]"/>
+        </edges>
+        <edges xmi:id="_QWYMtJpXEemE67U_IwCyvQ" element="_QXoKIppXEemE67U_IwCyvQ" source="_QWFRwJpXEemE67U_IwCyvQ" target="_QWTUOJpXEemE67U_IwCyvQ">
+          <children xmi:id="_QWYMt5pXEemE67U_IwCyvQ" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_QWYMuZpXEemE67U_IwCyvQ" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWYMuppXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWYMuJpXEemE67U_IwCyvQ" y="-186"/>
+          </children>
+          <children xmi:id="_QWYMu5pXEemE67U_IwCyvQ" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWYMvZpXEemE67U_IwCyvQ" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWYMvppXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWYMvJpXEemE67U_IwCyvQ" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_QWYMv5pXEemE67U_IwCyvQ" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWYMwZpXEemE67U_IwCyvQ" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWYMwppXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWYMwJpXEemE67U_IwCyvQ" y="-397"/>
+          </children>
+          <children xmi:id="_QWYMw5pXEemE67U_IwCyvQ" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_QWYMxZpXEemE67U_IwCyvQ" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWYMxppXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWYMxJpXEemE67U_IwCyvQ" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_QWYMtZpXEemE67U_IwCyvQ" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_QWYzwJpXEemE67U_IwCyvQ" points="[810, -931, -290, 3387]$[810, -3101, -290, 1217]"/>
+        </edges>
+        <edges xmi:id="_QWYzwZpXEemE67U_IwCyvQ" element="_QXmVNJpXEemE67U_IwCyvQ" source="_QWMmiJpXEemE67U_IwCyvQ" target="_QWSGEJpXEemE67U_IwCyvQ">
+          <children xmi:id="_QWYzxJpXEemE67U_IwCyvQ" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_QWYzxppXEemE67U_IwCyvQ" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWYzx5pXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWYzxZpXEemE67U_IwCyvQ" y="-186"/>
+          </children>
+          <children xmi:id="_QWYzyJpXEemE67U_IwCyvQ" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWYzyppXEemE67U_IwCyvQ" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWYzy5pXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWYzyZpXEemE67U_IwCyvQ" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_QWYzzJpXEemE67U_IwCyvQ" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWYzzppXEemE67U_IwCyvQ" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWYzz5pXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWYzzZpXEemE67U_IwCyvQ" y="-397"/>
+          </children>
+          <children xmi:id="_QWYz0JpXEemE67U_IwCyvQ" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_QWZa0JpXEemE67U_IwCyvQ" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWZa0ZpXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWYz0ZpXEemE67U_IwCyvQ" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_QWYzwppXEemE67U_IwCyvQ" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_QWZa0ppXEemE67U_IwCyvQ" points="[742, -189, -3714, 260]$[3943, -189, -513, 260]"/>
+        </edges>
+        <edges xmi:id="_QWZa05pXEemE67U_IwCyvQ" element="_QXoxBppXEemE67U_IwCyvQ" source="_QWUiVppXEemE67U_IwCyvQ" target="_QWQQ4JpXEemE67U_IwCyvQ">
+          <children xmi:id="_QWZa1ppXEemE67U_IwCyvQ" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_QWZa2JpXEemE67U_IwCyvQ" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWZa2ZpXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWZa15pXEemE67U_IwCyvQ" y="-186"/>
+          </children>
+          <children xmi:id="_QWZa2ppXEemE67U_IwCyvQ" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWZa3JpXEemE67U_IwCyvQ" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWZa3ZpXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWZa25pXEemE67U_IwCyvQ" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_QWZa3ppXEemE67U_IwCyvQ" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWZa4JpXEemE67U_IwCyvQ" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWZa4ZpXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWZa35pXEemE67U_IwCyvQ" y="-397"/>
+          </children>
+          <children xmi:id="_QWZa4ppXEemE67U_IwCyvQ" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_QWZa5JpXEemE67U_IwCyvQ" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWZa5ZpXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWZa45pXEemE67U_IwCyvQ" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_QWZa1JpXEemE67U_IwCyvQ" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_QWZa5ppXEemE67U_IwCyvQ" points="[1845, -568, -4020, 265]$[4015, -568, -1850, 265]"/>
+        </edges>
+        <edges xmi:id="_QWZa55pXEemE67U_IwCyvQ" element="_QXoxDZpXEemE67U_IwCyvQ" source="_QWSGEJpXEemE67U_IwCyvQ" target="_QWQQ4JpXEemE67U_IwCyvQ">
+          <children xmi:id="_QWaB4JpXEemE67U_IwCyvQ" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_QWaB4ppXEemE67U_IwCyvQ" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWaB45pXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWaB4ZpXEemE67U_IwCyvQ" y="-186"/>
+          </children>
+          <children xmi:id="_QWaB5JpXEemE67U_IwCyvQ" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWaB5ppXEemE67U_IwCyvQ" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWaB55pXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWaB5ZpXEemE67U_IwCyvQ" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_QWaB6JpXEemE67U_IwCyvQ" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWaB6ppXEemE67U_IwCyvQ" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWaB65pXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWaB6ZpXEemE67U_IwCyvQ" y="-397"/>
+          </children>
+          <children xmi:id="_QWaB7JpXEemE67U_IwCyvQ" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_QWaB7ppXEemE67U_IwCyvQ" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWaB75pXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWaB7ZpXEemE67U_IwCyvQ" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_QWZa6JpXEemE67U_IwCyvQ" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_QWaB8JpXEemE67U_IwCyvQ" points="[-282, 405, 4314, -773]$[-3721, 405, 875, -773]"/>
+        </edges>
+        <edges xmi:id="_QWaB8ZpXEemE67U_IwCyvQ" element="_QXm725pXEemE67U_IwCyvQ" source="_QWN0oJpXEemE67U_IwCyvQ" target="_QWKKSJpXEemE67U_IwCyvQ">
+          <children xmi:id="_QWaB9JpXEemE67U_IwCyvQ" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_QWaB9ppXEemE67U_IwCyvQ" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWaB95pXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWaB9ZpXEemE67U_IwCyvQ" y="-186"/>
+          </children>
+          <children xmi:id="_QWao8JpXEemE67U_IwCyvQ" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWao8ppXEemE67U_IwCyvQ" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWao85pXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWao8ZpXEemE67U_IwCyvQ" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_QWao9JpXEemE67U_IwCyvQ" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWao9ppXEemE67U_IwCyvQ" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWao95pXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWao9ZpXEemE67U_IwCyvQ" y="-397"/>
+          </children>
+          <children xmi:id="_QWao-JpXEemE67U_IwCyvQ" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_QWao-ppXEemE67U_IwCyvQ" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWao-5pXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWao-ZpXEemE67U_IwCyvQ" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_QWaB8ppXEemE67U_IwCyvQ" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_QWao_JpXEemE67U_IwCyvQ" points="[-77, 3743, 5146, -451]$[-4707, 3743, 516, -451]"/>
+        </edges>
+        <edges xmi:id="_QWao_ZpXEemE67U_IwCyvQ" element="_QXm76JpXEemE67U_IwCyvQ" source="_QWN0oJpXEemE67U_IwCyvQ" target="_QWLYZppXEemE67U_IwCyvQ">
+          <children xmi:id="_QWapAJpXEemE67U_IwCyvQ" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_QWapAppXEemE67U_IwCyvQ" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWapA5pXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWapAZpXEemE67U_IwCyvQ" y="-186"/>
+          </children>
+          <children xmi:id="_QWapBJpXEemE67U_IwCyvQ" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWapBppXEemE67U_IwCyvQ" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWapB5pXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWapBZpXEemE67U_IwCyvQ" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_QWbQAJpXEemE67U_IwCyvQ" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWbQAppXEemE67U_IwCyvQ" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWbQA5pXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWbQAZpXEemE67U_IwCyvQ" y="-397"/>
+          </children>
+          <children xmi:id="_QWbQBJpXEemE67U_IwCyvQ" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_QWbQBppXEemE67U_IwCyvQ" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWbQB5pXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWbQBZpXEemE67U_IwCyvQ" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_QWao_ppXEemE67U_IwCyvQ" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_QWbQCJpXEemE67U_IwCyvQ" points="[-748, -448, 5716, 940]$[-4878, -448, 1586, 940]"/>
+        </edges>
+        <edges xmi:id="_QWbQCZpXEemE67U_IwCyvQ" element="_QXm775pXEemE67U_IwCyvQ" source="_QWL_eJpXEemE67U_IwCyvQ" target="_QWLYZppXEemE67U_IwCyvQ">
+          <children xmi:id="_QWbQDJpXEemE67U_IwCyvQ" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_QWbQDppXEemE67U_IwCyvQ" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWbQD5pXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWbQDZpXEemE67U_IwCyvQ" y="-186"/>
+          </children>
+          <children xmi:id="_QWbQEJpXEemE67U_IwCyvQ" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWbQEppXEemE67U_IwCyvQ" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWbQE5pXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWbQEZpXEemE67U_IwCyvQ" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_QWbQFJpXEemE67U_IwCyvQ" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWbQFppXEemE67U_IwCyvQ" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWbQF5pXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWbQFZpXEemE67U_IwCyvQ" y="-397"/>
+          </children>
+          <children xmi:id="_QWbQGJpXEemE67U_IwCyvQ" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_QWb3EJpXEemE67U_IwCyvQ" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWb3EZpXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWbQGZpXEemE67U_IwCyvQ" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_QWbQCppXEemE67U_IwCyvQ" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_QWb3EppXEemE67U_IwCyvQ" points="[-306, 656, 3956, -304]$[-3881, 656, 381, -304]"/>
+        </edges>
+        <edges xmi:id="_QWb3E5pXEemE67U_IwCyvQ" element="_QXoKKZpXEemE67U_IwCyvQ" source="_QWSGEJpXEemE67U_IwCyvQ" target="_QWTUOJpXEemE67U_IwCyvQ">
+          <children xmi:id="_QWb3FppXEemE67U_IwCyvQ" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_QWb3GJpXEemE67U_IwCyvQ" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWb3GZpXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWb3F5pXEemE67U_IwCyvQ" y="-186"/>
+          </children>
+          <children xmi:id="_QWb3GppXEemE67U_IwCyvQ" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWb3HJpXEemE67U_IwCyvQ" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWb3HZpXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWb3G5pXEemE67U_IwCyvQ" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_QWb3HppXEemE67U_IwCyvQ" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWb3IJpXEemE67U_IwCyvQ" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWb3IZpXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWb3H5pXEemE67U_IwCyvQ" y="-397"/>
+          </children>
+          <children xmi:id="_QWb3IppXEemE67U_IwCyvQ" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_QWb3JJpXEemE67U_IwCyvQ" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWb3JZpXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWb3I5pXEemE67U_IwCyvQ" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_QWb3FJpXEemE67U_IwCyvQ" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_QWb3JppXEemE67U_IwCyvQ" points="[590, -1304, -5108, 152]$[4929, -1304, -769, 152]"/>
+        </edges>
+        <edges xmi:id="_QWceIJpXEemE67U_IwCyvQ" element="_QXoxKppXEemE67U_IwCyvQ" source="_QWSGEJpXEemE67U_IwCyvQ" target="_QWJjMppXEemE67U_IwCyvQ">
+          <children xmi:id="_QWceI5pXEemE67U_IwCyvQ" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_QWceJZpXEemE67U_IwCyvQ" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWceJppXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWceJJpXEemE67U_IwCyvQ" y="-186"/>
+          </children>
+          <children xmi:id="_QWceJ5pXEemE67U_IwCyvQ" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWceKZpXEemE67U_IwCyvQ" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWceKppXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWceKJpXEemE67U_IwCyvQ" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_QWceK5pXEemE67U_IwCyvQ" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWceLZpXEemE67U_IwCyvQ" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWceLppXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWceLJpXEemE67U_IwCyvQ" y="-397"/>
+          </children>
+          <children xmi:id="_QWceL5pXEemE67U_IwCyvQ" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_QWceMZpXEemE67U_IwCyvQ" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWceMppXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWceMJpXEemE67U_IwCyvQ" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_QWceIZpXEemE67U_IwCyvQ" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_QWceM5pXEemE67U_IwCyvQ" points="[55, 367, 859, -3890]$[55, 3304, 859, -953]"/>
+        </edges>
+        <edges xmi:id="_QWceNJpXEemE67U_IwCyvQ" element="_QXoxMZpXEemE67U_IwCyvQ" source="_QWFRwJpXEemE67U_IwCyvQ" target="_QWJjMppXEemE67U_IwCyvQ">
+          <children xmi:id="_QWceN5pXEemE67U_IwCyvQ" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_QWdFMJpXEemE67U_IwCyvQ" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWdFMZpXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWceOJpXEemE67U_IwCyvQ" y="-186"/>
+          </children>
+          <children xmi:id="_QWdFMppXEemE67U_IwCyvQ" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWdFNJpXEemE67U_IwCyvQ" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWdFNZpXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWdFM5pXEemE67U_IwCyvQ" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_QWdFNppXEemE67U_IwCyvQ" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWdFOJpXEemE67U_IwCyvQ" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWdFOZpXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWdFN5pXEemE67U_IwCyvQ" y="-397"/>
+          </children>
+          <children xmi:id="_QWdFOppXEemE67U_IwCyvQ" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_QWdFPJpXEemE67U_IwCyvQ" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWdFPZpXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWdFO5pXEemE67U_IwCyvQ" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_QWceNZpXEemE67U_IwCyvQ" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_QWdFPppXEemE67U_IwCyvQ" points="[-541, 753, 4426, -516]$[-4325, 753, 642, -516]"/>
+        </edges>
+        <edges xmi:id="_QWdFP5pXEemE67U_IwCyvQ" element="_QXoxX5pXEemE67U_IwCyvQ" source="_QWMmiJpXEemE67U_IwCyvQ" target="_QWIVFJpXEemE67U_IwCyvQ">
+          <children xmi:id="_QWdFQppXEemE67U_IwCyvQ" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_QWdsQJpXEemE67U_IwCyvQ" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWdsQZpXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWdFQ5pXEemE67U_IwCyvQ" y="-186"/>
+          </children>
+          <children xmi:id="_QWdsQppXEemE67U_IwCyvQ" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWdsRJpXEemE67U_IwCyvQ" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWdsRZpXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWdsQ5pXEemE67U_IwCyvQ" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_QWdsRppXEemE67U_IwCyvQ" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWdsSJpXEemE67U_IwCyvQ" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWdsSZpXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWdsR5pXEemE67U_IwCyvQ" y="-397"/>
+          </children>
+          <children xmi:id="_QWdsSppXEemE67U_IwCyvQ" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_QWdsTJpXEemE67U_IwCyvQ" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWdsTZpXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWdsS5pXEemE67U_IwCyvQ" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_QWdFQJpXEemE67U_IwCyvQ" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_QWdsTppXEemE67U_IwCyvQ" points="[-2639, 1645, 6808, -1389]$[-6874, 1645, 2573, -1389]"/>
+        </edges>
+        <edges xmi:id="_QWdsT5pXEemE67U_IwCyvQ" element="_QXpYDJpXEemE67U_IwCyvQ" source="_QWMmiJpXEemE67U_IwCyvQ" target="_QWPCyppXEemE67U_IwCyvQ">
+          <children xmi:id="_QWdsUppXEemE67U_IwCyvQ" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_QWdsVJpXEemE67U_IwCyvQ" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWdsVZpXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWdsU5pXEemE67U_IwCyvQ" y="-186"/>
+          </children>
+          <children xmi:id="_QWdsVppXEemE67U_IwCyvQ" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWeTUJpXEemE67U_IwCyvQ" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWeTUZpXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWdsV5pXEemE67U_IwCyvQ" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_QWeTUppXEemE67U_IwCyvQ" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWeTVJpXEemE67U_IwCyvQ" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWeTVZpXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWeTU5pXEemE67U_IwCyvQ" y="-397"/>
+          </children>
+          <children xmi:id="_QWeTVppXEemE67U_IwCyvQ" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_QWeTWJpXEemE67U_IwCyvQ" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWeTWZpXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWeTV5pXEemE67U_IwCyvQ" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_QWdsUJpXEemE67U_IwCyvQ" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_QWeTWppXEemE67U_IwCyvQ" points="[-306, -30, 4862, -266]$[-4513, -30, 655, -266]"/>
+        </edges>
+        <edges xmi:id="_QWeTW5pXEemE67U_IwCyvQ" element="_QXni5ppXEemE67U_IwCyvQ" source="_QWN0oJpXEemE67U_IwCyvQ" target="_QWQ39ppXEemE67U_IwCyvQ">
+          <children xmi:id="_QWeTXppXEemE67U_IwCyvQ" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_QWeTYJpXEemE67U_IwCyvQ" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWeTYZpXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWeTX5pXEemE67U_IwCyvQ" y="-186"/>
+          </children>
+          <children xmi:id="_QWeTYppXEemE67U_IwCyvQ" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWeTZJpXEemE67U_IwCyvQ" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWeTZZpXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWeTY5pXEemE67U_IwCyvQ" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_QWeTZppXEemE67U_IwCyvQ" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWeTaJpXEemE67U_IwCyvQ" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWeTaZpXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWeTZ5pXEemE67U_IwCyvQ" y="-397"/>
+          </children>
+          <children xmi:id="_QWe6YJpXEemE67U_IwCyvQ" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_QWe6YppXEemE67U_IwCyvQ" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWe6Y5pXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWe6YZpXEemE67U_IwCyvQ" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_QWeTXJpXEemE67U_IwCyvQ" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_QWe6ZJpXEemE67U_IwCyvQ" points="[1292, 229, -4893, -1084]$[5419, 229, -766, -1084]"/>
+        </edges>
+        <edges xmi:id="_QWe6ZZpXEemE67U_IwCyvQ" element="_QXni8ppXEemE67U_IwCyvQ" source="_QWN0oJpXEemE67U_IwCyvQ" target="_QWL_eJpXEemE67U_IwCyvQ">
+          <children xmi:id="_QWe6aJpXEemE67U_IwCyvQ" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_QWe6appXEemE67U_IwCyvQ" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWe6a5pXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWe6aZpXEemE67U_IwCyvQ" y="-186"/>
+          </children>
+          <children xmi:id="_QWe6bJpXEemE67U_IwCyvQ" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWe6bppXEemE67U_IwCyvQ" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWe6b5pXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWe6bZpXEemE67U_IwCyvQ" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_QWe6cJpXEemE67U_IwCyvQ" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWe6cppXEemE67U_IwCyvQ" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWe6c5pXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWe6cZpXEemE67U_IwCyvQ" y="-397"/>
+          </children>
+          <children xmi:id="_QWe6dJpXEemE67U_IwCyvQ" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_QWe6dppXEemE67U_IwCyvQ" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWe6d5pXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWe6dZpXEemE67U_IwCyvQ" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_QWe6ZppXEemE67U_IwCyvQ" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_QWfhcJpXEemE67U_IwCyvQ" points="[1493, -263, 7, 1572]$[1493, -1586, 7, 249]"/>
+        </edges>
+        <edges xmi:id="_QWfhcZpXEemE67U_IwCyvQ" element="_QXoKBJpXEemE67U_IwCyvQ" source="_QWHG8JpXEemE67U_IwCyvQ" target="_QWFRwJpXEemE67U_IwCyvQ">
+          <children xmi:id="_QWfhdJpXEemE67U_IwCyvQ" type="ForeignKey.Name.Label">
+            <children xsi:type="notation:Shape" xmi:id="_QWfhdppXEemE67U_IwCyvQ" type="FKRelationshipName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWfhd5pXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWfhdZpXEemE67U_IwCyvQ" y="-186"/>
+          </children>
+          <children xmi:id="_QWfheJpXEemE67U_IwCyvQ" type="Child.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWfheppXEemE67U_IwCyvQ" type="ChildRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWfhe5pXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWfheZpXEemE67U_IwCyvQ" x="-265" y="-662"/>
+          </children>
+          <children xmi:id="_QWfhfJpXEemE67U_IwCyvQ" type="Parent.RoleName">
+            <children xsi:type="notation:Shape" xmi:id="_QWfhfppXEemE67U_IwCyvQ" type="ParentRoleName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWfhf5pXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWfhfZpXEemE67U_IwCyvQ" y="-397"/>
+          </children>
+          <children xmi:id="_QWfhgJpXEemE67U_IwCyvQ" type="Child.ReferentialIntegrity">
+            <children xsi:type="notation:Shape" xmi:id="_QWfhgppXEemE67U_IwCyvQ" type="ChildRiName" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWfhg5pXEemE67U_IwCyvQ"/>
+            </children>
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_QWfhgZpXEemE67U_IwCyvQ" x="264" y="661"/>
+          </children>
+          <styles xsi:type="datanotation:DataLineStyle" xmi:id="_QWfhcppXEemE67U_IwCyvQ" fontHeight="8" routing="Rectilinear" lineWidth="1"/>
+          <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_QWfhhJpXEemE67U_IwCyvQ" points="[230, -420, 298, -10578]$[1606, -420, 1674, -10578]$[1606, 10189, 1674, 31]$[230, 10189, 298, 31]"/>
+        </edges>
+      </contents>
+    </eAnnotations>
+  </SQLSchema:Schema>
+  <SQLTables:PersistentTable xmi:id="_QXltoJpXEemE67U_IwCyvQ" name="STAFF" description="Member of Staff are employees that work for the company DreamHome." label="Staff" schema="_QTsFEJpXEemE67U_IwCyvQ" referencingForeignKeys="_QXmVLZpXEemE67U_IwCyvQ _QXm725pXEemE67U_IwCyvQ _QXm76JpXEemE67U_IwCyvQ _QXni5ppXEemE67U_IwCyvQ _QXni8ppXEemE67U_IwCyvQ">
+    <columns xmi:id="_QXltoZpXEemE67U_IwCyvQ" name="STAFF_NUMBER" description="An internal number that uniquely identifies a member of staff." label="Staff Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_QXltoppXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXlto5pXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Staff Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXltpJpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_jRcbIN2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_QXmUsJpXEemE67U_IwCyvQ" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <columns xmi:id="_QXmUsZpXEemE67U_IwCyvQ" name="FIRST_NAME" description="The first name of a member of Staff." label="First Name" defaultValue="">
+      <eAnnotations xmi:id="_QXmUsppXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXmUs5pXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/First Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXmUtJpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_fcLZwN2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXmUtZpXEemE67U_IwCyvQ" name="CHAR" length="30"/>
+    </columns>
+    <columns xmi:id="_QXmUtppXEemE67U_IwCyvQ" name="LAST_NAME" description="The last name of a member of Staff." label="Last Name" defaultValue="">
+      <eAnnotations xmi:id="_QXmUt5pXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXmUuJpXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Last Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXmUuZpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_hZWREN2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXmUuppXEemE67U_IwCyvQ" name="CHAR" length="30"/>
+    </columns>
+    <columns xmi:id="_QXmUu5pXEemE67U_IwCyvQ" name="ADDRESS" description="A composite attribute the forms the address, composing of:&#xD;&#xA;Street&#xD;&#xA;Area&#xD;&#xA;City&#xD;&#xA;Post Code" label="Address" defaultValue="">
+      <eAnnotations xmi:id="_QXmUvJpXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXmUvZpXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Address"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXmUvppXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_iZkX8N2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXmUv5pXEemE67U_IwCyvQ" name="CHAR" length="30"/>
+    </columns>
+    <columns xmi:id="_QXmUwJpXEemE67U_IwCyvQ" name="TELEPHONE_NUMBER" description="The preferable contact number." label="Telephone Number" defaultValue="">
+      <eAnnotations xmi:id="_QXmUwZpXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXmUwppXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Telephone Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXmUw5pXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_mFl9wN2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXmUxJpXEemE67U_IwCyvQ" name="CHAR" length="15"/>
+    </columns>
+    <columns xmi:id="_QXmUxZpXEemE67U_IwCyvQ" name="POSITION" description="The current staff members position within the company." label="Position" defaultValue="">
+      <eAnnotations xmi:id="_QXmUxppXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXmUx5pXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Staff/Position"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXmUyJpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_nUHmYN2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXmUyZpXEemE67U_IwCyvQ" name="CHAR" length="30"/>
+    </columns>
+    <columns xmi:id="_QXmUyppXEemE67U_IwCyvQ" name="SEX" description="The sexual orientation of a member of staff." label="Sex" defaultValue="">
+      <eAnnotations xmi:id="_QXmUy5pXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXmUzJpXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Staff/Sex"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXmUzZpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_oWIdAN2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXmUzppXEemE67U_IwCyvQ" name="CHAR" length="6"/>
+    </columns>
+    <columns xmi:id="_QXmUz5pXEemE67U_IwCyvQ" name="DATE_OF_BIRTH" description="The date a member of staff was born." label="Date Of Birth" defaultValue="">
+      <eAnnotations xmi:id="_QXmU0JpXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXmU0ZpXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Staff/Date Of Birth"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXmU0ppXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_otraUN2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_QXmU05pXEemE67U_IwCyvQ" name="DATETIME" primitiveType="DATE"/>
+    </columns>
+    <columns xmi:id="_QXmU1JpXEemE67U_IwCyvQ" name="SALARY" description="The members of staffs salary." label="Salary" defaultValue="">
+      <eAnnotations xmi:id="_QXmU1ZpXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXmU1ppXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Staff/Salary"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXmU15pXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_ppSG8N2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:FixedPrecisionDataType" xmi:id="_QXmU2JpXEemE67U_IwCyvQ" name="DECIMAL" primitiveType="DECIMAL" precision="9" scale="2"/>
+    </columns>
+    <columns xmi:id="_QXmU2ZpXEemE67U_IwCyvQ" name="NATIONAL_INSURANCE_NUMBER" description="The unique National Insurance number of a member of staff, sometimes known as (NIN)." label="National Insurance Number" defaultValue="">
+      <eAnnotations xmi:id="_QXmU2ppXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXmU25pXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Staff/National Insurance Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXmU3JpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_qqivoN2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXmU3ZpXEemE67U_IwCyvQ" name="CHAR" length="9"/>
+    </columns>
+    <columns xmi:id="_QXmU3ppXEemE67U_IwCyvQ" name="BRANCH_NUMBER" description="A unique number used to identify a branch that a staff member is allocated to." label="Branch Number" defaultValue="">
+      <eAnnotations xmi:id="_QXmU35pXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXmU4JpXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Branch/Branch Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXmU4ZpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_sO1M4N2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_QXmU4ppXEemE67U_IwCyvQ" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:CheckConstraint" xmi:id="_QXmU45pXEemE67U_IwCyvQ" name="STAFF_SEX_CK">
+      <searchCondition xsi:type="SQLExpressions:SearchConditionDefault" xmi:id="_QXmU5JpXEemE67U_IwCyvQ" SQL="SEX IN ('Male','Female')"/>
+    </constraints>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_QXmU5ZpXEemE67U_IwCyvQ" name="STAFF_PK" label="Staff PK" members="_QXltoZpXEemE67U_IwCyvQ" ForeignKey="_QXmVLZpXEemE67U_IwCyvQ _QXm725pXEemE67U_IwCyvQ _QXm76JpXEemE67U_IwCyvQ _QXni5ppXEemE67U_IwCyvQ _QXni8ppXEemE67U_IwCyvQ"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_QXmU5ppXEemE67U_IwCyvQ" name="STAFF_BRANCH_FK" members="_QXmU3ppXEemE67U_IwCyvQ" uniqueConstraint="_QXnjIJpXEemE67U_IwCyvQ" referencedTable="_QXni95pXEemE67U_IwCyvQ">
+      <eAnnotations xmi:id="_QXmU55pXEemE67U_IwCyvQ" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_QXmU6JpXEemE67U_IwCyvQ" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="false"/>
+        <details xmi:id="_QXmU6ZpXEemE67U_IwCyvQ" key="FK_PARENT_MULTIPLICITY" value="0..1"/>
+        <details xmi:id="_QXmU6ppXEemE67U_IwCyvQ" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_QXmU65pXEemE67U_IwCyvQ" key="FK_PARENT_ROLE_NAME" value=""/>
+        <details xmi:id="_QXmU7JpXEemE67U_IwCyvQ" key="FK_CHILD_ROLE_NAME" value="Verb1"/>
+      </eAnnotations>
+    </constraints>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable xmi:id="_QXmU7ZpXEemE67U_IwCyvQ" name="PROPERTY_FOR_RENT" description="Property that is available for rental to potential ''Renters''." label="Property For Rent" schema="_QTsFEJpXEemE67U_IwCyvQ" referencingForeignKeys="_QXoKKZpXEemE67U_IwCyvQ _QXoxDZpXEemE67U_IwCyvQ _QXoxKppXEemE67U_IwCyvQ">
+    <columns xmi:id="_QXmU7ppXEemE67U_IwCyvQ" name="PROPERTY_NUMBER" description="A unique number used to identify a property for rent." label="Property Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_QXmU75pXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXmU8JpXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Property For Rent/Property Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXmU8ZpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_6p7kgN2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_QXmU8ppXEemE67U_IwCyvQ" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <columns xmi:id="_QXmU85pXEemE67U_IwCyvQ" name="STREET" description="The street portion of an address." label="Street" defaultValue="">
+      <eAnnotations xmi:id="_QXmU9JpXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXmU9ZpXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Street"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXmU9ppXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_8f8q8N2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXmU95pXEemE67U_IwCyvQ" name="CHAR" length="30"/>
+    </columns>
+    <columns xmi:id="_QXmU-JpXEemE67U_IwCyvQ" name="AREA" description="the Area portion of an address." defaultValue="">
+      <eAnnotations xmi:id="_QXmU-ZpXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXmU-ppXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Area"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXmU-5pXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_9hXEoN2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXmU_JpXEemE67U_IwCyvQ" name="CHAR" length="30"/>
+    </columns>
+    <columns xmi:id="_QXmU_ZpXEemE67U_IwCyvQ" name="CITY" description="The City portion of an address." label="City" defaultValue="">
+      <eAnnotations xmi:id="_QXmU_ppXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXmU_5pXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/City"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXmVAJpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_-BjAkN2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXmVAZpXEemE67U_IwCyvQ" name="CHAR" length="30"/>
+    </columns>
+    <columns xmi:id="_QXmVAppXEemE67U_IwCyvQ" name="POST_CODE" description="A postal code as determined by the Royal Mail." label="Post Code" defaultValue="">
+      <eAnnotations xmi:id="_QXmVA5pXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXmVBJpXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Post Code"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXmVBZpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_-ev58N2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXmVBppXEemE67U_IwCyvQ" name="CHAR" length="9"/>
+    </columns>
+    <columns xmi:id="_QXmVB5pXEemE67U_IwCyvQ" name="TYPE" description="The type of property." label="Type" defaultValue="">
+      <eAnnotations xmi:id="_QXmVCJpXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXmVCZpXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Property For Rent/Property Type"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXmVCppXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_--MPAN2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXmVC5pXEemE67U_IwCyvQ" name="CHAR" length="30"/>
+    </columns>
+    <columns xmi:id="_QXmVDJpXEemE67U_IwCyvQ" name="ROOMS" description="The number of room in a property for rent." label="Rooms" defaultValue="">
+      <eAnnotations xmi:id="_QXmVDZpXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXmVDppXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Property For Rent/Rooms"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXmVD5pXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#__7u1UN2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_QXmVEJpXEemE67U_IwCyvQ" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <columns xmi:id="_QXmVEZpXEemE67U_IwCyvQ" name="RENT" description="The rental cost of the property." label="Rent" defaultValue="">
+      <eAnnotations xmi:id="_QXmVEppXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXmVE5pXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Property For Rent/Rent"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXmVFJpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_AZPQsN2bEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:FixedPrecisionDataType" xmi:id="_QXmVFZpXEemE67U_IwCyvQ" name="DECIMAL" primitiveType="DECIMAL" precision="9" scale="2"/>
+    </columns>
+    <columns xmi:id="_QXmVFppXEemE67U_IwCyvQ" name="OWNER_NUMBER" description="A unique number generated by the system to identify Owners of a particcular property." label="Owner Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_QXmVF5pXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXmVGJpXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Owner/Owner Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXmVGZpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_BbGWUN2bEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_QXmVGppXEemE67U_IwCyvQ" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <columns xmi:id="_QXmVG5pXEemE67U_IwCyvQ" name="STAFF_NUMBER" description="An internal number that uniquely identifies a member of staff that is renting particular properties." label="Staff Number" defaultValue="">
+      <eAnnotations xmi:id="_QXmVHJpXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXmVHZpXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Staff Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXmVHppXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_CBPwUN2bEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_QXmVH5pXEemE67U_IwCyvQ" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <columns xmi:id="_QXmVIJpXEemE67U_IwCyvQ" name="BRANCH_NUMBER" description="A unique number used to identify a branch that is renting particular properties." label="Branch Number" defaultValue="">
+      <eAnnotations xmi:id="_QXmVIZpXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXmVIppXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Branch/Branch Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXmVI5pXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_DfkIcN2bEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_QXmVJJpXEemE67U_IwCyvQ" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_QXmVJZpXEemE67U_IwCyvQ" name="PROPERTY_FOR_RENT_PK" label="Property For Rent PK" members="_QXmU7ppXEemE67U_IwCyvQ" ForeignKey="_QXoKKZpXEemE67U_IwCyvQ _QXoxDZpXEemE67U_IwCyvQ _QXoxKppXEemE67U_IwCyvQ"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_QXmVJppXEemE67U_IwCyvQ" name="PROPERTY_FOR_RENT_BRANCH_FK" members="_QXmVIJpXEemE67U_IwCyvQ" uniqueConstraint="_QXnjIJpXEemE67U_IwCyvQ" referencedTable="_QXni95pXEemE67U_IwCyvQ">
+      <eAnnotations xmi:id="_QXmVJ5pXEemE67U_IwCyvQ" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_QXmVKJpXEemE67U_IwCyvQ" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="false"/>
+        <details xmi:id="_QXmVKZpXEemE67U_IwCyvQ" key="FK_PARENT_MULTIPLICITY" value="0..1"/>
+        <details xmi:id="_QXmVKppXEemE67U_IwCyvQ" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_QXmVK5pXEemE67U_IwCyvQ" key="FK_PARENT_ROLE_NAME" value=""/>
+        <details xmi:id="_QXmVLJpXEemE67U_IwCyvQ" key="FK_CHILD_ROLE_NAME" value="Verb1"/>
+      </eAnnotations>
+    </constraints>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_QXmVLZpXEemE67U_IwCyvQ" name="PROPERTY_FOR_RENT_STAFF_FK" members="_QXmVG5pXEemE67U_IwCyvQ" uniqueConstraint="_QXmU5ZpXEemE67U_IwCyvQ" referencedTable="_QXltoJpXEemE67U_IwCyvQ">
+      <eAnnotations xmi:id="_QXmVLppXEemE67U_IwCyvQ" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_QXmVL5pXEemE67U_IwCyvQ" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="false"/>
+        <details xmi:id="_QXmVMJpXEemE67U_IwCyvQ" key="FK_PARENT_MULTIPLICITY" value="0..1"/>
+        <details xmi:id="_QXmVMZpXEemE67U_IwCyvQ" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_QXmVMppXEemE67U_IwCyvQ" key="FK_PARENT_ROLE_NAME" value=""/>
+        <details xmi:id="_QXmVM5pXEemE67U_IwCyvQ" key="FK_CHILD_ROLE_NAME" value="Verb2"/>
+      </eAnnotations>
+    </constraints>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_QXmVNJpXEemE67U_IwCyvQ" name="PROPERTY_FOR_RENT_OWNER_FK" members="_QXmVFppXEemE67U_IwCyvQ" uniqueConstraint="_QXoxSJpXEemE67U_IwCyvQ" referencedTable="_QXoxOJpXEemE67U_IwCyvQ">
+      <eAnnotations xmi:id="_QXmVNZpXEemE67U_IwCyvQ" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_QXmVNppXEemE67U_IwCyvQ" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="false"/>
+        <details xmi:id="_QXmVN5pXEemE67U_IwCyvQ" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_QXmVOJpXEemE67U_IwCyvQ" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_QXmVOZpXEemE67U_IwCyvQ" key="FK_PARENT_ROLE_NAME" value=""/>
+        <details xmi:id="_QXmVOppXEemE67U_IwCyvQ" key="FK_CHILD_ROLE_NAME" value="Verb3"/>
+      </eAnnotations>
+    </constraints>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable xmi:id="_QXm7wJpXEemE67U_IwCyvQ" name="NEXT_OF_KIN" description="The Next of Kin for a member of staff." label="Next Of Kin" schema="_QTsFEJpXEemE67U_IwCyvQ">
+    <columns xmi:id="_QXm7wZpXEemE67U_IwCyvQ" name="STAFF_NUMBER" description="An internal number that uniquely identifies a member of staff." label="Staff Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_QXm7wppXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXm7w5pXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Staff Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXm7xJpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_fm9esN2gEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_QXm7xZpXEemE67U_IwCyvQ" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <columns xmi:id="_QXm7xppXEemE67U_IwCyvQ" name="NAME" description="A compound attribute of first and last name of the next of kin for a member of staff." label="Name" defaultValue="">
+      <eAnnotations xmi:id="_QXm7x5pXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXm7yJpXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Next Of Kin/Next Of Kin Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXm7yZpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_iXiI4N2gEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXm7yppXEemE67U_IwCyvQ" name="CHAR" length="50"/>
+    </columns>
+    <columns xmi:id="_QXm7y5pXEemE67U_IwCyvQ" name="RELATIONSHIP" description="The next of kins relationship to a member of staff." label="Relationship" defaultValue="">
+      <eAnnotations xmi:id="_QXm7zJpXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXm7zZpXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Next Of Kin/Relationship"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXm7zppXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_jNUhYN2gEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXm7z5pXEemE67U_IwCyvQ" name="CHAR" length="10"/>
+    </columns>
+    <columns xmi:id="_QXm70JpXEemE67U_IwCyvQ" name="ADDRESS" description="A composite attribute the forms the address of the Next of Kin, composing of:&#xD;&#xA;Street&#xD;&#xA;Area&#xD;&#xA;City&#xD;&#xA;Post Code" label="Address" defaultValue="">
+      <eAnnotations xmi:id="_QXm70ZpXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXm70ppXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Address"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXm705pXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_kUtAMN2gEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXm71JpXEemE67U_IwCyvQ" name="CHAR" length="30"/>
+    </columns>
+    <columns xmi:id="_QXm71ZpXEemE67U_IwCyvQ" name="TELEPHONE_NUMBER" description="The preferable contact number." label="Telephone Number" defaultValue="">
+      <eAnnotations xmi:id="_QXm71ppXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXm715pXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Telephone Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXm72JpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_m8CO0N2gEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXm72ZpXEemE67U_IwCyvQ" name="CHAR" length="15"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_QXm72ppXEemE67U_IwCyvQ" name="NEXT_OF_KIN_PK" label="Next Of Kin PK" members="_QXm7wZpXEemE67U_IwCyvQ"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_QXm725pXEemE67U_IwCyvQ" name="NEXT_OF_KIN_STAFF_FK" members="_QXm7wZpXEemE67U_IwCyvQ" uniqueConstraint="_QXmU5ZpXEemE67U_IwCyvQ" referencedTable="_QXltoJpXEemE67U_IwCyvQ">
+      <eAnnotations xmi:id="_QXm73JpXEemE67U_IwCyvQ" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_QXm73ZpXEemE67U_IwCyvQ" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="true"/>
+        <details xmi:id="_QXm73ppXEemE67U_IwCyvQ" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_QXm735pXEemE67U_IwCyvQ" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_QXm74JpXEemE67U_IwCyvQ" key="FK_PARENT_ROLE_NAME" value=""/>
+        <details xmi:id="_QXm74ZpXEemE67U_IwCyvQ" key="FK_CHILD_ROLE_NAME" value="Verb1"/>
+      </eAnnotations>
+    </constraints>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable xmi:id="_QXm74ppXEemE67U_IwCyvQ" name="ALLOCATED_STAFF" description="Members of Staff of the DreamHome company." label="Allocated Staff" schema="_QTsFEJpXEemE67U_IwCyvQ">
+    <columns xmi:id="_QXm745pXEemE67U_IwCyvQ" name="STAFF_NUMBER" description="An internal number that uniquely identifies a member of staff." label="Staff Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_QXm75JpXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXm75ZpXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Staff Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXm75ppXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_1_hcId2gEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_QXm755pXEemE67U_IwCyvQ" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_QXm76JpXEemE67U_IwCyvQ" name="ALLOCATED_STAFF_STAFF_FK" members="_QXm745pXEemE67U_IwCyvQ" uniqueConstraint="_QXmU5ZpXEemE67U_IwCyvQ" referencedTable="_QXltoJpXEemE67U_IwCyvQ">
+      <eAnnotations xmi:id="_QXm76ZpXEemE67U_IwCyvQ" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_QXm76ppXEemE67U_IwCyvQ" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="false"/>
+        <details xmi:id="_QXm765pXEemE67U_IwCyvQ" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_QXm77JpXEemE67U_IwCyvQ" key="FK_CHILD_MULTIPLICITY" value="0..1"/>
+        <details xmi:id="_QXm77ZpXEemE67U_IwCyvQ" key="FK_PARENT_ROLE_NAME" value=""/>
+        <details xmi:id="_QXm77ppXEemE67U_IwCyvQ" key="FK_CHILD_ROLE_NAME" value="Verb1"/>
+      </eAnnotations>
+    </constraints>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_QXm775pXEemE67U_IwCyvQ" name="ALLOCATED_STAFF_SUPERVISOR_FK" members="_QXm745pXEemE67U_IwCyvQ" uniqueConstraint="_QXni8ZpXEemE67U_IwCyvQ" referencedTable="_QXni65pXEemE67U_IwCyvQ">
+      <eAnnotations xmi:id="_QXm78JpXEemE67U_IwCyvQ" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_QXm78ZpXEemE67U_IwCyvQ" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="false"/>
+        <details xmi:id="_QXm78ppXEemE67U_IwCyvQ" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_QXm785pXEemE67U_IwCyvQ" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_QXm79JpXEemE67U_IwCyvQ" key="FK_PARENT_ROLE_NAME" value=""/>
+        <details xmi:id="_QXm79ZpXEemE67U_IwCyvQ" key="FK_CHILD_ROLE_NAME" value="Verb2"/>
+      </eAnnotations>
+    </constraints>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable xmi:id="_QXni0JpXEemE67U_IwCyvQ" name="MANAGER" description="Members of staff that manage the operations office." label="Manager" schema="_QTsFEJpXEemE67U_IwCyvQ" referencingForeignKeys="_QXnjIZpXEemE67U_IwCyvQ">
+    <columns xmi:id="_QXni0ZpXEemE67U_IwCyvQ" name="STAFF_NUMBER" description="An internal number that uniquely identifies a member of staff deemed a manager." label="Staff Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_QXni0ppXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXni05pXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Staff Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXni1JpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_dgtr4eIqEeKMH64srejqBg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_QXni1ZpXEemE67U_IwCyvQ" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <columns xmi:id="_QXni1ppXEemE67U_IwCyvQ" name="DATE_MGR_STARTED" description="The date a manager started." label="Date Mgr Started" defaultValue="">
+      <eAnnotations xmi:id="_QXni15pXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXni2JpXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Manager/Date Manager Start"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXni2ZpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_N8RtwfkMEeKL6qBDpSVgpA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_QXni2ppXEemE67U_IwCyvQ" name="DATETIME" primitiveType="DATE"/>
+    </columns>
+    <columns xmi:id="_QXni25pXEemE67U_IwCyvQ" name="CAR_ALLOWANCE" description="The car allowance that is available to a manager." label="Car Allowance" defaultValue="">
+      <eAnnotations xmi:id="_QXni3JpXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXni3ZpXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Manager/Car Allowance"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXni3ppXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_RlB9IPkMEeKL6qBDpSVgpA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:FixedPrecisionDataType" xmi:id="_QXni35pXEemE67U_IwCyvQ" name="DECIMAL" primitiveType="DECIMAL" precision="9" scale="2"/>
+    </columns>
+    <columns xmi:id="_QXni4JpXEemE67U_IwCyvQ" name="BONUS_PAYMENT" description="The Bonus that is to be paid to a manager." label="Bonus Payment" defaultValue="">
+      <eAnnotations xmi:id="_QXni4ZpXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXni4ppXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Manager/Bonus Payment"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXni45pXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_UkD6EPkMEeKL6qBDpSVgpA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:FixedPrecisionDataType" xmi:id="_QXni5JpXEemE67U_IwCyvQ" name="DECIMAL" primitiveType="DECIMAL" precision="9" scale="2"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_QXni5ZpXEemE67U_IwCyvQ" name="MANAGER_PK" members="_QXni0ZpXEemE67U_IwCyvQ" ForeignKey="_QXnjIZpXEemE67U_IwCyvQ"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_QXni5ppXEemE67U_IwCyvQ" name="MANAGER_STAFF_FK" members="_QXni0ZpXEemE67U_IwCyvQ" uniqueConstraint="_QXmU5ZpXEemE67U_IwCyvQ" referencedTable="_QXltoJpXEemE67U_IwCyvQ">
+      <eAnnotations xmi:id="_QXni55pXEemE67U_IwCyvQ" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_QXni6JpXEemE67U_IwCyvQ" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="true"/>
+        <details xmi:id="_QXni6ZpXEemE67U_IwCyvQ" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_QXni6ppXEemE67U_IwCyvQ" key="FK_CHILD_MULTIPLICITY" value="0..1"/>
+      </eAnnotations>
+    </constraints>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable xmi:id="_QXni65pXEemE67U_IwCyvQ" name="SUPERVISOR" description="Members of staff with the role of supervisor are responsible for day to day activities of an allocated group of staff.  Not all members of staff are assigned to a supervisor." label="Supervisor" schema="_QTsFEJpXEemE67U_IwCyvQ" referencingForeignKeys="_QXm775pXEemE67U_IwCyvQ">
+    <columns xmi:id="_QXni7JpXEemE67U_IwCyvQ" name="STAFF_NUMBER" description="An internal number that uniquely identifies a member of Staff known as a Supervisor." label="Staff Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_QXni7ZpXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXni7ppXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Staff Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXni75pXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_geQbEuIqEeKMH64srejqBg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_QXni8JpXEemE67U_IwCyvQ" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_QXni8ZpXEemE67U_IwCyvQ" name="SUPERVISOR_PK" label="Supervisor PK" members="_QXni7JpXEemE67U_IwCyvQ" ForeignKey="_QXm775pXEemE67U_IwCyvQ"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_QXni8ppXEemE67U_IwCyvQ" name="SUPERVISOR_STAFF_FK" members="_QXni7JpXEemE67U_IwCyvQ" uniqueConstraint="_QXmU5ZpXEemE67U_IwCyvQ" referencedTable="_QXltoJpXEemE67U_IwCyvQ">
+      <eAnnotations xmi:id="_QXni85pXEemE67U_IwCyvQ" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_QXni9JpXEemE67U_IwCyvQ" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="true"/>
+        <details xmi:id="_QXni9ZpXEemE67U_IwCyvQ" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_QXni9ppXEemE67U_IwCyvQ" key="FK_CHILD_MULTIPLICITY" value="0..1"/>
+      </eAnnotations>
+    </constraints>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable xmi:id="_QXni95pXEemE67U_IwCyvQ" name="BRANCH" description="A branch office where property is offered to renters in a particular area." label="Branch" schema="_QTsFEJpXEemE67U_IwCyvQ" referencingForeignKeys="_QXmU5ppXEemE67U_IwCyvQ _QXmVJppXEemE67U_IwCyvQ _QXoKBJpXEemE67U_IwCyvQ">
+    <columns xmi:id="_QXni-JpXEemE67U_IwCyvQ" name="BRANCH_NUMBER" description="A unique number used to identify a branch." label="Branch Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_QXni-ZpXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXni-ppXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Branch/Branch Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXni-5pXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_z3kf4N2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_QXni_JpXEemE67U_IwCyvQ" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <columns xmi:id="_QXni_ZpXEemE67U_IwCyvQ" name="STREET" description="The street portion of an address." label="Street" defaultValue="">
+      <eAnnotations xmi:id="_QXni_ppXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXni_5pXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Street"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXnjAJpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_ulxPEN2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXnjAZpXEemE67U_IwCyvQ" name="CHAR" length="30"/>
+    </columns>
+    <columns xmi:id="_QXnjAppXEemE67U_IwCyvQ" name="AREA" description="the Area portion of an address." label="Area" defaultValue="">
+      <eAnnotations xmi:id="_QXnjA5pXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXnjBJpXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Area"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXnjBZpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_v3R6QN2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXnjBppXEemE67U_IwCyvQ" name="CHAR" length="30"/>
+    </columns>
+    <columns xmi:id="_QXnjB5pXEemE67U_IwCyvQ" name="CITY" description="The City portion of an address." label="City" defaultValue="">
+      <eAnnotations xmi:id="_QXnjCJpXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXnjCZpXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/City"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXnjCppXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_wc03UN2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXnjC5pXEemE67U_IwCyvQ" name="CHAR" length="30"/>
+    </columns>
+    <columns xmi:id="_QXnjDJpXEemE67U_IwCyvQ" name="POST_CODE" description="A postal code as determined by the Royal Mail." label="Post Code" defaultValue="">
+      <eAnnotations xmi:id="_QXnjDZpXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXnjDppXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Post Code"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXnjD5pXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_w1HbgN2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXnjEJpXEemE67U_IwCyvQ" name="CHAR" length="9"/>
+    </columns>
+    <columns xmi:id="_QXnjEZpXEemE67U_IwCyvQ" name="TELEPHONE_NUMBER" label="Telephone Number" defaultValue="">
+      <eAnnotations xmi:id="_QXnjEppXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXnjE5pXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Telephone Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXnjFJpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_xjm5MN2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXnjFZpXEemE67U_IwCyvQ" name="CHAR" length="15"/>
+    </columns>
+    <columns xmi:id="_QXnjFppXEemE67U_IwCyvQ" name="FAX_NUMBER" label="Fax Number" defaultValue="">
+      <eAnnotations xmi:id="_QXnjF5pXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXnjGJpXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Fax Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXnjGZpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_ye6q4N2aEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXnjGppXEemE67U_IwCyvQ" name="CHAR" length="15"/>
+    </columns>
+    <columns xmi:id="_QXnjG5pXEemE67U_IwCyvQ" name="STAFF_NUMBER" label="Staff Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_QXnjHJpXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXnjHZpXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Staff Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXnjHppXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_K_7JQN2gEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_QXnjH5pXEemE67U_IwCyvQ" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_QXnjIJpXEemE67U_IwCyvQ" name="BRANCH_PK" label="Branch PK" members="_QXni-JpXEemE67U_IwCyvQ" ForeignKey="_QXmU5ppXEemE67U_IwCyvQ _QXmVJppXEemE67U_IwCyvQ _QXoKBJpXEemE67U_IwCyvQ"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_QXnjIZpXEemE67U_IwCyvQ" name="BRANCH_MANAGER_FK" members="_QXnjG5pXEemE67U_IwCyvQ" uniqueConstraint="_QXni5ZpXEemE67U_IwCyvQ" referencedTable="_QXni0JpXEemE67U_IwCyvQ">
+      <eAnnotations xmi:id="_QXnjIppXEemE67U_IwCyvQ" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_QXnjI5pXEemE67U_IwCyvQ" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="false"/>
+        <details xmi:id="_QXnjJJpXEemE67U_IwCyvQ" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_QXnjJZpXEemE67U_IwCyvQ" key="FK_CHILD_MULTIPLICITY" value="0..1"/>
+        <details xmi:id="_QXnjJppXEemE67U_IwCyvQ" key="FK_PARENT_ROLE_NAME" value=""/>
+        <details xmi:id="_QXnjJ5pXEemE67U_IwCyvQ" key="FK_CHILD_ROLE_NAME" value="Verb1"/>
+      </eAnnotations>
+    </constraints>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable xmi:id="_QXoJ4JpXEemE67U_IwCyvQ" name="RENTER" description="Clients who rent property from DreamHome" label="Renter" schema="_QTsFEJpXEemE67U_IwCyvQ" referencingForeignKeys="_QXoKIppXEemE67U_IwCyvQ _QXoxMZpXEemE67U_IwCyvQ">
+    <columns xmi:id="_QXoJ4ZpXEemE67U_IwCyvQ" name="RENTER_NUMBER" description="A unique number to identify a renter." nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_QXoJ4ppXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXoJ45pXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Renter/Renter Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXoJ5JpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_F0RWAN2bEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_QXoJ5ZpXEemE67U_IwCyvQ" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <columns xmi:id="_QXoJ5ppXEemE67U_IwCyvQ" name="FIRST_NAME" label="First Name" defaultValue="">
+      <dependencies xmi:id="_QXoJ55pXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_JIwlkN2bEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXoJ6JpXEemE67U_IwCyvQ" name="CHAR" length="5"/>
+    </columns>
+    <columns xmi:id="_QXoJ6ZpXEemE67U_IwCyvQ" name="LAST_NAME" label="Last Name" defaultValue="">
+      <dependencies xmi:id="_QXoJ6ppXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_LH3WkN2bEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXoJ65pXEemE67U_IwCyvQ" name="CHAR" length="5"/>
+    </columns>
+    <columns xmi:id="_QXoJ7JpXEemE67U_IwCyvQ" name="ADDRESS" label="Address" defaultValue="">
+      <dependencies xmi:id="_QXoJ7ZpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_MdiwEN2bEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXoJ7ppXEemE67U_IwCyvQ" name="CHAR" length="5"/>
+    </columns>
+    <columns xmi:id="_QXoJ75pXEemE67U_IwCyvQ" name="TELEPHONE_NUMBER" description="The preferable contact number." label="Telephone Number" defaultValue="">
+      <eAnnotations xmi:id="_QXoJ8JpXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXoJ8ZpXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Telephone Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXoJ8ppXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_cMsJgN2bEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXoJ85pXEemE67U_IwCyvQ" name="CHAR" length="15"/>
+    </columns>
+    <columns xmi:id="_QXoJ9JpXEemE67U_IwCyvQ" name="PREFERENCE_TYPE" description="The type of property that a renter prefers to rent." label="Preference Type" defaultValue="">
+      <eAnnotations xmi:id="_QXoJ9ZpXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXoJ9ppXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Renter/Preference Type"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXoJ95pXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_OyZuoN2bEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXoJ-JpXEemE67U_IwCyvQ" name="CHAR" length="5"/>
+    </columns>
+    <columns xmi:id="_QXoJ-ZpXEemE67U_IwCyvQ" name="MAX_RENT" description="The maximum amount that a renter is prepared to pay for a particular property." label="Max Rent" defaultValue="">
+      <eAnnotations xmi:id="_QXoJ-ppXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXoJ-5pXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Renter/Max Rent"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXoJ_JpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_QTjYUN2bEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:FixedPrecisionDataType" xmi:id="_QXoJ_ZpXEemE67U_IwCyvQ" name="DECIMAL" primitiveType="DECIMAL" precision="9" scale="2"/>
+    </columns>
+    <columns xmi:id="_QXoJ_ppXEemE67U_IwCyvQ" name="BRANCH_NUMBER" description="A unique number used to identify a branch." label="Branch Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_QXoJ_5pXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXoKAJpXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Branch/Branch Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXoKAZpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_Ha3hNOJNEeKMH64srejqBg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_QXoKAppXEemE67U_IwCyvQ" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_QXoKA5pXEemE67U_IwCyvQ" name="RENTER_PK" label="Renter PK" members="_QXoJ4ZpXEemE67U_IwCyvQ" ForeignKey="_QXoKIppXEemE67U_IwCyvQ _QXoxMZpXEemE67U_IwCyvQ"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_QXoKBJpXEemE67U_IwCyvQ" name="RENTER_BRANCH_FK" members="_QXoJ_ppXEemE67U_IwCyvQ" uniqueConstraint="_QXnjIJpXEemE67U_IwCyvQ" referencedTable="_QXni95pXEemE67U_IwCyvQ">
+      <eAnnotations xmi:id="_QXoKBZpXEemE67U_IwCyvQ" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_QXoKBppXEemE67U_IwCyvQ" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="false"/>
+        <details xmi:id="_QXoKB5pXEemE67U_IwCyvQ" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_QXoKCJpXEemE67U_IwCyvQ" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_QXoKCZpXEemE67U_IwCyvQ" key="FK_PARENT_ROLE_NAME" value=""/>
+        <details xmi:id="_QXoKCppXEemE67U_IwCyvQ" key="FK_CHILD_ROLE_NAME" value="Verb1"/>
+      </eAnnotations>
+    </constraints>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable xmi:id="_QXoKC5pXEemE67U_IwCyvQ" name="VIEWING" description="Clients interested in viewing and renting property are called renters by the company.  A prospective renter calls at a particular branch office where they may request to view various properties.  " label="Viewing" schema="_QTsFEJpXEemE67U_IwCyvQ">
+    <columns xmi:id="_QXoKDJpXEemE67U_IwCyvQ" name="RENTER_NUMBER" description="A unique number to identify a renter." label="Renter Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_QXoKDZpXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXoKDppXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Renter/Renter Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXoKD5pXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_g5-_EN2bEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_QXoKEJpXEemE67U_IwCyvQ" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <columns xmi:id="_QXoKEZpXEemE67U_IwCyvQ" name="PROPERTY_NUMBER" description="A unique number used to identify a property for rent." label="Property Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_QXoKEppXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXoKE5pXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Property For Rent/Property Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXoKFJpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_iFYbMN2bEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_QXoKFZpXEemE67U_IwCyvQ" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <columns xmi:id="_QXoKFppXEemE67U_IwCyvQ" name="VIEWING_DATE" description="The Date a renter viewed a property for rent." label="Viewing Date" defaultValue="">
+      <eAnnotations xmi:id="_QXoKF5pXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXoKGJpXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Viewing/Date Viewed"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXoKGZpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_NiY4QN2bEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_QXoKGppXEemE67U_IwCyvQ" name="DATETIME" primitiveType="DATE"/>
+    </columns>
+    <columns xmi:id="_QXoKG5pXEemE67U_IwCyvQ" name="VIEWING_COMMENT" description="A renter's comments on a particular property." label="Viewing Comment" defaultValue="">
+      <eAnnotations xmi:id="_QXoKHJpXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXoKHZpXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Viewing/Comment"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXoKHppXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_l39U8N2bEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <extensions xsi:type="Volumetrics:FieldVolumetrics" xmi:id="_QXoKH5pXEemE67U_IwCyvQ" AverageFieldLength="75"/>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXoKIJpXEemE67U_IwCyvQ" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="100"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_QXoKIZpXEemE67U_IwCyvQ" name="VIEWING_PK" label="Viewing PK" members="_QXoKDJpXEemE67U_IwCyvQ _QXoKEZpXEemE67U_IwCyvQ"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_QXoKIppXEemE67U_IwCyvQ" name="VIEWING_RENTER_FK" members="_QXoKDJpXEemE67U_IwCyvQ" uniqueConstraint="_QXoKA5pXEemE67U_IwCyvQ" referencedTable="_QXoJ4JpXEemE67U_IwCyvQ">
+      <eAnnotations xmi:id="_QXoKI5pXEemE67U_IwCyvQ" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_QXoKJJpXEemE67U_IwCyvQ" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="true"/>
+        <details xmi:id="_QXoKJZpXEemE67U_IwCyvQ" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_QXoKJppXEemE67U_IwCyvQ" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_QXoKJ5pXEemE67U_IwCyvQ" key="FK_PARENT_ROLE_NAME" value=""/>
+        <details xmi:id="_QXoKKJpXEemE67U_IwCyvQ" key="FK_CHILD_ROLE_NAME" value="Verb1"/>
+      </eAnnotations>
+    </constraints>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_QXoKKZpXEemE67U_IwCyvQ" name="VIEWING_PROPERTY_FOR_RENT_FK" members="_QXoKEZpXEemE67U_IwCyvQ" uniqueConstraint="_QXmVJZpXEemE67U_IwCyvQ" referencedTable="_QXmU7ZpXEemE67U_IwCyvQ">
+      <eAnnotations xmi:id="_QXoKKppXEemE67U_IwCyvQ" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_QXoKK5pXEemE67U_IwCyvQ" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="true"/>
+        <details xmi:id="_QXoKLJpXEemE67U_IwCyvQ" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_QXoKLZpXEemE67U_IwCyvQ" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_QXoKLppXEemE67U_IwCyvQ" key="FK_PARENT_ROLE_NAME" value=""/>
+        <details xmi:id="_QXoKL5pXEemE67U_IwCyvQ" key="FK_CHILD_ROLE_NAME" value="Verb2"/>
+      </eAnnotations>
+    </constraints>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable xmi:id="_QXow8JpXEemE67U_IwCyvQ" name="ADVERTS" description="Adverts that are displayed in local and national newspapers." label="Adverts" schema="_QTsFEJpXEemE67U_IwCyvQ">
+    <columns xmi:id="_QXow8ZpXEemE67U_IwCyvQ" name="NEWSPAPER_NAME" description="The name of a Newspaper." label="Newspaper Name" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_QXow8ppXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXow85pXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Newspaper/Newspaper Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXow9JpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_kcUgkd2fEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXow9ZpXEemE67U_IwCyvQ" name="CHAR" length="50"/>
+    </columns>
+    <columns xmi:id="_QXow9ppXEemE67U_IwCyvQ" name="PROPERTY_NUMBER" description="A unique number used to identify a property for rent." label="Property Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_QXow95pXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXow-JpXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Property For Rent/Property Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXow-ZpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_mnWNsN2fEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_QXow-ppXEemE67U_IwCyvQ" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <columns xmi:id="_QXow-5pXEemE67U_IwCyvQ" name="DATE_OF_ADVERT" description="The date an advert was placed." label="Date of Advert" defaultValue="">
+      <eAnnotations xmi:id="_QXow_JpXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXow_ZpXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Advert/Advert Date"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXow_ppXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_Uc52gN2fEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_QXow_5pXEemE67U_IwCyvQ" name="DATETIME" primitiveType="DATE"/>
+    </columns>
+    <columns xmi:id="_QXoxAJpXEemE67U_IwCyvQ" name="COST_OF_ADVERT" description="The cost of placing an advert." label="Cost of Advert" defaultValue="">
+      <eAnnotations xmi:id="_QXoxAZpXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXoxAppXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Advert/Advert Cost"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXoxA5pXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_Ya-OkN2fEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:FixedPrecisionDataType" xmi:id="_QXoxBJpXEemE67U_IwCyvQ" name="DECIMAL" primitiveType="DECIMAL" precision="9" scale="2"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_QXoxBZpXEemE67U_IwCyvQ" name="ADVERTS_PK" label="Advert PK" members="_QXow8ZpXEemE67U_IwCyvQ _QXow9ppXEemE67U_IwCyvQ"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_QXoxBppXEemE67U_IwCyvQ" name="ADVERTS_NEWSPAPER_FK" members="_QXow8ZpXEemE67U_IwCyvQ" uniqueConstraint="_QXpYKZpXEemE67U_IwCyvQ" referencedTable="_QXpYEZpXEemE67U_IwCyvQ">
+      <eAnnotations xmi:id="_QXoxB5pXEemE67U_IwCyvQ" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_QXoxCJpXEemE67U_IwCyvQ" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="true"/>
+        <details xmi:id="_QXoxCZpXEemE67U_IwCyvQ" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_QXoxCppXEemE67U_IwCyvQ" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_QXoxC5pXEemE67U_IwCyvQ" key="FK_PARENT_ROLE_NAME" value=""/>
+        <details xmi:id="_QXoxDJpXEemE67U_IwCyvQ" key="FK_CHILD_ROLE_NAME" value="Verb1"/>
+      </eAnnotations>
+    </constraints>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_QXoxDZpXEemE67U_IwCyvQ" name="ADVERTS_PROPERTY_FOR_RENT_FK" members="_QXow9ppXEemE67U_IwCyvQ" uniqueConstraint="_QXmVJZpXEemE67U_IwCyvQ" referencedTable="_QXmU7ZpXEemE67U_IwCyvQ">
+      <eAnnotations xmi:id="_QXoxDppXEemE67U_IwCyvQ" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_QXoxD5pXEemE67U_IwCyvQ" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="true"/>
+        <details xmi:id="_QXoxEJpXEemE67U_IwCyvQ" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_QXoxEZpXEemE67U_IwCyvQ" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_QXoxEppXEemE67U_IwCyvQ" key="FK_PARENT_ROLE_NAME" value=""/>
+        <details xmi:id="_QXoxE5pXEemE67U_IwCyvQ" key="FK_CHILD_ROLE_NAME" value="Verb2"/>
+      </eAnnotations>
+    </constraints>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable xmi:id="_QXoxFJpXEemE67U_IwCyvQ" name="RENTAL_AGREEMENT" description="An agreement between the Owner of a proprty and the renter." label="Rental Agreement" schema="_QTsFEJpXEemE67U_IwCyvQ">
+    <columns xmi:id="_QXoxFZpXEemE67U_IwCyvQ" name="RENTAL_NUMBER" description="A unique number to identify a renter." label="Rental Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_QXoxFppXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXoxF5pXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Renter/Renter Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXoxGJpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_Wk5y4N2hEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_QXoxGZpXEemE67U_IwCyvQ" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <columns xmi:id="_QXoxGppXEemE67U_IwCyvQ" name="PROPERTY_NUMBER" description="A unique number used to identify a property for rent  involved in a Rental Agreement." label="Property Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_QXoxG5pXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXoxHJpXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Property For Rent/Property Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXoxHZpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_bNbdMd2hEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_QXoxHppXEemE67U_IwCyvQ" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <columns xmi:id="_QXoxH5pXEemE67U_IwCyvQ" name="RENTER_NUMBER" description="A unique number to identify a renter involved in a Rental Agreement." label="Renter Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_QXoxIJpXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXoxIZpXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Renter/Renter Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXoxIppXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_e7jUxN2hEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_QXoxI5pXEemE67U_IwCyvQ" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <columns xmi:id="_QXoxJJpXEemE67U_IwCyvQ" name="MONTHLY_RENT" description="The monthly rent agreed for a particular property." label="Monthly Rent" defaultValue="">
+      <eAnnotations xmi:id="_QXoxJZpXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXoxJppXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Rental Agreement/Monthly Rent"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXoxJ5pXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_mJoFAN2hEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:FixedPrecisionDataType" xmi:id="_QXoxKJpXEemE67U_IwCyvQ" name="DECIMAL" primitiveType="DECIMAL" precision="9" scale="2"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_QXoxKZpXEemE67U_IwCyvQ" name="RENTAL_AGREEMENT_PK" label="Rental Agreement PK" members="_QXoxFZpXEemE67U_IwCyvQ"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_QXoxKppXEemE67U_IwCyvQ" name="RENTAL_AGREEMENT_PROPERTY_FOR_RENT_FK" members="_QXoxGppXEemE67U_IwCyvQ" uniqueConstraint="_QXmVJZpXEemE67U_IwCyvQ" referencedTable="_QXmU7ZpXEemE67U_IwCyvQ">
+      <eAnnotations xmi:id="_QXoxK5pXEemE67U_IwCyvQ" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_QXoxLJpXEemE67U_IwCyvQ" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="false"/>
+        <details xmi:id="_QXoxLZpXEemE67U_IwCyvQ" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_QXoxLppXEemE67U_IwCyvQ" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_QXoxL5pXEemE67U_IwCyvQ" key="FK_PARENT_ROLE_NAME" value=""/>
+        <details xmi:id="_QXoxMJpXEemE67U_IwCyvQ" key="FK_CHILD_ROLE_NAME" value="Verb1"/>
+      </eAnnotations>
+    </constraints>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_QXoxMZpXEemE67U_IwCyvQ" name="RENTAL_AGREEMENT_RENTER_FK" members="_QXoxH5pXEemE67U_IwCyvQ" uniqueConstraint="_QXoKA5pXEemE67U_IwCyvQ" referencedTable="_QXoJ4JpXEemE67U_IwCyvQ">
+      <eAnnotations xmi:id="_QXoxMppXEemE67U_IwCyvQ" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_QXoxM5pXEemE67U_IwCyvQ" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="false"/>
+        <details xmi:id="_QXoxNJpXEemE67U_IwCyvQ" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_QXoxNZpXEemE67U_IwCyvQ" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_QXoxNppXEemE67U_IwCyvQ" key="FK_PARENT_ROLE_NAME" value=""/>
+        <details xmi:id="_QXoxN5pXEemE67U_IwCyvQ" key="FK_CHILD_ROLE_NAME" value="Verb2"/>
+      </eAnnotations>
+    </constraints>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable xmi:id="_QXoxOJpXEemE67U_IwCyvQ" name="OWNER" description="The details of owners of property are also stored." label="Owner" schema="_QTsFEJpXEemE67U_IwCyvQ" referencingForeignKeys="_QXmVNJpXEemE67U_IwCyvQ _QXoxX5pXEemE67U_IwCyvQ _QXpYDJpXEemE67U_IwCyvQ">
+    <columns xmi:id="_QXoxOZpXEemE67U_IwCyvQ" name="OWNER_NUMBER" description="A unique number generated by the system to identify Owners of property." label="Owner Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_QXoxOppXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXoxO5pXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Owner/Owner Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXoxPJpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_nV_ZMN2bEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_QXoxPZpXEemE67U_IwCyvQ" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <columns xmi:id="_QXoxPppXEemE67U_IwCyvQ" name="ADDRESS" description="A composite attribute the forms the address of the owner, composing of:&#xD;&#xA;Street&#xD;&#xA;Area&#xD;&#xA;City&#xD;&#xA;Post Code" label="Address" defaultValue="">
+      <eAnnotations xmi:id="_QXoxP5pXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXoxQJpXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Address"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXoxQZpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_rFvocN2bEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXoxQppXEemE67U_IwCyvQ" name="CHAR" length="30"/>
+    </columns>
+    <columns xmi:id="_QXoxQ5pXEemE67U_IwCyvQ" name="TELEPHONE_NUMBER" description="The preferable contact number." label="Telephone Number" defaultValue="">
+      <eAnnotations xmi:id="_QXoxRJpXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXoxRZpXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Telephone Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXoxRppXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_sCY24N2bEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXoxR5pXEemE67U_IwCyvQ" name="CHAR" length="15"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_QXoxSJpXEemE67U_IwCyvQ" name="OWNER_PK" label="Owner PK" members="_QXoxOZpXEemE67U_IwCyvQ" ForeignKey="_QXmVNJpXEemE67U_IwCyvQ _QXoxX5pXEemE67U_IwCyvQ _QXpYDJpXEemE67U_IwCyvQ"/>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable xmi:id="_QXoxSZpXEemE67U_IwCyvQ" name="BUSINESS_OWNER" description="A business owner of a property for rent." label="Business Owner" schema="_QTsFEJpXEemE67U_IwCyvQ">
+    <columns xmi:id="_QXoxSppXEemE67U_IwCyvQ" name="OWNER_NUMBER" description="A unique number generated by the system to identify Owners of property." label="Owner Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_QXoxS5pXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXoxTJpXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Owner/Owner Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXoxTZpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_FSud4OIqEeKMH64srejqBg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_QXoxTppXEemE67U_IwCyvQ" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <columns xmi:id="_QXoxT5pXEemE67U_IwCyvQ" name="BUSINESS_NAME" description="The name of the Business that owns a property for rent." label="Business Name" defaultValue="">
+      <eAnnotations xmi:id="_QXoxUJpXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXoxUZpXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Business Owner/Business Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXoxUppXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_6iJEwPkVEeKL6qBDpSVgpA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXoxU5pXEemE67U_IwCyvQ" name="CHAR" length="50"/>
+    </columns>
+    <columns xmi:id="_QXoxVJpXEemE67U_IwCyvQ" name="BUSINESS_TYPE" description="The Type of Business." label="Business Type" defaultValue="">
+      <eAnnotations xmi:id="_QXoxVZpXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXoxVppXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Business Owner/Business Type"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXoxV5pXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_72LfgPkVEeKL6qBDpSVgpA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXoxWJpXEemE67U_IwCyvQ" name="CHAR" length="30"/>
+    </columns>
+    <columns xmi:id="_QXoxWZpXEemE67U_IwCyvQ" name="CONTACT_NAME" description="The contact name of a Business Owner." label="Contact Name" defaultValue="">
+      <eAnnotations xmi:id="_QXoxWppXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXoxW5pXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Business Owner/Contact Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXoxXJpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_9vBnwPkmEeKL6qBDpSVgpA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXoxXZpXEemE67U_IwCyvQ" name="CHAR" length="50"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_QXoxXppXEemE67U_IwCyvQ" name="BUSINESS_OWNER_PK" members="_QXoxSppXEemE67U_IwCyvQ"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_QXoxX5pXEemE67U_IwCyvQ" name="BUSINESS_OWNER_OWNER_FK" members="_QXoxSppXEemE67U_IwCyvQ" uniqueConstraint="_QXoxSJpXEemE67U_IwCyvQ" referencedTable="_QXoxOJpXEemE67U_IwCyvQ">
+      <eAnnotations xmi:id="_QXoxYJpXEemE67U_IwCyvQ" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_QXoxYZpXEemE67U_IwCyvQ" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="true"/>
+        <details xmi:id="_QXoxYppXEemE67U_IwCyvQ" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_QXoxY5pXEemE67U_IwCyvQ" key="FK_CHILD_MULTIPLICITY" value="0..1"/>
+      </eAnnotations>
+    </constraints>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable xmi:id="_QXpYAJpXEemE67U_IwCyvQ" name="PRIVATE_OWNER" description="A private owner of a property for rent." label="Private Owner" schema="_QTsFEJpXEemE67U_IwCyvQ">
+    <columns xmi:id="_QXpYAZpXEemE67U_IwCyvQ" name="OWNER_NUMBER" description="A unique number generated by the system to identify Owners of property." label="Owner Number" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_QXpYAppXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXpYA5pXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Owner/Owner Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXpYBJpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_LBySceIqEeKMH64srejqBg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_QXpYBZpXEemE67U_IwCyvQ" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <columns xmi:id="_QXpYBppXEemE67U_IwCyvQ" name="OWNER_NAME" description="A composite attribute that represents the first and last name of an owner of property for rent." label="Owner Name" defaultValue="">
+      <eAnnotations xmi:id="_QXpYB5pXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXpYCJpXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Private Owner/Owner Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXpYCZpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_Kf7k4PkbEeKL6qBDpSVgpA"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXpYCppXEemE67U_IwCyvQ" name="CHAR" length="30"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_QXpYC5pXEemE67U_IwCyvQ" name="PRIVATE_OWNER_PK" label="Private Owner PK" members="_QXpYAZpXEemE67U_IwCyvQ"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_QXpYDJpXEemE67U_IwCyvQ" name="PRIVATE_OWNER_OWNER_FK" members="_QXpYAZpXEemE67U_IwCyvQ" uniqueConstraint="_QXoxSJpXEemE67U_IwCyvQ" referencedTable="_QXoxOJpXEemE67U_IwCyvQ">
+      <eAnnotations xmi:id="_QXpYDZpXEemE67U_IwCyvQ" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_QXpYDppXEemE67U_IwCyvQ" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="true"/>
+        <details xmi:id="_QXpYD5pXEemE67U_IwCyvQ" key="FK_PARENT_MULTIPLICITY" value="1"/>
+        <details xmi:id="_QXpYEJpXEemE67U_IwCyvQ" key="FK_CHILD_MULTIPLICITY" value="0..1"/>
+      </eAnnotations>
+    </constraints>
+  </SQLTables:PersistentTable>
+  <SQLTables:PersistentTable xmi:id="_QXpYEZpXEemE67U_IwCyvQ" name="NEWSPAPER" description="Holds the details of both local and national newspapers that are used for advertising." label="Newspaper" schema="_QTsFEJpXEemE67U_IwCyvQ" referencingForeignKeys="_QXoxBppXEemE67U_IwCyvQ">
+    <columns xmi:id="_QXpYEppXEemE67U_IwCyvQ" name="NEWSPAPER_NAME" description="The name of a Newspaper." label="Newspaper Name" nullable="false" defaultValue="">
+      <eAnnotations xmi:id="_QXpYE5pXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXpYFJpXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Newspaper/Newspaper Name"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXpYFZpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_e4x_gN2fEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXpYFppXEemE67U_IwCyvQ" name="CHAR" length="50"/>
+    </columns>
+    <columns xmi:id="_QXpYF5pXEemE67U_IwCyvQ" name="ADDRESS" description="A composite attribute the forms the address of a Newspaper, composing of:&#xD;&#xA;Street&#xD;&#xA;Area&#xD;&#xA;City&#xD;&#xA;Post Code" label="Address" defaultValue="">
+      <eAnnotations xmi:id="_QXpYGJpXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXpYGZpXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Address"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXpYGppXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_gNa3MN2fEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXpYG5pXEemE67U_IwCyvQ" name="CHAR" length="30"/>
+    </columns>
+    <columns xmi:id="_QXpYHJpXEemE67U_IwCyvQ" name="TELEPHONE_NUMBER" description="The preferable contact number." label="Telephone Number" defaultValue="">
+      <eAnnotations xmi:id="_QXpYHZpXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXpYHppXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Telephone Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXpYH5pXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_g92OkN2fEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXpYIJpXEemE67U_IwCyvQ" name="CHAR" length="15"/>
+    </columns>
+    <columns xmi:id="_QXpYIZpXEemE67U_IwCyvQ" name="FAX_NUMBER" description="The fax number." label="Fax Number" defaultValue="">
+      <eAnnotations xmi:id="_QXpYIppXEemE67U_IwCyvQ" source="ColumnDomain">
+        <details xmi:id="_QXpYI5pXEemE67U_IwCyvQ" key="DomainName" value="platform:/resource/The DreamHome Case Study/The DreamHome Domain Model.ddm?/Managers Requirements/Fax Number"/>
+      </eAnnotations>
+      <dependencies xmi:id="_QXpYJJpXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_hnRmEN2fEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXpYJZpXEemE67U_IwCyvQ" name="CHAR" length="15"/>
+    </columns>
+    <columns xmi:id="_QXpYJppXEemE67U_IwCyvQ" name="CONTACT_NAME" label="Contact Name" defaultValue="">
+      <dependencies xmi:id="_QXpYJ5pXEemE67U_IwCyvQ" name="Dependency1" dependencyType="TRANSFORM TRACEABILITY">
+        <targetEnd href="The DreamHome Logical Data Model.ldm#_ixxqUN2fEeK9F4RtLkfsEg"/>
+      </dependencies>
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QXpYKJpXEemE67U_IwCyvQ" name="CHAR" length="5"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_QXpYKZpXEemE67U_IwCyvQ" name="NEWSPAPER_PK" label="Newspaper PK" members="_QXpYEppXEemE67U_IwCyvQ" ForeignKey="_QXoxBppXEemE67U_IwCyvQ"/>
+  </SQLTables:PersistentTable>
+</xmi:XMI>
